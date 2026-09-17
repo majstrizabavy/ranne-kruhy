@@ -11,8 +11,11 @@ export function validateActivities(data) {
 export function filterActivities(data, grade, filter, favorites = []) {
   return data.filter(a => a.gradeLevel === grade && (filter.kind !== 'tempo' || a.tempo === filter.value) && (filter.kind !== 'type' || a.types.includes(filter.value)) && (filter.kind !== 'favorites' || favorites.includes(a.id)));
 }
-export function pickActivity(pool, currentId, random = Math.random) {
+export function pickActivity(pool, currentId, random = Math.random, lastSeen = {}) {
   const others = pool.filter(a => a.id !== currentId);
-  const choices = others.length ? others : pool;
+  const candidates = others.length ? others : pool;
+  const priority = a => Object.hasOwn(lastSeen, a.id) ? lastSeen[a.id] : 0;
+  const oldest = candidates.reduce((min, a) => Math.min(min, priority(a)), Infinity);
+  const choices = candidates.filter(a => priority(a) === oldest);
   return choices.length ? choices[Math.floor(random() * choices.length)] : null;
 }

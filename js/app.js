@@ -1,4 +1,9 @@
 import { TYPES, validateActivities, filterActivities, pickActivity } from './core.js';
+import { createActivityHistory } from './history.js';
+const activityHistory = createActivityHistory({
+  getItem: key => localStorage.getItem(key),
+  setItem: (key, value) => localStorage.setItem(key, value)
+});
 const app = document.querySelector('#app');
 const gradeButton = document.querySelector('#change-grade');
 const status = document.querySelector('#status');
@@ -48,7 +53,7 @@ function render(focus = true) {
   if (screen === 'choose') app.innerHTML = `<span class="eyebrow">02 / VÝBER AKTIVITY</span><h1 tabindex="-1">Aké tempo<br><span>zvolíme dnes?</span></h1><p class="intro">Klikni a nájdi aktivitu pre svoju triedu.</p><div class="choices">${option('all','dice','PREKVAP MA','Náhodná aktivita',true)}<div class="tempo-options">${option('tempo','calm','Pokojné','Tichší rozbeh dňa',false,'pokojné')}${option('tempo','bolt','Živé','Viac energie a pohybu',false,'živé')}</div></div><button class="disclosure" data-action="expand" aria-expanded="${expanded}" aria-controls="types">${icon('search')} Vybrať podľa typu aktivity <span>${expanded?'−':'+'}</span></button><div id="types" class="type-grid" ${expanded?'':'hidden'}>${TYPES.map((t,i)=>`<button data-action="type" data-value="${t}">${icon(typeIcons[i])}${t}</button>`).join('')}</div><button class="favorites-link" data-action="favorites">${icon('heart')} Moje obľúbené <span>${activities.filter(a=>a.gradeLevel===grade && favorites.includes(a.id)).length}</span></button>${progress(2)}`;
   if (screen === 'activity' && current) {
     const a = current, liked = favorites.includes(a.id);
-    app.innerHTML = `<div class="activity-top"><button class="back" data-action="back">${icon('back')} Zmeniť výber</button><span class="eyebrow">03 / AKTIVITA</span></div><div class="activity-heading"><span class="target">${icon('target')}</span><h1 tabindex="-1">${escape(a.title)}</h1><button class="heart ${liked?'liked':''}" data-action="favorite" aria-label="${liked?'Odstrániť z obľúbených':'Pridať medzi obľúbené'}" aria-pressed="${liked}">${icon('heart')}</button></div><div class="metadata"><div>${icon('chat')}<span><small>Typ aktivity</small><strong>${a.types.map(escape).join(' · ')}</strong></span></div><div>${icon(a.tempo==='pokojné'?'calm':'bolt')}<span><small>Tempo</small><strong>${a.tempo==='pokojné'?'Pokojné':'Živé'}</strong></span></div><div>${icon('bag')}<span><small>Pomôcky</small><strong>${escape(a.materials)}</strong></span></div></div><section class="steps"><h2>Čo robíme?</h2><ol>${a.steps.map(s=>`<li>${escape(s)}</li>`).join('')}</ol></section><button class="another primary" data-action="another">${icon('dice')} Iná aktivita <span>→</span></button><p class="filter-note">${escape(filter.kind==='all'?'Náhodný výber':filter.kind==='favorites'?'Moje obľúbené':filter.value)} <span>· približne 10 minút</span></p>`;
+    app.innerHTML = `<div class="activity-top"><button class="back" data-action="back">${icon('back')} Zmeniť výber</button><span class="eyebrow">03 / AKTIVITA</span></div><div class="activity-heading"><span class="target">${icon('target')}</span><h1 tabindex="-1">${escape(a.title)}</h1><button class="heart ${liked?'liked':''}" data-action="favorite" aria-label="${liked?'Odstrániť z obľúbených':'Pridať medzi obľúbené'}" aria-pressed="${liked}">${icon('heart')}</button></div><div class="metadata"><div>${icon('chat')}<span><small>Typ aktivity</small><strong>${a.types.map(escape).join(' · ')}</strong></span></div><div>${icon(a.tempo==='pokojné'?'calm':'bolt')}<span><small>Tempo</small><strong>${a.tempo==='pokojné'?'Pokojné':'Živé'}</strong></span></div><div>${icon('bag')}<span><small>Pomôcky</small><strong>${escape(a.materials)}</strong></span></div></div><section class="steps"><h2>Čo robíme?</h2><ol>${a.steps.map(s=>`<li>${escape(s)}</li>`).join('')}</ol></section><button class="another primary" data-action="another">${icon('dice')} Iná aktivita <span>→</span></button><p class="filter-note">${escape(filter.kind==='all'?'Náhodný výber':filter.kind==='favorites'?'Moje obľúbené':filter.value)}</p>`;
   }
   if (screen === 'empty') app.innerHTML = `<button class="back" data-action="back">${icon('back')} Zmeniť výber</button><div class="empty-icon">${icon(filter.kind==='favorites'?'heart':'search')}</div><h1 tabindex="-1">${filter.kind==='favorites'?'Tvoje obľúbené<br><span>ešte len prídu.</span>':'Tu je zatiaľ ticho.'}</h1><p class="intro">${filter.kind==='favorites'?'Pre tento stupeň zatiaľ nemáš obľúbenú aktivitu. Pri aktivite ťukni na srdiečko a nájdeš ju tu.':'Pre tento výber zatiaľ nemáme aktivitu. Skús iný typ alebo tempo.'}</p><button class="another primary" data-action="back">Vybrať aktivitu ${icon('arrow')}</button>`;
   if (focus) { app.querySelector('h1')?.focus({preventScroll:true}); window.scrollTo({top:0,behavior:'instant'}); }
@@ -56,11 +61,16 @@ function render(focus = true) {
 function choose(duration = 0, another = false) {
   if (selecting) return;
   const pool = filterActivities(activities, grade, filter, favorites);
-  const next = pickActivity(pool, current?.id);
+  // Favorites retain their original random selection; all displayed activities
+  // still contribute to the shared history used by the other filters.
+  const next = pickActivity(pool, current?.id, Math.random,
+    filter.kind === 'favorites' ? {} : activityHistory.snapshot());
   const reveal = () => {
     current = next;
     screen = current ? 'activity' : 'empty';
     render();
+    // Record only after reveal, never when a pending dice animation is cancelled.
+    if (current) activityHistory.record(current.id);
     if (current && !reducedMotion.matches) {
       // Animate new content, so even consecutive activities with similar titles feel distinct.
       app.querySelectorAll('.activity-heading, .metadata, .steps, .another').forEach((element, index) => {
@@ -116,7 +126,7 @@ function home() { if (!activities.length) return; screen='home'; render(); }
 gradeButton.addEventListener('click', home);
 document.querySelector('.logo').addEventListener('click', e=>{ e.preventDefault(); home(); });
 async function init() {
-  try { const response=await fetch('./activities.json'); if (!response.ok) throw new Error('Načítanie zlyhalo'); activities=validateActivities(await response.json()); app.setAttribute('aria-busy','false'); render(false); }
+  try { const response=await fetch('./activities.json'); if (!response.ok) throw new Error('Načítanie zlyhalo'); activities=validateActivities(await response.json()); app.setAttribute('aria-busy','false'); render(false); app.classList.add('welcome-enter'); }
   catch { app.setAttribute('aria-busy','false'); app.innerHTML='<h1>Aktivity sa nepodarilo načítať.</h1><p>Skontroluj pripojenie a skús to znova.</p><button class="another primary" id="retry">Skúsiť znova</button>'; document.querySelector('#retry').onclick=init; }
 }
 init();

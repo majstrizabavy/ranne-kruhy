@@ -25,3 +25,8 @@
 @media(hover:hover){.grade-options .option:hover{background:var(--green);color:#061005;box-shadow:0 6px 30px #21ff0026}.grade-options .option:hover .option-icon{color:#061005}}
 
 .site-footer{justify-content:center;text-align:center;font-size:12px;font-weight:400;letter-spacing:0;color:#24551c;line-height:1.6}.site-footer p{margin:0}.site-footer p span{display:inline-block}
+
+@media(prefers-reduced-motion:no-preference){
+  .welcome-enter{animation:welcome-enter .4s ease-out}
+}
+@keyframes welcome-enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
