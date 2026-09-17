@@ -1,0 +1,704 @@
+[
+  {
+    "id": "rk-001",
+    "title": "Dnes sa teším na...",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Každý si premyslí jednu vec, na ktorú sa dnes teší.",
+      "Postupne ju povedzte ostatným.",
+      "Kto nechce hovoriť, môže povedať „dnes preskočím“."
+    ]
+  },
+  {
+    "id": "rk-002",
+    "title": "Čo by si si vybral?",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Rozhovor",
+      "Pre zábavu"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ položí jednoduchú otázku: „Radšej leto alebo zimu?“",
+      "Každý si vyberie jednu možnosť.",
+      "Niekoľko žiakov krátko povie prečo."
+    ]
+  },
+  {
+    "id": "rk-003",
+    "title": "Zrkadlo",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Pohyb",
+      "Dvojice"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Vytvorte dvojice a postavte sa oproti sebe.",
+      "Jeden robí pomalé pohyby a druhý ho napodobňuje ako zrkadlo.",
+      "Po chvíli si úlohy vymeňte."
+    ]
+  },
+  {
+    "id": "rk-004",
+    "title": "Pohybová reťaz",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Pohyb",
+      "Pre zábavu"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Prvý žiak ukáže jednoduchý pohyb.",
+      "Trieda ho zopakuje.",
+      "Ďalší žiak pridá nový pohyb.",
+      "Pokračujte, kým vznikne krátka pohybová zostava."
+    ]
+  },
+  {
+    "id": "rk-005",
+    "title": "Tri spoločné veci",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Skupiny",
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Rozdeľte sa do malých skupín.",
+      "Nájdite tri veci, ktoré máte všetci spoločné.",
+      "Jednu z nich povedzte ostatným."
+    ]
+  },
+  {
+    "id": "rk-006",
+    "title": "Najvyššia veža",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Skupiny",
+      "Tvorenie"
+    ],
+    "materials": "Papier",
+    "steps": [
+      "Každá skupina dostane niekoľko papierov.",
+      "Bez lepidla postavte čo najvyššiu vežu.",
+      "Na konci porovnajte svoje výtvory."
+    ]
+  },
+  {
+    "id": "rk-007",
+    "title": "Nájdite tri rozdiely",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Dvojice",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Vytvorte dvojice.",
+      "Nájdite tri veci, v ktorých ste rozdielni.",
+      "Potom nájdite jednu vec, ktorú máte spoločnú."
+    ]
+  },
+  {
+    "id": "rk-008",
+    "title": "Tichý pozdrav",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Dvojice",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Nájdite si dvojicu.",
+      "Bez slov vymyslite vlastný pozdrav pomocou pohybov.",
+      "Ukážte ho ostatným."
+    ]
+  },
+  {
+    "id": "rk-009",
+    "title": "Čo sem nepatrí?",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Premýšľanie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ povie štyri slová, napríklad: mačka, pes, kôň, stôl.",
+      "Žiaci určia, ktoré slovo tam nepatrí.",
+      "Povedia prečo."
+    ]
+  },
+  {
+    "id": "rk-010",
+    "title": "Rýchla hádanka",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Premýšľanie",
+      "Pre zábavu"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ zadá jednoduchú hádanku.",
+      "Každý chvíľu premýšľa bez vykrikovania.",
+      "Na signál môžu žiaci povedať svoje odpovede."
+    ]
+  },
+  {
+    "id": "rk-011",
+    "title": "Uhádni zviera",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Improvizácia",
+      "Pre zábavu"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jeden žiak si vyberie zviera.",
+      "Bez slov ho predvedie pohybom.",
+      "Ostatní hádajú."
+    ]
+  },
+  {
+    "id": "rk-012",
+    "title": "Ako sa cítiš?",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Improvizácia",
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jeden žiak tvárou a postojom ukáže náladu.",
+      "Ostatní hádajú, akú emóciu znázorňuje.",
+      "Spoločne pomenujte, kedy sa tak môžeme cítiť."
+    ]
+  },
+  {
+    "id": "rk-013",
+    "title": "Obrázok dnešného dňa",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Tvorenie"
+    ],
+    "materials": "Papier a ceruzka",
+    "steps": [
+      "Nakresli malý obrázok toho, ako by si chcel, aby vyzeral dnešný deň.",
+      "Kto chce, ukáže ho ostatným.",
+      "Jednou vetou vysvetlí svoj obrázok."
+    ]
+  },
+  {
+    "id": "rk-014",
+    "title": "Dokresli čiaru",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Tvorenie",
+      "Pre zábavu"
+    ],
+    "materials": "Papier a ceruzka",
+    "steps": [
+      "Učiteľ nakreslí na tabuľu jednoduchú čiaru alebo tvar.",
+      "Žiaci ho na svojom papieri premenia na ľubovoľný obrázok.",
+      "Niekoľko obrázkov si ukážte."
+    ]
+  },
+  {
+    "id": "rk-015",
+    "title": "Smiešny príbeh",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Pre zábavu",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ začne príbeh jednou vetou.",
+      "Každý ďalší pridá jednu krátku vetu.",
+      "Sledujte, kam sa príbeh dostane."
+    ]
+  },
+  {
+    "id": "rk-016",
+    "title": "Sochy",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Pre zábavu",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci sa voľne pohybujú na mieste.",
+      "Učiteľ zakričí napríklad „veselá socha!“",
+      "Všetci okamžite zamrznú v príslušnej póze."
+    ]
+  },
+  {
+    "id": "rk-017",
+    "title": "Moja obľúbená vec",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Spoznávanie sa",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Každý si vyberie svoju obľúbenú hru, jedlo alebo zviera.",
+      "Postupne povedzte svoju odpoveď.",
+      "Všímajte si, kto má rovnakú odpoveď."
+    ]
+  },
+  {
+    "id": "rk-018",
+    "title": "Kto má rád to isté?",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Spoznávanie sa",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ povie napríklad: „Kto má rád pizzu, postaví sa.“",
+      "Žiaci podľa odpovede vstávajú alebo zostávajú sedieť.",
+      "Pokračujte ďalšími otázkami."
+    ]
+  },
+  {
+    "id": "rk-019",
+    "title": "Pravda alebo nie?",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Kvíz",
+      "Premýšľanie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ povie jednoduché tvrdenie.",
+      "Palec hore znamená pravda, palec dole nepravda.",
+      "Spoločne si povedzte správnu odpoveď."
+    ]
+  },
+  {
+    "id": "rk-020",
+    "title": "A, B alebo C?",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Kvíz",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ položí otázku s tromi možnosťami.",
+      "Každý roh triedy predstavuje jednu odpoveď.",
+      "Žiaci sa presunú k svojej odpovedi."
+    ]
+  },
+  {
+    "id": "rk-021",
+    "title": "Ty si učiteľ",
+    "gradeLevel": 1,
+    "tempo": "živé",
+    "types": [
+      "Žiaci vedú aktivitu",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jeden žiak sa postaví pred triedu.",
+      "Ukáže tri jednoduché pohyby.",
+      "Ostatní ho napodobňujú."
+    ]
+  },
+  {
+    "id": "rk-022",
+    "title": "Moja otázka pre triedu",
+    "gradeLevel": 1,
+    "tempo": "pokojné",
+    "types": [
+      "Žiaci vedú aktivitu",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jeden žiak vymyslí jednoduchú otázku pre triedu.",
+      "Postupne odpovie niekoľko spolužiakov.",
+      "Ďalší žiak môže položiť novú otázku.",
+      "stupeň"
+    ]
+  },
+  {
+    "id": "rk-023",
+    "title": "Jedno slovo na dnes",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Rozhovor",
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Každý si premyslí jedno slovo, ktoré vystihuje, ako sa dnes cíti.",
+      "Postupne svoje slovo povedzte nahlas.",
+      "Kto chce, krátko vysvetlí svoj výber."
+    ]
+  },
+  {
+    "id": "rk-024",
+    "title": "Vyber si stranu",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Rozhovor",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ ponúkne dve možnosti, napríklad „more alebo hory“.",
+      "Žiaci sa postavia na príslušnú stranu triedy.",
+      "Niekoľkí vysvetlia svoju voľbu."
+    ]
+  },
+  {
+    "id": "rk-025",
+    "title": "Tiché zrkadlo",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Pohyb",
+      "Dvojice"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Vytvorte dvojice.",
+      "Jeden vedie pomalé pohyby, druhý ho presne kopíruje.",
+      "Po chvíli si úlohy vymeňte."
+    ]
+  },
+  {
+    "id": "rk-026",
+    "title": "Päťsekundová výzva",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Pohyb",
+      "Pre zábavu"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ zadá krátku pohybovú výzvu.",
+      "Napríklad: „Za päť sekúnd sa dotkni troch modrých vecí.“",
+      "Po splnení príde ďalšia výzva."
+    ]
+  },
+  {
+    "id": "rk-027",
+    "title": "Čo máme spoločné?",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Skupiny",
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Vytvorte skupiny po štyroch.",
+      "Nájdite tri spoločné veci, ktoré nie sú úplne očividné.",
+      "Najzaujímavejšiu povedzte triede."
+    ]
+  },
+  {
+    "id": "rk-028",
+    "title": "Papierová výzva",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Skupiny",
+      "Tvorenie"
+    ],
+    "materials": "Papier",
+    "steps": [
+      "Každá skupina dostane rovnaký počet papierov.",
+      "Vytvorte čo najvyššiu samostatne stojacu stavbu.",
+      "Po skončení si výtvory porovnajte."
+    ]
+  },
+  {
+    "id": "rk-029",
+    "title": "Dve pravdy",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Dvojice",
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Každý povie partnerovi dve pravdivé veci o sebe.",
+      "Partner si vyberie jednu, ktorá ho viac zaujala.",
+      "Krátko sa o nej porozprávajte."
+    ]
+  },
+  {
+    "id": "rk-030",
+    "title": "Bez slov",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Dvojice",
+      "Improvizácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Dvojica si vyberie jednoduchú situáciu.",
+      "Bez slov ju predvedie ostatným.",
+      "Trieda háda, čo sa odohráva."
+    ]
+  },
+  {
+    "id": "rk-031",
+    "title": "Čo majú spoločné?",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Premýšľanie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ povie tri zdanlivo nesúvisiace slová.",
+      "Skúste nájsť niečo, čo ich spája.",
+      "Porovnajte rôzne nápady."
+    ]
+  },
+  {
+    "id": "rk-032",
+    "title": "Desať použití",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Premýšľanie",
+      "Pre zábavu"
+    ],
+    "materials": "Bežný predmet",
+    "steps": [
+      "Vyberte obyčajný predmet, napríklad ceruzku.",
+      "Skúste vymyslieť čo najviac netradičných použití.",
+      "Najzaujímavejšie nápady povedzte nahlas."
+    ]
+  },
+  {
+    "id": "rk-033",
+    "title": "Nemý film",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Improvizácia",
+      "Skupiny"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Malá skupina si vyberie bežnú situáciu.",
+      "Bez slov ju predvedie ostatným.",
+      "Trieda háda, čo sa stalo."
+    ]
+  },
+  {
+    "id": "rk-034",
+    "title": "Jedna veta, tri nálady",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Improvizácia",
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Vyberte jednoduchú vetu, napríklad „Dnes idem do školy.“",
+      "Povedzte ju veselo, smutne a nahnevane.",
+      "Všímajte si, ako tón mení význam vety."
+    ]
+  },
+  {
+    "id": "rk-035",
+    "title": "Symbol dnešného dňa",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Tvorenie",
+      "Spoznávanie sa"
+    ],
+    "materials": "Papier a pero",
+    "steps": [
+      "Nakresli jednoduchý symbol, ktorý vystihuje tvoju dnešnú náladu.",
+      "Kto chce, ukáže ho ostatným.",
+      "Jednou vetou vysvetlí jeho význam."
+    ]
+  },
+  {
+    "id": "rk-036",
+    "title": "Dokonči obrázok",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Tvorenie",
+      "Pre zábavu"
+    ],
+    "materials": "Papier a pero",
+    "steps": [
+      "Učiteľ nakreslí jednoduchý náhodný tvar.",
+      "Každý ho premení na vlastný obrázok.",
+      "Pozrite si, koľko rôznych nápadov vzniklo."
+    ]
+  },
+  {
+    "id": "rk-037",
+    "title": "Najhoršia rada",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Pre zábavu",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ zadá situáciu, napríklad „Zaspal som do školy.“",
+      "Vymyslite čo najhoršiu radu, akú by ste mohli dostať.",
+      "Najvtipnejšie rady povedzte nahlas."
+    ]
+  },
+  {
+    "id": "rk-038",
+    "title": "Zakázané slovo",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Pre zábavu",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Vyberte bežné zakázané slovo, napríklad „áno“.",
+      "Jeden žiak kladie druhému otázky.",
+      "Odpovedajúci sa musí vyhnúť zakázanému slovu."
+    ]
+  },
+  {
+    "id": "rk-039",
+    "title": "Niečo, čo o mne neviete",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Spoznávanie sa",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Každý si premyslí jednu jednoduchú vec, ktorú o ňom spolužiaci možno nevedia.",
+      "Kto chce, povie ju nahlas.",
+      "Hľadáme prekvapivé spoločné záujmy."
+    ]
+  },
+  {
+    "id": "rk-040",
+    "title": "Postav sa, ak...",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Spoznávanie sa",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ povie napríklad: „Postav sa, ak máš rád cestovanie.“",
+      "Tí, ktorých sa veta týka, sa postavia.",
+      "Pokračujte ďalšími otázkami."
+    ]
+  },
+  {
+    "id": "rk-041",
+    "title": "Odhadni číslo",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Kvíz",
+      "Premýšľanie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Učiteľ položí otázku, na ktorú sa dá odpovedať číslom.",
+      "Každý si v hlave zvolí svoj odhad.",
+      "Porovnajte odpovede a prezraďte správne číslo."
+    ]
+  },
+  {
+    "id": "rk-042",
+    "title": "Rohy odpovedí",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Kvíz",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Štyri rohy triedy predstavujú odpovede A, B, C a D.",
+      "Učiteľ položí otázku.",
+      "Každý sa presunie k odpovedi, ktorú považuje za správnu."
+    ]
+  },
+  {
+    "id": "rk-043",
+    "title": "Otázka dňa",
+    "gradeLevel": 2,
+    "tempo": "pokojné",
+    "types": [
+      "Žiaci vedú aktivitu",
+      "Rozhovor"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jeden žiak vymyslí otázku, na ktorú môže odpovedať celá trieda.",
+      "Vyberie niekoľkých spolužiakov, ktorí odpovedia.",
+      "Na záver odpovie aj on."
+    ]
+  },
+  {
+    "id": "rk-044",
+    "title": "Minútová výzva",
+    "gradeLevel": 2,
+    "tempo": "živé",
+    "types": [
+      "Žiaci vedú aktivitu",
+      "Pohyb"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jeden žiak vymyslí jednoduchú krátku výzvu pre celú triedu.",
+      "Vysvetlí pravidlá.",
+      "Trieda výzvu spoločne splní."
+    ]
+  }
+]
