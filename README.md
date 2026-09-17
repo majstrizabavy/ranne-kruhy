@@ -44,7 +44,7 @@ Do poľa v `activities.json` pridajte objekt s unikátnym stabilným ID. Zachova
 }
 ```
 
-`gradeLevel` je číslo 1 alebo 2, `tempo` je `pokojné` alebo `živé`. Kroky sú 1–4 krátke vety, ideálne 2–3. Používajte iba: Rozhovor, Pohyb, Skupiny, Dvojice, Premýšľanie, Improvizácia, Tvorenie, Pre zábavu, Spoznávanie sa, Kvíz, Žiaci vedú aktivitu. Po úprave spustite `npm test`; pri rozširovaní balíka upravte aj očakávaný počet v prvom teste.
+`gradeLevel` je číslo 1 alebo 2, `tempo` je `pokojné` alebo `živé`. Kroky sú 1–4 krátke vety, ideálne 2–3. Používajte iba: Rozhovor, Pohyb, Skupiny, Dvojice, Premýšľanie, Improvizácia, Tvorenie, Pre zábavu, Spoznávanie sa, Kvíz, Žiaci vedú aktivitu. Po úprave spustite `npm test`.
 
 ## Webhosting a PWA
 
@@ -60,6 +60,6 @@ Inštaláciu ponúkne podporovaný prehliadač cez svoju ponuku inštalácie ale
 
 Pri aktualizácii samotných aktivít stačí nahrať nový `activities.json`; názov cache meniť netreba. Pri ďalšom otvorení alebo obnovení stránky aplikácia skúsi načítať aktuálny súbor z internetu a overené dáta uloží na offline použitie. Pri nedostupnom internete, chybe servera, neplatných dátach alebo čakaní dlhšom ako 3 sekundy použije uloženú verziu. Otvorená aktivita sa počas používania nemení.
 
-Pri aktualizácii kódu alebo dizajnu zmeňte názov cache v `sw.js`, napríklad z `ranne-kruhy-v11` na `ranne-kruhy-v12`, a nahrajte všetky zmenené súbory. Nová verzia sa aktivuje po zatvorení starých kariet aplikácie. Cache obsahuje len lokálne súbory; aplikácia nepotrebuje externé fonty ani obrázky.
+Pri aktualizácii kódu alebo dizajnu zmeňte názov cache v `sw.js`, napríklad z `ranne-kruhy-v12` na `ranne-kruhy-v13`, a nahrajte všetky zmenené súbory. Nová verzia sa aktivuje po zatvorení starých kariet aplikácie. Cache obsahuje len lokálne súbory; aplikácia nepotrebuje externé fonty ani obrázky.
 
 Na malých displejoch alebo pri zväčšenom texte je povolené zvislé rolovanie, aby zostal obsah čitateľný a nič nebolo odrezané.
