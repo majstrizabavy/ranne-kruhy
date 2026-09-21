@@ -1,65 +1,75 @@
 # Ranné kruhy
 
-Responzívna aplikácia pre učiteľov, bez účtov, databázy, externých knižníc a platených služieb. Obsahuje 44 testovacích aktivít z dodaného dokumentu (22 pre každý stupeň).
+Responzívna aplikácia pre učiteľov. Pôvodné aktivity boli nahradené dodanou databázou. `activities.json` obsahuje 101 aktivít: 52 pre 1. stupeň a 49 pre 2. stupeň. Všetkých sedem filtrov je naplnených pre oba stupne. Aplikácia podporuje aj prázdnu databázu `[]`. V 24 aktivitách boli závislosti od príloh a pracovných listov nahradené samostatnými krátkymi postupmi s bežnými pomôckami. Tieto verzie sú upravené pre použitie priamo na hodine; nejde o doslovnú kópiu pôvodného dokumentu.
 
-## Lokálne spustenie
+## Spustenie a kontrola
 
-Potrebujete Node.js. V tomto priečinku spustite:
+Vyžaduje Node.js, bez inštalácie balíkov alebo buildu:
 
 ```sh
 npm start
+npm test
 ```
 
-Otvorte http://localhost:5173. Nie je potrebné `npm install` ani build. Súbor `index.html` neotvárajte cez `file://`, pretože aplikácia načítava JSON cez HTTP.
+Otvorte http://localhost:5173. Súbor neotvárajte cez `file://`.
 
-## Súbory
+## Import nových aktivít
 
-- `index.html`: základ stránky a metadata.
-- `styles.css`: responzívny neónovo zelený a tmavý dizajn.
-- `js/app.js`: tri obrazovky, navigácia, obľúbené a načítanie dát.
-- `js/core.js`: povolené typy, validácia, filtrovanie a náhodný výber.
-- `js/history.js`: lokálna história zobrazených aktivít podľa ID.
-- `activities.json`: všetky aktivity.
-- `manifest.webmanifest`, `sw.js`, `icons/`: inštalácia a základ offline režimu.
-- `server.mjs`: lokálny vývojový server; nie je potrebný na hostingu.
-- `tests/core.test.mjs`: testy dát a výberu (`npm test`).
-
-## Pridanie aktivity
-
-Do poľa v `activities.json` pridajte objekt s unikátnym stabilným ID. Zachovajte JSON syntax (čiarky medzi objektmi, žiadna čiarka za posledným objektom). Aplikačná logika sa nemení.
+Nahraďte obsah `activities.json` poľom objektov podľa nasledujúceho formátu. Príklad je len dokumentácia, aplikácia ho nenačítava:
 
 ```json
-{
-  "id": "rk-045",
-  "title": "Pozitívna vlna",
-  "gradeLevel": 1,
-  "tempo": "pokojné",
-  "types": ["Rozhovor", "Dvojice", "Spoznávanie sa"],
-  "materials": "Bez pomôcok",
-  "steps": [
-    "Rozdeľte sa do dvojíc.",
-    "Povedzte partnerovi jednu vec, ktorú si na ňom vážite.",
-    "Vymeňte si úlohy."
-  ]
-}
+[
+  {
+    "id": "001",
+    "title": "Názov aktivity",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": ["Dvojice", "Spoznávanie sa"],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Prvý krátky krok.",
+      "Druhý krátky krok.",
+      "Tretí krátky krok."
+    ],
+    "reflection": ["Ako ste sa cítili?"],
+    "details": "Rozšírený návod.\nĎalší odsek."
+  }
+]
 ```
 
-`gradeLevel` je číslo 1 alebo 2, `tempo` je `pokojné` alebo `živé`. Kroky sú 1–4 krátke vety, ideálne 2–3. Používajte iba: Rozhovor, Pohyb, Skupiny, Dvojice, Premýšľanie, Improvizácia, Tvorenie, Pre zábavu, Spoznávanie sa, Kvíz, Žiaci vedú aktivitu. Po úprave spustite `npm test`.
+- `id`: jedinečný neprázdny text, zobrazuje sa ako číslo aktivity. Zachovajte ho pri úprave aktivity, aby zostala v obľúbených.
+- `gradeLevel`: číslo `1` alebo `2`. Pre oba stupne vytvorte dva záznamy s odlišnými ID.
+- `filter`: jedna hodnota z tabuľky nižšie.
+- `types`: neprázdne pole voľných textových označení; slúži iba na informáciu v detaile, nie na filtrovanie.
+- `materials`: neprázdny text, napríklad „Bez pomôcok“.
+- `steps`: 3–4 neprázdne krátke kroky, najviac 160 znakov na krok. Pre mobil odporúčame jednu krátku vetu na krok. Pri dlhšom texte alebo zväčšenom písme ostáva povolené rolovanie.
+- `reflection`: neprázdne pole otázok.
+- `details`: neprázdny podrobný návod. Zlomy riadkov sa zachovajú.
 
-## Webhosting a PWA
+| Filter | Hodnota v JSON |
+| --- | --- |
+| 🌱 Úvod školského roka | `uvod-skolskeho-roka` |
+| 😌 Upokojenie | `upokojenie` |
+| ⚡ Zvýšenie energie | `zvysenie-energie` |
+| 💪 Zvládanie výziev | `zvladanie-vyziev` |
+| ❤️ Posilnenie vzťahov | `posilnenie-vztahov` |
+| 😊 Práca s emóciami | `praca-s-emociami` |
+| 💬 Komunikácia | `komunikacia` |
 
-Výber uprednostní ešte nevidené aktivity a potom tie najdávnejšie zobrazené. História je v `localStorage` pod kľúčom `rk-activity-history` ako verzovaný objekt s mapou `lastSeen` (ID → poradie posledného zobrazenia). Je spoločná pre filtre a pretrvá aj po zatvorení prehliadača. Obľúbené zachovávajú náhodný výber; aj ich zobrazenie sa zapíše do histórie. Pri zablokovanom úložisku sa história uchová len počas otvorenej relácie. Vymazanie údajov stránky vymaže aj históriu.
+Pred nahratím overte nový súbor:
 
-Úvodná karta sa pri otvorení jemne objaví za 0,4 sekundy. Ovládanie je okamžite dostupné, pri návrate na úvod sa animácia neopakuje a nastavenie obmedzeného pohybu ju vypína.
+```sh
+node --input-type=module -e "import fs from 'node:fs'; import {validateActivities} from './js/core.js'; validateActivities(JSON.parse(fs.readFileSync('activities.json','utf8'))); console.log('Dáta sú platné.');"
+```
 
-Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/` a `icons/` do rovnakého adresára na ľubovoľnom statickom webhostingu. Funguje aj podadresár. Nie je potrebný Node.js na serveri. Zapnite HTTPS; localhost je výnimka pre vývoj.
+## Výber a lokálne údaje
 
-Po úspešnom prvom načítaní a uložení súborov service workerom je aplikácia pripravená na základné offline používanie. Obľúbené sú iba v lokálnom úložisku daného prehliadača; nezdieľajú sa medzi zariadeniami. Vymazanie údajov stránky odstráni aj obľúbené. Ak prehliadač úložisko zablokuje, aplikácia funguje počas otvorenej relácie.
+PREKVAP MA vyberá zo všetkých aktivít zvoleného stupňa. Filter vyberá len svoju kategóriu. Iná aktivita zachová stupeň a filter a neopakuje aktuálnu aktivitu, ak existuje iná možnosť. Zachované je uprednostnenie ešte nevidených aktivít, potom najdávnejšie zobrazených; pri rovnakej priorite je výber náhodný.
 
-Inštaláciu ponúkne podporovaný prehliadač cez svoju ponuku inštalácie alebo pridania na plochu. Dostupnosť závisí od zariadenia a prehliadača.
+Obľúbené sa ukladajú do `rk-favorites-v2`, história do `rk-activity-history-v2`. Staré kľúče sa pri otvorení odstránia; pôvodné ID sa neprenesú do novej databázy. Úložisko je lokálne pre zariadenie a prehliadač. Pri jeho zablokovaní funguje aplikácia počas otvorenej relácie. Reflexia a podrobný návod sú pri otvorení aktivity zatvorené.
 
-Pri aktualizácii samotných aktivít stačí nahrať nový `activities.json`; názov cache meniť netreba. Pri ďalšom otvorení alebo obnovení stránky aplikácia skúsi načítať aktuálny súbor z internetu a overené dáta uloží na offline použitie. Pri nedostupnom internete, chybe servera, neplatných dátach alebo čakaní dlhšom ako 3 sekundy použije uloženú verziu. Otvorená aktivita sa počas používania nemení.
+## Hosting a offline režim
 
-Pri aktualizácii kódu alebo dizajnu zmeňte názov cache v `sw.js`, napríklad z `ranne-kruhy-v12` na `ranne-kruhy-v13`, a nahrajte všetky zmenené súbory. Nová verzia sa aktivuje po zatvorení starých kariet aplikácie. Cache obsahuje len lokálne súbory; aplikácia nepotrebuje externé fonty ani obrázky.
+Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/` a `icons/` na statický HTTPS hosting. Podadresár je podporovaný. Testovacie súbory sa do aplikácie nenačítavajú.
 
-Na malých displejoch alebo pri zväčšenom texte je povolené zvislé rolovanie, aby zostal obsah čitateľný a nič nebolo odrezané.
+Cache má verziu `ranne-kruhy-v17`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.

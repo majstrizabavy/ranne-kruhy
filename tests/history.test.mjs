@@ -1,10 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { TYPES, filterActivities, pickActivity } from '../js/core.js';
+import { FILTERS, filterActivities, pickActivity } from '../js/core.js';
 import { HISTORY_KEY, createActivityHistory } from '../js/history.js';
 
-const data = JSON.parse(await readFile(new URL('../activities.json', import.meta.url), 'utf8'));
+import { data } from './fixtures.mjs';
 function storage(initial = {}) {
   const values = new Map(Object.entries(initial));
   return { getItem: key => values.get(key) ?? null, setItem: (key, value) => values.set(key, value) };
@@ -23,7 +23,7 @@ function cycle(pool, history, previous = null) {
 
 test('All filters and both grades exhaust unseen activities before repeating', () => {
   for (const grade of [1, 2]) {
-    for (const filter of [{ kind: 'all' }, ...['pokojné', 'živé'].map(value => ({ kind: 'tempo', value })), ...TYPES.map(value => ({ kind: 'type', value }))]) {
+    for (const filter of [{ kind: 'all' }, ...FILTERS.map(({value}) => ({ kind: 'category', value }))]) {
       const pool = filterActivities(data, grade, filter);
       const history = createActivityHistory(storage());
       const first = cycle(pool, history);
@@ -68,7 +68,7 @@ test('Shared history follows IDs across filters and gives new IDs priority', () 
   const history = createActivityHistory(storage());
   const a = data[0];
   history.record(a.id);
-  const filtered = filterActivities(data, a.gradeLevel, { kind: 'type', value: a.types[0] });
+  const filtered = filterActivities(data, a.gradeLevel, { kind: 'category', value: a.filter });
   assert.notEqual(pickActivity(filtered, null, () => 0, history.snapshot()).id, a.id);
   const newActivity = { ...a, id: 'new-id-with-same-title' };
   assert.equal(pickActivity([a, newActivity], null, () => 0, history.snapshot()), newActivity);

@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 
 const source = await readFile(new URL('../sw.js', import.meta.url), 'utf8');
-const activities = JSON.parse(await readFile(new URL('../activities.json', import.meta.url), 'utf8'));
+import { data as activities } from './fixtures.mjs';
 const url = 'https://example.com/ranne-kruhy/activities.json';
 const json = data => new Response(JSON.stringify(data), { headers: { 'Content-Type': 'application/json' } });
 
@@ -52,7 +52,6 @@ for (const [name, fetchImpl] of [
   ['HTTP failure', async () => new Response('Unavailable', { status: 503 })],
   ['invalid JSON', async () => new Response('<html>Error</html>')],
   ['invalid activity', async () => json([{ id: 'broken' }])],
-  ['empty list', async () => json([])]
 ]) test(`${name} preserves and returns the previous offline activities`, async () => {
   const w = worker(fetchImpl);
   assert.deepEqual(await (await w.load()).json(), activities);
@@ -76,4 +75,52 @@ test('Valid online activities still work when cache storage is full', async () =
 test('Offline without a saved copy returns a network error', async () => {
   const w = worker(async () => { throw Error('Offline'); }, { cached: null });
   assert.equal((await w.load()).type, 'error');
+});
+
+test('Empty database replaces cached activities and remains available offline', async () => {
+  const w = worker(async () => json([]));
+  assert.deepEqual(await (await w.load()).json(), []);
+  assert.deepEqual(await w.stored().json(), []);
+});
+
+test('Offline validator agrees with application schema', async () => {
+  const { validateActivities } = await import('../js/core.js');
+  const w = worker(async () => json([]));
+  for (const data of [[], activities, [{ ...activities[0], reflection: [] }],
+    [{ ...activities[0], filter: 'old' }], [{ ...activities[0], steps: ['One'] }]]) {
+    let accepted = true;
+    try { validateActivities(data); } catch { accepted = false; }
+    w.context.fixture = data;
+    assert.equal(vm.runInContext('(() => { try { validateActivities(fixture); return true; } catch { return false; } })()', w.context), accepted);
+  }
+});
+
+test('Upgrade activates immediately and reloads existing tabs without blocking activation', async () => {
+  const listeners = {};
+  const calls = [];
+  const context = vm.createContext({ URL,
+    caches: {
+      open: async () => ({ addAll: async () => calls.push('cached') }),
+      keys: async () => ['ranne-kruhy-v12', 'ranne-kruhy-v17', 'other-app'],
+      delete: async key => calls.push(key)
+    },
+    self: {
+      location: new URL('https://example.com/sw.js'),
+      addEventListener: (name, fn) => listeners[name] = fn,
+      skipWaiting: async () => calls.push('skipWaiting'),
+      clients: {
+        claim: async () => calls.push('claim'),
+        matchAll: async () => [{ url: 'https://example.com/', navigate: () => {
+          calls.push('navigate'); return new Promise(() => {});
+        } }]
+      }
+    }
+  });
+  vm.runInContext(source, context);
+  let pending;
+  listeners.install({ waitUntil: promise => pending = promise });
+  await pending;
+  listeners.activate({ waitUntil: promise => pending = promise });
+  await pending;
+  assert.deepEqual(calls, ['cached', 'skipWaiting', 'ranne-kruhy-v12', 'claim', 'navigate']);
 });

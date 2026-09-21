@@ -1,12 +1,39 @@
-import {test} from 'node:test';
+import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
-import {TYPES,validateActivities,filterActivities,pickActivity} from '../js/core.js';
-const data=JSON.parse(await readFile(new URL('../activities.json',import.meta.url),'utf8'));
-test('Platné aktivity pre oba stupne bez pevného limitu počtu',()=>{validateActivities(data);for(const g of [1,2]) assert.ok(data.some(a=>a.gradeLevel===g));});
-test('Všetky typy a tempa vracajú iba zodpovedajúce aktivity pre oba stupne',()=>{for(const grade of [1,2]) for(const filter of [{kind:'all'},...TYPES.map(value=>({kind:'type',value})),...['pokojné','živé'].map(value=>({kind:'tempo',value}))]){const pool=filterActivities(data,grade,filter);assert.ok(pool.length);for(let i=0;i<30;i++){const a=pickActivity(pool);assert.equal(a.gradeLevel,grade);if(filter.kind==='type')assert.ok(a.types.includes(filter.value));if(filter.kind==='tempo')assert.equal(a.tempo,filter.value);}}});
-test('Obľúbené rešpektujú stupeň a prázdny výber',()=>{const ids=[data[0].id,data[22].id];assert.deepEqual(filterActivities(data,1,{kind:'favorites'},ids),[data[0]]);assert.equal(pickActivity([]),null);assert.deepEqual(filterActivities(data,2,{kind:'favorites'},[]),[]);});
-test('Ďalšia aktivita sa neopakuje, jedna možnosť funguje',()=>{const pool=data.slice(0,3);for(let i=0;i<30;i++)assert.notEqual(pickActivity(pool,pool[0].id).id,pool[0].id);assert.equal(pickActivity([pool[0]],pool[0].id),pool[0]);});
-test('Nová aktivita je automaticky súčasťou výberu',()=>{const a={...data[0],id:'nova-aktivita'};assert.ok(filterActivities(validateActivities([...data,a]),1,{kind:'type',value:a.types[0]}).some(x=>x.id===a.id));});
-test('Validátor odmieta duplicitné ID a neznáme kategórie',()=>{assert.throws(()=>validateActivities([...data,data[0]]));assert.throws(()=>validateActivities([{...data[0],types:['Neznámy typ']}]));});
-test('ID musí byť neprázdny text a záznam musí existovať',()=>{for(const id of [42,{},[],null,'','   ']) assert.throws(()=>validateActivities([{...data[0],id}]),/Neplatná aktivita/);assert.throws(()=>validateActivities([null]),/Neplatná aktivita/);});
+import { readFile } from 'node:fs/promises';
+import { FILTERS, validateActivities, filterActivities, pickActivity } from '../js/core.js';
+import { data } from './fixtures.mjs';
+
+test('Production database is valid, including an empty catalogue', async () => {
+  const catalogue = JSON.parse(await readFile(new URL('../activities.json', import.meta.url), 'utf8'));
+  assert.doesNotThrow(() => validateActivities(catalogue));
+  assert.deepEqual(validateActivities([]), []);
+});
+test('Every new filter respects grade and category', () => {
+  validateActivities(data);
+  for (const grade of [1, 2]) for (const { value } of FILTERS) {
+    const pool = filterActivities(data, grade, { kind: 'category', value });
+    assert.equal(pool.length, 4);
+    assert.ok(pool.every(a => a.gradeLevel === grade && a.filter === value));
+  }
+});
+test('Surprise ignores category and favorites respect grade', () => {
+  assert.equal(filterActivities(data, 2, { kind: 'all', value: FILTERS[0].value }).length, 28);
+  assert.deepEqual(filterActivities(data, 1, { kind: 'favorites' }, [data[0].id, data[28].id]), [data[0]]);
+  assert.equal(pickActivity([]), null);
+});
+test('Next skips current when possible and supports single activity', () => {
+  assert.equal(pickActivity(data.slice(0, 2), data[0].id).id, data[1].id);
+  assert.equal(pickActivity([data[0]], data[0].id), data[0]);
+});
+test('Import rejects old schema, duplicates, missing text and long or wrong step counts', () => {
+  assert.throws(() => validateActivities([data[0], data[0]]));
+  for (const change of [{ filter: 'pokojné' }, { filter: undefined, tempo: 'živé' }, { steps: ['Jeden'] },
+    { steps: Array(5).fill('Krok') }, { steps: ['a'.repeat(161), 'Krok', 'Krok'] },
+    { reflection: [] }, { details: '' }, { id: 1 }, { gradeLevel: 3 }, { types: [] }]) {
+    assert.throws(() => validateActivities([{ ...data[0], ...change }]));
+  }
+  assert.throws(() => validateActivities([null]));
+  assert.throws(() => validateActivities({}));
+  assert.doesNotThrow(() => validateActivities([{ ...data[0], types: ['Ľubovoľný opis typu'] }]));
+});

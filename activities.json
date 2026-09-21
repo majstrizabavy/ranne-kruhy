@@ -1,703 +1,2186 @@
 [
   {
-    "id": "rk-001",
-    "title": "Dnes sa teším na...",
+    "id": "001",
+    "title": "To je môj kamarát",
     "gradeLevel": 1,
-    "tempo": "pokojné",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Rozhovor"
-    ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Každý si premyslí jednu vec, na ktorú sa dnes teší.",
-      "Postupne ju povedzte ostatným.",
-      "Kto nechce hovoriť, môže povedať „dnes preskočím“."
-    ]
-  },
-  {
-    "id": "rk-002",
-    "title": "Čo by si si vybral?",
-    "gradeLevel": 1,
-    "tempo": "živé",
-    "types": [
-      "Rozhovor",
-      "Pre zábavu"
-    ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ položí jednoduchú otázku: „Radšej leto alebo zimu?“",
-      "Každý si vyberie jednu možnosť.",
-      "Niekoľko žiakov krátko povie prečo."
-    ]
-  },
-  {
-    "id": "rk-003",
-    "title": "Zrkadlo",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Pohyb",
-      "Dvojice"
-    ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Vytvorte dvojice a postavte sa oproti sebe.",
-      "Jeden robí pomalé pohyby a druhý ho napodobňuje ako zrkadlo.",
-      "Po chvíli si úlohy vymeňte."
-    ]
-  },
-  {
-    "id": "rk-004",
-    "title": "Pohybová reťaz",
-    "gradeLevel": 1,
-    "tempo": "živé",
-    "types": [
-      "Pohyb",
-      "Pre zábavu"
-    ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Prvý žiak ukáže jednoduchý pohyb.",
-      "Trieda ho zopakuje.",
-      "Ďalší žiak pridá nový pohyb.",
-      "Pokračujte, kým vznikne krátka pohybová zostava."
-    ]
-  },
-  {
-    "id": "rk-005",
-    "title": "Tri spoločné veci",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Skupiny",
       "Spoznávanie sa"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Rozdeľte sa do malých skupín.",
-      "Nájdite tri veci, ktoré máte všetci spoločné.",
-      "Jednu z nich povedzte ostatným."
-    ]
-  },
-  {
-    "id": "rk-006",
-    "title": "Najvyššia veža",
-    "gradeLevel": 1,
-    "tempo": "živé",
-    "types": [
-      "Skupiny",
-      "Tvorenie"
+      "Žiaci sedia v kruhu na koberci a vybrané dieťa začína.",
+      "Predstaví seba a svojho suseda po pravici, napr.: „Volám sa Katka.",
+      "Keď sa žiaci a žiačky zoznámia so všetkými menami, môžu sa predstavovať i ďalšími spôsobmi.",
+      "Aktivita posilňuje priateľstvo a pocit, že každé meno má svoju cenu, zároveň rozvíja pamäť a schopnosť počúvať."
     ],
-    "materials": "Papier",
-    "steps": [
-      "Každá skupina dostane niekoľko papierov.",
-      "Bez lepidla postavte čo najvyššiu vežu.",
-      "Na konci porovnajte svoje výtvory."
-    ]
-  },
-  {
-    "id": "rk-007",
-    "title": "Nájdite tri rozdiely",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Dvojice",
-      "Rozhovor"
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Vytvorte dvojice.",
-      "Nájdite tri veci, v ktorých ste rozdielni.",
-      "Potom nájdite jednu vec, ktorú máte spoločnú."
-    ]
+    "details": "Žiaci a žiačky sedia v kruhu na koberci a vybrané dieťa začína. Predstaví seba a svojho suseda po pravici, napr.: „Volám sa Katka, toto je môj kamarát Peter.“ Peter potom pokračuje v predstavovaní – predstaví seba a suseda po pravici. Keď sa žiaci a žiačky zoznámia so všetkými menami, môžu sa predstavovať i ďalšími spôsobmi, ako napr.: menia smer predstavenia, predstavujú sa preskakovaním a pod. Aktivita posilňuje priateľstvo a pocit, že každé meno má svoju cenu, zároveň rozvíja pamäť a schopnosť počúvať."
   },
   {
-    "id": "rk-008",
-    "title": "Tichý pozdrav",
+    "id": "002",
+    "title": "„Nech sa postavia všetci, ktorí...“",
     "gradeLevel": 1,
-    "tempo": "živé",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Dvojice",
-      "Pohyb"
+      "Spoznávanie sa"
     ],
-    "materials": "Bez pomôcok",
+    "materials": "stoličky",
     "steps": [
-      "Nájdite si dvojicu.",
-      "Bez slov vymyslite vlastný pozdrav pomocou pohybov.",
-      "Ukážte ho ostatným."
-    ]
-  },
-  {
-    "id": "rk-009",
-    "title": "Čo sem nepatrí?",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Premýšľanie"
+      "Žiaci sedia v kruhu na stoličkách, ako učiteľ/učiteľka stojíme v strede kruhu.",
+      "Do hry sa zapojíme taktiež a hľadáme si voľné miesto a keďže stoličiek je o jednu menej.",
+      "Úlohou toho, kto ostal stáť, je vymyslieť a povedať novú vetu, napríklad: „Nech sa postavia všetci.",
+      "Opäť vstávajú tí, pre ktorých to platí a snažia sa vymeniť si miesta."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ povie štyri slová, napríklad: mačka, pes, kôň, stôl.",
-      "Žiaci určia, ktoré slovo tam nepatrí.",
-      "Povedia prečo."
-    ]
-  },
-  {
-    "id": "rk-010",
-    "title": "Rýchla hádanka",
-    "gradeLevel": 1,
-    "tempo": "živé",
-    "types": [
-      "Premýšľanie",
-      "Pre zábavu"
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ zadá jednoduchú hádanku.",
-      "Každý chvíľu premýšľa bez vykrikovania.",
-      "Na signál môžu žiaci povedať svoje odpovede."
-    ]
+    "details": "Žiaci a žiačky sedia v kruhu na stoličkách, ako učiteľ/učiteľka stojíme v strede kruhu a hovoríme: „Nech sa teraz postavia všetci, ktorí majú na sebe zelenú farbu.“ Tí, pre ktorých táto veta platí, sa postavia a snažia sa vymeniť si miesto. Do hry sa zapojíme taktiež a hľadáme si voľné miesto a keďže stoličiek je o jednu menej, jeden žiak/žiačka ostane v strede bez miesta. Úlohou toho, kto ostal stáť, je vymyslieť a povedať novú vetu, napríklad: „Nech sa postavia všetci, ktorí majú radi rozprávku Snehulienka a sedem trpaslíkov“. Opäť vstávajú tí, pre ktorých to platí a snažia sa vymeniť si miesta. Veľmi efektné je z času na čas zaradiť takú vetu, ktorá platí pre všetkých, t. j."
   },
   {
-    "id": "rk-011",
-    "title": "Uhádni zviera",
+    "id": "003",
+    "title": "Magnetka",
     "gradeLevel": 1,
-    "tempo": "živé",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Improvizácia",
-      "Pre zábavu"
+      "Spoznávanie sa"
     ],
-    "materials": "Bez pomôcok",
+    "materials": "triangel, iný vhodný hudobný nástroj alebo zdroj zvuku",
     "steps": [
-      "Jeden žiak si vyberie zviera.",
-      "Bez slov ho predvedie pohybom.",
-      "Ostatní hádajú."
-    ]
+      "Žiakom a žiačkam na úvod povieme, aby sa pohybovali po vyznačenom priestore tak.",
+      "Môžu často meniť smer a prekvapiť tak seba aj ostatných.",
+      "Nesmú však pritom do nikoho vrážať a nikoho sa dotknúť.",
+      "Môžeme pridať aj pravidlo, že všetko prebieha bez slov."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakom a žiačkam na úvod povieme, aby sa pohybovali po vyznačenom priestore tak, aby ho celý zaplnili (žiadne miesto by nemalo zostať prázdne). Môžu často meniť smer a prekvapiť tak seba aj ostatných. Nesmú však pritom do nikoho vrážať a nikoho sa dotknúť. Môžeme pridať aj pravidlo, že všetko prebieha bez slov. Potom nasledujú tri fázy hry a v každej pribudne jedno ďalšie pravidlo. V každej fáze by mali prebehnúť najmenej dve opakovania. Celkovú dĺžku hry prispôsobujeme potrebám a nálade v skupine. Fáza 1: V prvej fáze striedame rýchlosť chodenia (čo najrýchlejšie, čo najpomalšie). Fáza 2: Žiakom a žiačkam povieme: „Keď cinknem a vykríknem číslo, vašou úlohou bude urobiť skupinky s daným počtom ľudí.“ Fáza 3: Žiakom a žiačkam povieme: „Keď cinknem, vykríknem nielen počet ľudí, ale aj časti tela, ktorými sa musíte v skupine dotýkať."
   },
   {
-    "id": "rk-012",
-    "title": "Ako sa cítiš?",
+    "id": "004",
+    "title": "Nazdááááár!",
     "gradeLevel": 1,
-    "tempo": "pokojné",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Improvizácia",
       "Spoznávanie sa"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Jeden žiak tvárou a postojom ukáže náladu.",
-      "Ostatní hádajú, akú emóciu znázorňuje.",
-      "Spoločne pomenujte, kedy sa tak môžeme cítiť."
-    ]
-  },
-  {
-    "id": "rk-013",
-    "title": "Obrázok dnešného dňa",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Tvorenie"
+      "V tejto hre je úlohou každého dieťaťa podať jednu ruku inému účastníkovi s čo najentuziastickejším výrazom tváre.",
+      "a zároveň druhou rukou už chytať iného účastníka s podobným výrazom tváre a pozdravom.",
+      "Cieľom hry je mať vždy obidve ruky plné.",
+      "Hru môžeme obmieňať rôznymi modifikáciami, napr.: Modifikácia 1: Každý si môže vybrať spôsob."
     ],
-    "materials": "Papier a ceruzka",
-    "steps": [
-      "Nakresli malý obrázok toho, ako by si chcel, aby vyzeral dnešný deň.",
-      "Kto chce, ukáže ho ostatným.",
-      "Jednou vetou vysvetlí svoj obrázok."
-    ]
-  },
-  {
-    "id": "rk-014",
-    "title": "Dokresli čiaru",
-    "gradeLevel": 1,
-    "tempo": "živé",
-    "types": [
-      "Tvorenie",
-      "Pre zábavu"
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
     ],
-    "materials": "Papier a ceruzka",
-    "steps": [
-      "Učiteľ nakreslí na tabuľu jednoduchú čiaru alebo tvar.",
-      "Žiaci ho na svojom papieri premenia na ľubovoľný obrázok.",
-      "Niekoľko obrázkov si ukážte."
-    ]
+    "details": "V tejto hre je úlohou každého dieťaťa podať jednu ruku inému účastníkovi s čo najentuziastickejším výrazom tváre a pozdravom „Nazdáááár!“, „Ahoooooj!“, „Dobrýýýýý!“, „Tak akooooo?“ a pod. a zároveň druhou rukou už chytať iného účastníka s podobným výrazom tváre a pozdravom. Cieľom hry je mať vždy obidve ruky plné. Hru môžeme obmieňať rôznymi modifikáciami, napr.: Modifikácia 1: Každý si môže vybrať spôsob, akým sa bude zdraviť (napr. iným jazykom, s inou náladou, s charakteristickým podaním rúk). Modifikácia 2: Obmieňanie dynamiky hry od čo najrýchlejšieho zdravenia až po úplne pomalé – ako spomalené zábery z filmu. Modifikácia 3: V menej dynamickej forme hry zdraví iba jeden a pozdravené dieťa podáva pozdrav ďalšiemu spolužiakovi/spolužiačke vo svojom štýle ďalej."
   },
   {
-    "id": "rk-015",
-    "title": "Smiešny príbeh",
+    "id": "005",
+    "title": "Tľapni si",
     "gradeLevel": 1,
-    "tempo": "pokojné",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Pre zábavu",
-      "Rozhovor"
+      "Spoznávanie sa"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Učiteľ začne príbeh jednou vetou.",
-      "Každý ďalší pridá jednu krátku vetu.",
-      "Sledujte, kam sa príbeh dostane."
-    ]
+      "Žiaci si v tejto hre vyskúšajú rôzne typy úderov päsťou ako formy pozdravu, napríklad zvieracie.",
+      "Priraďte každému žiakovi/žiačke zviera a nechajte ho vytvoriť zodpovedajúcu akciu úderu päsťou.",
+      "Mohli by napríklad urobiť „náraz labkou“ pre psa alebo „náraz na krídlo“ pre vtáka.",
+      "Žiakov a žiačky upozorníme, aby pri pozdrave vyvíjali adekvátnu silu, ktorá druhým neublíži, ani im nebude nepríjemná."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky si v tejto hre vyskúšajú rôzne typy úderov päsťou ako formy pozdravu, napríklad zvieracie. Priraďte každému žiakovi/žiačke zviera a nechajte ho vytvoriť zodpovedajúcu akciu úderu päsťou. Mohli by napríklad urobiť „náraz labkou“ pre psa alebo „náraz na krídlo“ pre vtáka. Žiakov a žiačky upozorníme, aby pri pozdrave vyvíjali adekvátnu silu, ktorá druhým neublíži, ani im nebude nepríjemná."
   },
   {
-    "id": "rk-016",
+    "id": "006",
+    "title": "Nedokončené vety",
+    "gradeLevel": 1,
+    "filter": "uvod-skolskeho-roka",
+    "types": [
+      "Spoznávanie sa"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Začneme hovoriť vetu, ktorá je nedokončená.",
+      "Úlohou žiakov a žiačok je vetu dokončiť.",
+      "Môže to byť čokoľvek – môžeme ich zamerať na dobro okolo nich, spoznávať ich sny, túžby, motivácie a pod.",
+      "Príklady viet, ktoré môžeme použiť: „Cestou do školy som si všimol/všimla...“ „Keby som mal/mala čarovný prútik."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Začneme hovoriť vetu, ktorá je nedokončená. Úlohou žiakov a žiačok je vetu dokončiť. Môže to byť čokoľvek – môžeme ich zamerať na dobro okolo nich, spoznávať ich sny, túžby, motivácie a pod. Príklady viet, ktoré môžeme použiť: „Cestou do školy som si všimol/všimla...“ „Keby som mal/mala čarovný prútik, zmenil/ zmenila by som...“ „Keby som chytil/chytila zlatú rybku, želal/želala by som si...“ „Keby som mal/mala krídla, letel/letela by som...“ „Keby som mal/mala celý deň iba pre seba, robil/robila by som...“ „V reštaurácii by som si objednal/objednala...“ „Som vďačný/vďačná za...“ „Včera ma potešilo...“"
+  },
+  {
+    "id": "007",
+    "title": "Bodkové dýchanie",
+    "gradeLevel": 1,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Na papier nakreslite 10 bodiek a označte ich číslami od 10 do 1.",
+      "Položte prst na bodku 10. Pokojne sa nadýchnite a vydýchnite vlastným tempom.",
+      "Po výdychu posuňte prst na ďalšiu bodku. Pokračujte až po číslo 1."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1-5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Každý si za minútu nakreslí rad desiatich bodiek. Pri každej bodke nechá prebehnúť jeden pokojný nádych a výdych, potom posunie prst ďalej. Dych netreba prehlbovať ani zadržiavať. Mladšie deti môžu sledovať bodky bez čísel. Po jednom alebo dvoch kolách sa krátko opýtajte, čo si všimli."
+  },
+  {
+    "id": "008",
+    "title": "Krabicové dýchanie",
+    "gradeLevel": 1,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Nakreslite veľký štvorec a do každého rohu bodku.",
+      "Prstom pomaly prejdite po jednej strane pri nádychu a po ďalšej pri výdychu.",
+      "Pokračujte okolo štvorca vlastným pohodlným tempom. Obíďte ho dva- až trikrát."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 - 5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Každý si nakreslí štvorec so štyrmi bodkami v rohoch. Ukážte začiatok v ľavom hornom rohu. Jednu stranu sledujte prstom pri pokojnom nádychu, ďalšiu pri výdychu. Táto jednoduchá verzia nevyžaduje zadržiavanie dychu ani spoločné tempo. Stačia dva až tri okruhy a krátke zdieľanie."
+  },
+  {
+    "id": "009",
+    "title": "Dýchanie ľadového medveďa",
+    "gradeLevel": 1,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Bez pomôcok.",
+    "steps": [
+      "Pohodlne sa posaďte a predstavte si ľadového medveďa pri vode.",
+      "Pri pokojnom nádychu zdvihnite ruku ako medveď, ktorý vykúka nad hladinu.",
+      "Pri výdychu ruku pomaly spustite. Zopakujte trikrát až päťkrát vlastným tempom."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1-5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Učiteľ rozpráva: „Predstavte si medveďa, ktorý sa pokojne pohupuje vo vode. Keď vykukne, zdvihneme ruku a nadýchneme sa. Keď sa spustí nižšie, ruku spustíme a vydýchneme.“ Deti zostávajú sedieť a dýchajú prirodzene, bez zadržiavania dychu. Obrázok nie je potrebný. Na záver sa môžu podeliť o svoj dojem."
+  },
+  {
+    "id": "010",
+    "title": "Upokojujúce karty",
+    "gradeLevel": 1,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Na papier nakreslite veľkú vlnovku, špirálu alebo slučku.",
+      "Pomaly obkresľujte čiaru prstom a všímajte si svoj prirodzený dych.",
+      "Po minúte skúste iný tvar. Na záver dobrovoľne povedzte, čo ste si všimli."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1-5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Deti si samy vytvoria jednoduchú kartu: na kúsok papiera nakreslia jednu veľkú súvislú čiaru, napríklad vlnu alebo špirálu. Nie je dôležité, ako pekne vyzerá. Prstom ju pomaly sledujú jednu až dve minúty a pritom voľne dýchajú. Môžu si nakresliť druhý tvar a porovnať, ktorý sa im sledoval príjemnejšie."
+  },
+  {
+    "id": "011",
+    "title": "5,4,3,2,1",
+    "gradeLevel": 1,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "So žiakmi a žiačkami sa posadíme na zem do kruhu.",
+      "Na úvod ich poprosíme, aby zavreli oči a na prstoch od 1 – -5 ukázali.",
+      "Ak je to pre žiakov a žiačky zložité, môžeme začať škálou 1 – 3.",
+      "So žiakmi a žiačkami si prejdeme, ako môžeme pociťovať jednotlivé stupne."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1-5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme na zem do kruhu. Na úvod ich poprosíme, aby zavreli oči a na prstoch od 1 – -5 ukázali, ako príjemne sa cíti ich telo (5 je najviac príjemne, 1 najviac nepríjemne, prípadne najlepšie/najhoršie, dobre/zle, podľa slovnej zásoby). Ak je to pre žiakov a žiačky zložité, môžeme začať škálou 1 – 3. So žiakmi a žiačkami si prejdeme, ako môžeme pociťovať jednotlivé stupne. Povieme im, že keď ukážeme len jeden prst, je nám v tele nepríjemne, ako keď nás napríklad niečo bolí, tlačí, je nám nepohodlne a ťažko. Keď ukážeme tri prsty, teda sme niekde v strede, je to také ani príjemné, ale ani nepríjemné, nič nás nebolí ani nesvrbí, nevyrušuje, ale ani si nevšímame v tele nič pekné či príjemné."
+  },
+  {
+    "id": "012",
+    "title": "Farby",
+    "gradeLevel": 1,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "So žiakmi a žiačkami sa rozostavíme v priestore triedy.",
+      "Na úvod ich poprosíme, aby zavreli oči a všimli si, ako sa cíti ich telo.",
+      "Poprosíme ich, aby sa rozostavili v priestore triedy vpredu/vzadu/v strede podľa toho.",
+      "So žiakmi a žiačkami si prejdeme, ako môžeme pociťovať jednotlivé stupne."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1-5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "So žiakmi a žiačkami sa rozostavíme v priestore triedy. Na úvod ich poprosíme, aby zavreli oči a všimli si, ako sa cíti ich telo. Poprosíme ich, aby sa rozostavili v priestore triedy vpredu/vzadu/v strede podľa toho, či sa ich telo cíti príjemne alebo nepríjemne (keď stojíme vpredu, znamená to najviac príjemne, naopak keď stojíme úplne vzadu, znamená to najviac nepríjemne, prípadne použijeme najlepšie/najhoršie, dobre/ zle, podľa slovnej zásoby). So žiakmi a žiačkami si prejdeme, ako môžeme pociťovať jednotlivé stupne. Povieme im, že keď stojíme úplne vzadu, je nám v tele nepríjemne, ako keď nás napríklad niečo bolí, tlačí, je nám nepohodlne a ťažko. Keď zastaneme niekde v strede triedy, je to také ani príjemné, ale ani nepríjemné, nič nás nebolí ani nesvrbí, nevyrušuje, ale ani si nevšímame v tele nič pekné či príjemné."
+  },
+  {
+    "id": "013",
     "title": "Sochy",
     "gradeLevel": 1,
-    "tempo": "živé",
+    "filter": "zvysenie-energie",
     "types": [
-      "Pre zábavu",
+      "Pohyb"
+    ],
+    "materials": "Notebook/telefón, rôzne pesničky a gong alebo iný zdroj zvuku na oznamovanie signálu „zamrzni“",
+    "steps": [
+      "Počas hrania hudby či spievania pesničky žiaci a žiačky tancujú alebo sa pohybujú v triede.",
+      "Pri zaznení signálu sa musia všetci premeniť na sochy a „zamrznúť“ v polohe, v ktorej sa práve nachádzajú.",
+      "Takto musia bez pohnutia vydržať kým sa znova nerozoznie pesnička.",
+      "Podľa atmosféry v skupine môžeme použiť dynamickú bláznivú hudbu alebo jemnú klasiku."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Počas hrania hudby či spievania pesničky žiaci a žiačky tancujú alebo sa pohybujú v triede. Pri zaznení signálu sa musia všetci premeniť na sochy a „zamrznúť“ v polohe, v ktorej sa práve nachádzajú. Takto musia bez pohnutia vydržať kým sa znova nerozoznie pesnička. Podľa atmosféry v skupine môžeme použiť dynamickú bláznivú hudbu alebo jemnú klasiku, prípadne hudobné štýly meniť v rámci jednej hry."
+  },
+  {
+    "id": "014",
+    "title": "Vírusy a vitamín",
+    "gradeLevel": 1,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "Malé papieriky a pero: jeden lístok „vitamín“, ostatné „vírus“.",
+    "steps": [
+      "Rozdajte tajné roly: jeden vitamín, ostatní vírusy. Rolu nikomu neukazujte.",
+      "Pomaly sa prechádzajte. Vitamín nenápadne žmurká na ostatných.",
+      "Vírus, na ktorý žmurkne, odíde na okraj a sleduje hru bez prezradenia vitamínu.",
+      "Po dvoch minútach skúste uhádnuť vitamín. Vymeňte roly a zahrajte druhé kolo."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Na malé kúsky papiera napíšte raz „vitamín“ a na ostatné „vírus“. Pre nečítajúcich použite raz slniečko a na ostatných bodku; význam vopred vysvetlite. Lístky premiešajte a rozdajte. Deti sa pomaly pohybujú vo voľnom priestore. Vitamín žmurknutím posiela vírusy na okraj hry. Po dvoch minútach dajte zostávajúcim hráčom jeden spoločný pokus uhádnuť vitamín, potom rolu odhaľte. Dve krátke kolá a reflexia sa zmestia do desiatich minút."
+  },
+  {
+    "id": "015",
+    "title": "Pohybujúci sa papier",
+    "gradeLevel": 1,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "papier A4",
+    "steps": [
+      "Hra sa začína tým, že v ruke držíme papier.",
+      "Žiakov a žiačky na začiatku upozorníme na to, aby boli počas hry ohľaduplní.",
+      "Následne začneme s papierom ľubovoľne pohybovať a úlohou žiakov je napodobňovať pohyb papiera.",
+      "Môžeme ho skladať, poskakovať ním, pohybovať zboka na bok, pokrčiť ho aj vyhadzovať do vzduchu."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Hra sa začína tým, že v ruke držíme papier. Žiakov a žiačky na začiatku upozorníme na to, aby boli počas hry ohľaduplní a aby pri prudších pohyboch nezranili spolužiaka/spolužiačku v blízkosti. Následne začneme s papierom ľubovoľne pohybovať a úlohou žiakov je napodobňovať pohyb papiera. Môžeme ho skladať, poskakovať ním, pohybovať zboka na bok, pokrčiť ho aj vyhadzovať do vzduchu. Po chvíli môžeme vybrať dobrovoľníka/dobrovoľníčku, ktorý/ ktorá bude určovať pohyby papiera pre zvyšok triedy."
+  },
+  {
+    "id": "016",
+    "title": "Zelení, modrí, červení",
+    "gradeLevel": 1,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "malé predmety v troch farbách (farebné ústrižky, lentilky, korálky a pod.)",
+    "steps": [
+      "Náhodne pridelíme každému dieťaťu jednu z troch farieb (napr.",
+      "rozdáme farebné ústrižky, cukríky/lentilky, korálky a pod., najlepšie tak, aby mali žiaci a žiačky pred sebou niečo.",
+      "Následne dávame inštrukcie, napr.",
+      "modrí – pravá ruka hore, zelení – postaviť sa, modrí – postaviť sa, zelení – sadnúť, červení – obe ruky hore a pod."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Náhodne pridelíme každému dieťaťu jednu z troch farieb (napr. rozdáme farebné ústrižky, cukríky/lentilky, korálky a pod., najlepšie tak, aby mali žiaci a žiačky pred sebou niečo, čo im ich farbu pripomenie). Následne dávame inštrukcie, napr. modrí – pravá ruka hore, zelení – postaviť sa, modrí – postaviť sa, zelení – sadnúť, červení – obe ruky hore a pod. Žiaci a žiačky sa tak musia sústrediť na inštrukcie a zároveň sa dostávajú do pohybu. Dobre padne, aj keď žiakov a žiačky rozosmejeme – napr. dáme inštrukciu postaviť sa tým, čo už stoja alebo necháme jednu skupinu, aby dlhšie striedavo dvíhala raz jednu a raz druhú ruku a pod. Keď už žiaci a žiačky aktivitu dobre poznajú, môže inštrukcie dávať vybraný žiak/vybraná žiačka."
+  },
+  {
+    "id": "017",
+    "title": "Ktorý je to zvuk?",
+    "gradeLevel": 1,
+    "filter": "zvysenie-energie",
+    "types": [
       "Pohyb"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Žiaci sa voľne pohybujú na mieste.",
-      "Učiteľ zakričí napríklad „veselá socha!“",
-      "Všetci okamžite zamrznú v príslušnej póze."
-    ]
-  },
-  {
-    "id": "rk-017",
-    "title": "Moja obľúbená vec",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Spoznávanie sa",
-      "Rozhovor"
+      "Žiakom a žiačkam predvedieme tri druhy zvukov (napr.",
+      "tlesknutie, lusknutie prstom, klopnutie na stôl).",
+      "Dohodneme sa s nimi, že ak začujú lusknutie, musia čo najrýchlejšie vstať/zdvihnúť ruku/zatlieskať alebo vykonať iný…",
+      "Ku každému zvuku sa viaže iný druh pohybu."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Každý si vyberie svoju obľúbenú hru, jedlo alebo zviera.",
-      "Postupne povedzte svoju odpoveď.",
-      "Všímajte si, kto má rovnakú odpoveď."
-    ]
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakom a žiačkam predvedieme tri druhy zvukov (napr. tlesknutie, lusknutie prstom, klopnutie na stôl). Dohodneme sa s nimi, že ak začujú lusknutie, musia čo najrýchlejšie vstať/zdvihnúť ruku/zatlieskať alebo vykonať iný dohodnutý aktivizujúci pohyb. Ku každému zvuku sa viaže iný druh pohybu."
   },
   {
-    "id": "rk-018",
-    "title": "Kto má rád to isté?",
+    "id": "018",
+    "title": "Skákajúce fazule",
     "gradeLevel": 1,
-    "tempo": "živé",
+    "filter": "zvysenie-energie",
     "types": [
-      "Spoznávanie sa",
       "Pohyb"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Učiteľ povie napríklad: „Kto má rád pizzu, postaví sa.“",
-      "Žiaci podľa odpovede vstávajú alebo zostávajú sedieť.",
-      "Pokračujte ďalšími otázkami."
-    ]
-  },
-  {
-    "id": "rk-019",
-    "title": "Pravda alebo nie?",
-    "gradeLevel": 1,
-    "tempo": "pokojné",
-    "types": [
-      "Kvíz",
-      "Premýšľanie"
+      "Žiaci sa rozmiestnia v priestore triedy.",
+      "Následne im dávame inštrukcie, ako majú skákať – ako unavené fazuľky, ako šťastné fazuľky, ako nenápadné fazuľky.",
+      "Opäť je dobré zapojiť humor a vymýšľať aj rôzne zábavné a absurdné nápady, ako napr.",
+      "skákať ako červené fazuľky, ako spiace fazuľky, ako kučeravé fazuľky a pod."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ povie jednoduché tvrdenie.",
-      "Palec hore znamená pravda, palec dole nepravda.",
-      "Spoločne si povedzte správnu odpoveď."
-    ]
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky sa rozmiestnia v priestore triedy. Následne im dávame inštrukcie, ako majú skákať – ako unavené fazuľky, ako šťastné fazuľky, ako nenápadné fazuľky, ako veľké fazule, ako maličké fazuľky a pod. Opäť je dobré zapojiť humor a vymýšľať aj rôzne zábavné a absurdné nápady, ako napr. skákať ako červené fazuľky, ako spiace fazuľky, ako kučeravé fazuľky a pod."
   },
   {
-    "id": "rk-020",
-    "title": "A, B alebo C?",
+    "id": "019",
+    "title": "Skrytý svet",
     "gradeLevel": 1,
-    "tempo": "živé",
+    "filter": "zvysenie-energie",
     "types": [
-      "Kvíz",
+      "Pohyb"
+    ],
+    "materials": "Text básne je pripravený na tabuli, pri nácviku majú deti text pred očami.",
+    "steps": [
+      "Žiaci recitujú básničku/riekanku, ktorú znázorňujú pohybom.",
+      "Daný druh pohybu počas recitovania básničky/riekanky žiakom a žiačkam názorne predvádzame.",
+      "Na záver sa trieda krátko podelí o svoj zážitok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky recitujú básničku/riekanku, ktorú znázorňujú pohybom. Daný druh pohybu počas recitovania básničky/riekanky žiakom a žiačkam názorne predvádzame."
+  },
+  {
+    "id": "020",
+    "title": "Lopta-bomba!",
+    "gradeLevel": 1,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "loptička (napr. tenisová)",
+    "steps": [
+      "Úlohou žiakov a žiačok v tejto hre je hádzať si loptičku v rovnakom poradí, t.",
+      "zakaždým od rovnakého hráča loptičku prijímame a rovnakému hráčovi ju hádžeme.",
+      "Zo začiatku skupina stojí v kruhu, no neskôr sa voľne pohybujú po vyčlenenom priestore."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Úlohou žiakov a žiačok v tejto hre je hádzať si loptičku v rovnakom poradí, t. j. zakaždým od rovnakého hráča loptičku prijímame a rovnakému hráčovi ju hádžeme. Zo začiatku skupina stojí v kruhu, no neskôr sa voľne pohybujú po vyčlenenom priestore, čím sa hra stane náročnejšia na pozornosť. Vtedy sa z loptičky stáva odistená bomba, ktorú si hráči v ustálenom poradí pohadzujú. Ak sa niekomu loptička pri chytaní vyšmykne, alebo si ju v rýchlosti nevšimne a loptička spadne na zem, musia sa všetci žiaci a žiačky dotknúť zeme tak, aby sa jej dotýkali oboma chodidlami, oboma dlaňami a chrbtom natočeným k zemi (bruchom hore). Následne v hre pokračujeme."
+  },
+  {
+    "id": "021",
+    "title": "Fusaklová rozcvička",
+    "gradeLevel": 1,
+    "filter": "zvysenie-energie",
+    "types": [
       "Pohyb"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Učiteľ položí otázku s tromi možnosťami.",
-      "Každý roh triedy predstavuje jednu odpoveď.",
-      "Žiaci sa presunú k svojej odpovedi."
-    ]
+      "Žiaci sedia na zemi s vystretými nohami dopredu tak, aby ich chodidlá tvorili uzavretý kruh (noha vedľa nohy).",
+      "Žiakom a žiačkam zadávame úlohy a pohyby, ktoré majú robiť s chodidlami.",
+      "Ak cvičenie opakujeme viackrát, je možné nacvičiť so žiakmi."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky sedia na zemi s vystretými nohami dopredu tak, aby ich chodidlá tvorili uzavretý kruh (noha vedľa nohy). Žiakom a žiačkam zadávame úlohy a pohyby, ktoré majú robiť s chodidlami, napr.: „Fusakle sa ponaťahujú.“ (žiaci a žiačky natiahnu spoločne špičky dopredu, zohnú ich do „fajky“) „Fusakle výstražne zdvihnú palec.“ „Fusakle na niekoho ukazujú špičkou.“ „Fusakle sa prevaľujú.“ „Fusakle mávajú okoloidúcim.“ a pod. Ak cvičenie opakujeme viackrát, je možné nacvičiť so žiakmi a žiačkami synchronizovanú sériu pohybov pre posilnenie tímového ducha skupiny."
   },
   {
-    "id": "rk-021",
-    "title": "Ty si učiteľ",
+    "id": "022",
+    "title": "Okamihy radosti a vďačnosti",
     "gradeLevel": 1,
-    "tempo": "živé",
+    "filter": "zvladanie-vyziev",
     "types": [
-      "Žiaci vedú aktivitu",
-      "Pohyb"
+      "Zvládanie výziev"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Jeden žiak sa postaví pred triedu.",
-      "Ukáže tri jednoduché pohyby.",
-      "Ostatní ho napodobňujú."
-    ]
+      "So žiakmi a žiačkami sa posadíme do kruhu.",
+      "Úlohou každého dieťaťa (je vhodné, aby sme sa zapojili aj my) je zamyslieť sa nad otázkami: Čo vás v poslednom týždni…",
+      "Za čo ste vďační?",
+      "Ako ste k tomu prispeli?"
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu. Úlohou každého dieťaťa (je vhodné, aby sme sa zapojili aj my) je zamyslieť sa nad otázkami: Čo vás v poslednom týždni potešilo? Za čo ste vďační? Ako ste k tomu prispeli? Na čo sa môžete tešiť nasledujúce dni? Tí, ktorí chcú, zdieľajú svoje odpovede. Dbáme na to, aby možnosť vyjadriť sa dostal každý, kto má záujem. Ak je to vhodné, môžeme so zdieľaním začať my sami, prípadne svojím zdieľaním kruh ukončiť. V prípade, že je to pre žiakov a žiačky komfortnejšie, môžu si zdieľať odpovede vo dvojiciach/v malých skupinkách. Záver: Žiakom a žiačkam poďakujeme, že sa zapojili do zdieľania. Povieme im, že na to, aby sme sa v živote cítili dobre a spokojne, je dôležité všímať si aj to, kedy sa cítime spokojní, máme radosť alebo sme vďační."
   },
   {
-    "id": "rk-022",
-    "title": "Moja otázka pre triedu",
+    "id": "023",
+    "title": "Dobíjanie baterky",
     "gradeLevel": 1,
-    "tempo": "pokojné",
+    "filter": "zvladanie-vyziev",
     "types": [
-      "Žiaci vedú aktivitu",
-      "Rozhovor"
+      "Zvládanie výziev"
+    ],
+    "materials": "Tabuľa a krieda alebo fixka.",
+    "steps": [
+      "Na tabuľu nakreslite dve baterky: prázdnu a plnú.",
+      "Žiaci navrhnú, čo im berie energiu. Zapíšte pár príkladov pod prázdnu baterku.",
+      "Pod plnú baterku zapíšte, čo im pomáha oddýchnuť si a načerpať energiu.",
+      "Každý si vyberie jeden jednoduchý spôsob oddychu, ktorý dnes môže skúsiť."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Potešilo alebo prekvapilo vás niečo?"
+    ],
+    "details": "Stačia dva obdĺžniky s malým výstupkom ako baterky. Jeden nechajte prázdny, druhý vyšrafujte. Vysvetlite prirovnanie k našej energii. Ku každej baterke zozbierajte tri až päť návrhov; napríklad hluk môže unavovať, pokojná prestávka či prechádzka môže pomôcť oddýchnuť si. Názory sa môžu líšiť. Zakončite výberom jedného uskutočniteľného nápadu na dnešný deň."
+  },
+  {
+    "id": "024",
+    "title": "Zdieľanie úspechov a cieľov",
+    "gradeLevel": 1,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Jeden žiak vymyslí jednoduchú otázku pre triedu.",
-      "Postupne odpovie niekoľko spolužiakov.",
-      "Ďalší žiak môže položiť novú otázku."
-    ]
+      "So žiakmi a žiačkami sa posadíme do kruhu.",
+      "Každý žiak/žiačka zdieľa jeden úspech z predchádzajúceho dňa alebo týždňa a stanoví si cieľ na dnešný deň.",
+      "So žiakmi a žiačkami sa posadíme do kruhu. Každý žiak/žiačka zdieľa jeden úspech z predchádzajúceho dňa alebo týždňa."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Potešilo alebo prekvapilo vás niečo?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu. Každý žiak/žiačka zdieľa jeden úspech z predchádzajúceho dňa alebo týždňa a stanoví si cieľ na dnešný deň."
   },
   {
-    "id": "rk-023",
-    "title": "Jedno slovo na dnes",
+    "id": "025",
+    "title": "Čo chcú deti?",
+    "gradeLevel": 1,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "podľa predstáv a návrhov žiakov a žiačok",
+    "steps": [
+      "Žiakov a žiačok sa spýtame, čo by malo podľa nich byť náplňou ranných kruhov – čomu by sa na nich radi venovali.",
+      "Táto činnosť môže byť úplne ľubovoľná (napr.",
+      "spoločné raňajky, spoločný́ čaj, počúvanie hudby, tanec, cvičenie, čítanie spoločnej knihy…).",
+      "Je možné zozbierať viacero návrhov a ranné kruhy obmieňať tak, aby sa aktivity vystriedali."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Potešilo alebo prekvapilo vás niečo?"
+    ],
+    "details": "Žiakov a žiačok sa spýtame, čo by malo podľa nich byť náplňou ranných kruhov – čomu by sa na nich radi venovali, a takéto ranné kruhy budeme pravidelne implementovať. Táto činnosť môže byť úplne ľubovoľná (napr. spoločné raňajky, spoločný́ čaj, počúvanie hudby, tanec, cvičenie, čítanie spoločnej knihy…). Je možné zozbierať viacero návrhov a ranné kruhy obmieňať tak, aby sa aktivity vystriedali, prípadne môže aj každý́ žiak/žiačka navrhnúť svoj vlastný́ ranný́ kruh – možností je neúrekom."
+  },
+  {
+    "id": "026",
+    "title": "Plánovanie dňa",
+    "gradeLevel": 1,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "So žiakmi a žiačkami sa posadíme do kruhu.",
+      "Spoločne si naplánujeme hlavné aktivity a úlohy na deň, pričom všetci, ktorí chcú, prispievajú svojimi návrhmi.",
+      "Ak je nápadov viac, ako je možné v daný deň zrealizovať, môžeme si niektoré z nich odložiť na nasledujúce dni v týždni."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Potešilo alebo prekvapilo vás niečo?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu. Spoločne si naplánujeme hlavné aktivity a úlohy na deň, pričom všetci, ktorí chcú, prispievajú svojimi návrhmi. Ak je nápadov viac, ako je možné v daný deň zrealizovať, môžeme si niektoré z nich odložiť na nasledujúce dni v týždni, alebo o nápadoch hlasovať v rámci triedy."
+  },
+  {
+    "id": "027",
+    "title": "Moja záchranná sieť",
+    "gradeLevel": 1,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Nakreslite seba doprostred papiera a okolo seba tri prázdne krúžky.",
+      "Do krúžkov napíšte alebo nakreslite ľudí, ktorým dôverujete a môžete ich požiadať o pomoc.",
+      "Vyberte jednu osobu a premyslite si vetu, ktorou by ste ju požiadali o pomoc.",
+      "Kto chce, môže svoju vetu povedať. Mená ani osobné zážitky zdieľať nemusíte."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Potešilo alebo prekvapilo vás niečo?"
+    ],
+    "details": "Vysvetlite, že záchrannú sieť tvoria ľudia, ktorí nás podporia v náročnej chvíli. Na obyčajný papier si každý nakreslí seba a okolo krúžky pre dôveryhodných ľudí. Netreba vyplniť všetky krúžky; možno pridať ďalšie. Ak niekto nevie koho uviesť, ponúknite mu súkromne pomoc s hľadaním dostupného dospelého v škole. Vetu na požiadanie o pomoc možno nacvičiť aj na vymyslenej situácii. Kresba zostáva dieťaťu."
+  },
+  {
+    "id": "028",
+    "title": "Je skvelé byť mnou!",
+    "gradeLevel": 1,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Nakreslite na papier veľký ovál ako zrkadlo.",
+      "Dovnútra napíšte alebo nakreslite dve veci, ktoré sa vám na sebe páčia alebo vám idú.",
+      "K jednej z nich si spomeňte na konkrétny príklad. Dobrovoľne sa oň podeľte."
+    ],
+    "reflection": [
+      "Čo ste do svojho zrkadla napísali/nakreslili?",
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Zrkadlo si každý nakreslí sám na čistý papier. Nemusí kresliť svoju tvár: môže zapísať vlastnosť, schopnosť či niečo, čo sa mu podarilo. Pomôžte otázkami: „Kedy si niekomu pomohol?“ alebo „Čo si sa nedávno naučil?“ Dajte tri minúty na premyslenie a kresbu, potom priestor niekoľkým dobrovoľníkom. Neporovnávajte výkony detí."
+  },
+  {
+    "id": "029",
+    "title": "Veje vetrík, veje",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "tabuľa, fixky",
+    "steps": [
+      "Žiaci čakajú pred dverami triedy.",
+      "Pred ich vstupom napíšeme na tabuľu tento výrok: „Veje vetrík, veje pre každého.",
+      "Vyberie sa jedno dieťa, ktoré začne v strede kruhu a dokončí výrok na tabuli (napr.",
+      "„Veje vetrík, veje pre každého, kto rád pozerá filmy.“) Všetci, ktorí súhlasia s jeho výrokom."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky čakajú pred dverami triedy. Pred ich vstupom napíšeme na tabuľu tento výrok: „Veje vetrík, veje pre každého, kto má rád ______.“ Následne im povieme, aby sa postavili do kruhu. Vyberie sa jedno dieťa, ktoré začne v strede kruhu a dokončí výrok na tabuli (napr. „Veje vetrík, veje pre každého, kto rád pozerá filmy.“) Všetci, ktorí súhlasia s jeho výrokom, si musia nájsť nové miesto v kruhu vrátane žiaka/žiačky v strede. Kto zostane bez miesta vo vonkajšom kruhu, potom sa presunie do stredu a dokončí vyhlásenie."
+  },
+  {
+    "id": "030",
+    "title": "Hra dôvery",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "stoličky, lavica, šatka",
+    "steps": [
+      "Žiaci spolu urobia v triede prekážkovú dráhu.",
+      "Môžu používať všetko, čo majú v triede, ako napríklad stoličky, lavice, tašky a pod.",
+      "Jeden žiak/jedna žiačka bude mať zaviazané oči šatkou, aby nič nevidel/nevidela a bude navigovaný/navigovaná ostatnými.",
+      "Ostatní žiaci stoja v kruhu okolo žiaka/žiačky so šatkou."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky spolu urobia v triede prekážkovú dráhu. Môžu používať všetko, čo majú v triede, ako napríklad stoličky, lavice, tašky a pod. Jeden žiak/jedna žiačka bude mať zaviazané oči šatkou, aby nič nevidel/nevidela a bude navigovaný/navigovaná ostatnými. Ostatní žiaci stoja v kruhu okolo žiaka/žiačky so šatkou. Trochu ho/ju roztočia v kruhu, aby nevedel/nevedela, kde kto stojí. Potom si vyberie niekoho, kto bude pre neho/ ňu navigátor. Navigátor riadi nevidiaceho spolužiaka/spolužiačku cez rôzne prekážky v triede. To, aké prekážky budú mať na dráhe, je na navigátorovi, ako aj to, čo objaví so spolužiakom/spolužiačkou. Keď dráhu prejdú, žiaci a žiačky sa vymenia. Hra končí, keď sa všetci vystriedali v role navigátora aj navigovaného."
+  },
+  {
+    "id": "031",
+    "title": "Dobrosrdečná víla",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "farebné fixky, farebné kartičky (štvorce/obdĺžniky vystrihnuté z farebných papierov), krabica",
+    "steps": [
+      "Žiakom a žiačkam povieme, že ich úlohou je napísať svoje meno na papier alebo na farebnú kartičku.",
+      "Následne si kartičky z krabice ťahajú, nemôžu však nikomu prezradiť, aké meno si vytiahli.",
+      "Následne žiakom a žiačkam vysvetlíme, že ich úlohou bude v ten deň, alebo cez celý týždeň.",
+      "Môže to napríklad znamenať, že budú dávať pozor na toho druhého a pomáhať mu/jej v tom, čo bude potrebovať."
+    ],
+    "reflection": [
+      "Koho ste si vytiahli – koho dobrosrdečnou vílou ste boli?",
+      "Prišli ste počas dňa na to, kto je vašou dobrosrdečnou vílou?",
+      "Ako sa vám páčila táto aktivita?"
+    ],
+    "details": "Žiakom a žiačkam povieme, že ich úlohou je napísať svoje meno na papier alebo na farebnú kartičku, papier poskladať a vložiť do krabice. Následne si kartičky z krabice ťahajú, nemôžu však nikomu prezradiť, aké meno si vytiahli. Následne žiakom a žiačkam vysvetlíme, že ich úlohou bude v ten deň, alebo cez celý týždeň, byť dobrosrdečnou vílou toho, koho meno si vytiahli. Môže to napríklad znamenať, že budú dávať pozor na toho druhého a pomáhať mu/jej v tom, čo bude potrebovať, brániť ho/ju, láskavo sa k nemu/nej správať. Ako učitelia/učiteľky si vytvoríme zoznam, kto je koho dobrosrdečná víla. Cez deň, alebo týždeň, sledujeme žiakov a žiačky, či naozaj dodržiavajú pokyny. Na rannom kruhu na konci dňa alebo nasledujúci deň nasleduje vyhodnotenie a reflexia."
+  },
+  {
+    "id": "032",
+    "title": "Pyramída našej triedy",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "penové/drevené kocky",
+    "steps": [
+      "Každé dieťa si vyberie 1 kocku, ktorá ho predstavuje podľa tvaru alebo farby a postupne ju prikladá k ostatným tak.",
+      "Výsledkom je stavba, ktorá predstavuje našu triedu.",
+      "Na záver sa trieda krátko podelí o svoj zážitok."
+    ],
+    "reflection": [
+      "Čo vám stavba našej triedy pripomína (tvarom, farbami…)?",
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?"
+    ],
+    "details": "Každé dieťa si vyberie 1 kocku, ktorá ho predstavuje podľa tvaru alebo farby a postupne ju prikladá k ostatným tak, aby sa ostatných dotýkala. Výsledkom je stavba, ktorá predstavuje našu triedu."
+  },
+  {
+    "id": "033",
+    "title": "Zebra",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "počítač, notebook, pripojenie na internet, videoprojektor, video: https://www. youtube.com/watch?v=n5yn7V5QOAE",
+    "steps": [
+      "Žiakom a žiačkam pustíme video prostredníctvom priloženého odkazu.",
+      "Žiaci aktivitu vykonajú podľa dohodnutých pravidiel.",
+      "Na záver sa trieda krátko podelí o svoj zážitok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "(zhodnotenie palec hore/dole, prípadne rozviť odpoveď slovne)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakom a žiačkam pustíme video prostredníctvom priloženého odkazu."
+  },
+  {
+    "id": "034",
+    "title": "Zážitky",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiakom a žiačkam vysvetlíme, že si dnes porozprávame o zážitkoch z prázdnin/víkendu/predchádzajúceho dňa.",
+      "Túto aktivitu môžeme robiť v štyroch rôznych variáciách: Variácia 1 – Nadpis: Každé dieťa vymyslí nadpis svojmu zážitku.",
+      "Cieľom je ho vystihnúť a zároveň vymyslieť zaujímavý nadpis, aby sa ostatní chceli dozvedieť viac.",
+      "Potom môže nasledovať kolo otázok od spolužiakov/spolužiačok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "(zhodnotenie palec hore/dole, prípadne rozviť odpoveď slovne)?",
+      "Čo sa vám páčilo najviac?"
+    ],
+    "details": "Žiakom a žiačkam vysvetlíme, že si dnes porozprávame o zážitkoch z prázdnin/víkendu/predchádzajúceho dňa, možno však trochu inak, ako sú zvyknutí. Túto aktivitu môžeme robiť v štyroch rôznych variáciách: Variácia 1 – Nadpis: Každé dieťa vymyslí nadpis svojmu zážitku. Cieľom je ho vystihnúť a zároveň vymyslieť zaujímavý nadpis, aby sa ostatní chceli dozvedieť viac. Potom môže nasledovať kolo otázok od spolužiakov/spolužiačok. V tomto bode má každý určený počet otázok, pomocou ktorých má zistiť čo najviac informácií o zážitkoch toho druhého. Variácia 2 – Jedno slovo: Každé dieťa vymyslí jedno slovo, ktoré vystihuje jeho zážitok. Táto variácia pomáha taktiež uvedomovať si, ktoré slová sú v našej komunikácii kľúčové."
+  },
+  {
+    "id": "035",
+    "title": "Štafetové kreslenie",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "papiere, ceruzky",
+    "steps": [
+      "Žiaci sa rozdelia do tímov.",
+      "Každý tím dostane papier a ceruzku.",
+      "Hneď na začiatku žiakom a žiačkam povieme, že ich dnešnou úlohou bude nakresliť spoločný obrázok.",
+      "Prvý žiak/prvá žiačka nakreslí časť obrázku, potom odovzdá ceruzku ďalšiemu dieťaťu, ktoré pokračuje v kreslení."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "(zhodnotenie palec hore/dole, prípadne rozviť odpoveď slovne)?",
+      "Čo sa vám páčilo najviac?"
+    ],
+    "details": "Žiaci a žiačky sa rozdelia do tímov. Každý tím dostane papier a ceruzku. Hneď na začiatku žiakom a žiačkam povieme, že ich dnešnou úlohou bude nakresliť spoločný obrázok, kde prispeje každý v tíme. Prvý žiak/prvá žiačka nakreslí časť obrázku, potom odovzdá ceruzku ďalšiemu dieťaťu, ktoré pokračuje v kreslení. Aktivita sa končí, keď každý v tíme prispeje k spoločnému obrázku."
+  },
+  {
+    "id": "036",
+    "title": "Podobnosť a odlišnosť",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "papiere, ceruzky",
+    "steps": [
+      "Žiakov a žiačky rozdelíme náhodne do dvojíc.",
+      "Dvojice majú za úlohu nájsť 5 vecí, ktoré majú spoločné a 5 vecí, v ktorých sa líšia.",
+      "Môžu si pomôcť okruhmi tém: rodina, zábava, krúžky, predmety v škole, navštívené krajiny, hudba a pod."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakov a žiačky rozdelíme náhodne do dvojíc. Dvojice majú za úlohu nájsť 5 vecí, ktoré majú spoločné a 5 vecí, v ktorých sa líšia. Môžu si pomôcť okruhmi tém: rodina, zábava, krúžky, predmety v škole, navštívené krajiny, hudba a pod."
+  },
+  {
+    "id": "037",
+    "title": "Hoď kockou",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Hracia kocka; prípadne šesť papierikov s číslami 1–6.",
+    "steps": [
+      "V dvojiciach si striedavo hoďte kockou alebo vytiahnite číslo od 1 do 6.",
+      "1: Čo ťa baví? 2: Čo sa ti podarilo? 3: Za čo chceš niekomu poďakovať?",
+      "4: Čo by si sa chcel naučiť? 5: Ako rád oddychuješ? 6: Čo môžeme spraviť spolu?",
+      "Odpovedzte na otázku svojho čísla. Po dvoch kolách zdieľajte dobrovoľne jeden postreh."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "(zhodnotenie palec hore/dole, prípadne rozviť odpoveď slovne)?",
+      "Čo sa vám páčilo najviac?"
+    ],
+    "details": "Šesť otázok je uvedených priamo v krátkom návode. Učiteľ ich môže prečítať alebo zobraziť na tabuli. Ak nemáte kocku, na šesť papierikov napíšte čísla 1 až 6 a losujte. Pri jednej kocke losuje učiteľ číslo spoločné pre všetky dvojice. V každej dvojici postupne odpovedia obaja, každý najviac pol minúty; odpoveď možno vynechať. Urobte dve až tri kolá a krátke spoločné zdieľanie."
+  },
+  {
+    "id": "038",
+    "title": "Uzol",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci sa postavia do kruhu, zatvoria oči a vystrú ruky pred seba.",
+      "Náhodne sa pochytajú a vytvoria uzol.",
+      "Ich úlohou je rozmotať sa tak, aby sa v priebehu rozmotávania nepretrhli."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "(zhodnotenie palec hore/dole, prípadne rozviť odpoveď slovne)?",
+      "Čo sa vám páčilo najviac?"
+    ],
+    "details": "Žiaci a žiačky sa postavia do kruhu, zatvoria oči a vystrú ruky pred seba. Náhodne sa pochytajú a vytvoria uzol. Ich úlohou je rozmotať sa tak, aby sa v priebehu rozmotávania nepretrhli."
+  },
+  {
+    "id": "039",
+    "title": "Po mojej pravej ruke sedí…",
+    "gradeLevel": 1,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci sedia v kruhu, každý sa obráti k osobe po pravej strane a povie: „Po pravej ruke sedí...“.",
+      "Žiaci aktivitu vykonajú podľa dohodnutých pravidiel.",
+      "Na záver sa trieda krátko podelí o svoj zážitok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "(zhodnotenie palec hore/dole, prípadne rozviť odpoveď slovne)?",
+      "Čo sa vám páčilo najviac?"
+    ],
+    "details": "Žiaci a žiačky sedia v kruhu, každý sa obráti k osobe po pravej strane a povie: „Po pravej ruke sedí...“, povie meno spolužiaka alebo spolužiačky, „a na ňom/nej sa mi páči...“ (vymenuje 3 veci, ktoré sa mu na danej spolužiačke/danom spolužiakovi páčia."
+  },
+  {
+    "id": "040",
+    "title": "Smajlíci",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "Dva papiere a fixka.",
+    "steps": [
+      "Na jeden papier nakreslite veselú tvár, na druhý smutnú a položte ich ďalej od seba.",
+      "Postavte sa k tvári, ktorá vystihuje vašu náladu, alebo medzi ne.",
+      "Kto chce, jednou vetou vysvetlí svoj výber. Ostatní počúvajú bez hodnotenia."
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "Učiteľ za chvíľu nakreslí dve jednoduché tváre. Priestor medzi nimi umožní vyjadriť zmiešanú alebo neutrálnu náladu; dieťa môže aj zostať na mieste a nezapojiť sa. Pýtajte sa na aktuálnu náladu, nie na povinné vysvetľovanie osobných udalostí. Po niekoľkých dobrovoľných odpovediach sa spýtajte, čo by triede dnes pomohlo cítiť sa príjemnejšie."
+  },
+  {
+    "id": "041",
+    "title": "Grimasy",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "So žiakmi a žiačkami sedíme v kruhu.",
+      "Vybrané dieťa urobí grimasu, ktorá vyjadruje nejakú emóciu a odovzdá ju susedovi.",
+      "Ten imituje jeho výraz tváre a odovzdá ho ďalšiemu dieťaťu.",
+      "Keď grimasa obehne celý kruh, žiaci a žiačky môžu hádať, aký pocit mala vyjadrovať."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Podarilo sa vám rozoznávať jednotlivé emócie?",
+      "Ktoré boli pre vás ľahšie a ktoré ťažšie rozpoznať?"
+    ],
+    "details": "So žiakmi a žiačkami sedíme v kruhu. Vybrané dieťa urobí grimasu, ktorá vyjadruje nejakú emóciu a odovzdá ju susedovi. Ten imituje jeho výraz tváre a odovzdá ho ďalšiemu dieťaťu. Keď grimasa obehne celý kruh, žiaci a žiačky môžu hádať, aký pocit mala vyjadrovať. Hru môžeme obmeniť tak, že dieťa napodobní grimasu, ktorú mu odovzdal sused, potom zmení výraz tváre a novú grimasu podá ďalej, takže každé dieťa posiela po kruhu inú grimasu. Hra pomáha žiakom a žiačkam určovať a vyjadrovať rad emócií, ktoré prežívajú a rozvíjať pozorovacie schopnosti a empatiu."
+  },
+  {
+    "id": "042",
+    "title": "Náš strom pocitov",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "papierový strom (vopred pripravený vystrihnutý strom z kartónového papiera), bubliny (kruhy) z farebných papierov, lepidlo, fixky",
+    "steps": [
+      "So žiakmi a žiačkami sa posadíme do kruhu a strom z kartónu položíme do stredu kruhu.",
+      "K stromu položíme farebné bubliny.",
+      "Úlohou každého dieťaťa je zobrať si 1 bublinu.",
+      "Následne môžu ísť do ktorejkoľvek časti triedy a fixkou alebo perom napísať, ako sa majú, čo cítia/čo prežívajú."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Čo ste si do svojej bublinky napísali?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu a strom z kartónu položíme do stredu kruhu. K stromu položíme farebné bubliny. Úlohou každého dieťaťa je zobrať si 1 bublinu. Následne môžu ísť do ktorejkoľvek časti triedy a fixkou alebo perom napísať, ako sa majú, čo cítia/čo prežívajú. Kto bude hotový, nalepí svoju bublinu na strom. Žiaci a žiačky si jednotlivé bubliny prezrú samostatne, prípadne môžeme jednotlivé bubliny prečítať nahlas."
+  },
+  {
+    "id": "043",
+    "title": "Škálovanie",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "papiere, ceruzky",
+    "steps": [
+      "Žiaci na prstoch ukážu, ako sa dnes cítia (napr.",
+      "na jednej ruke od 1 do 5, alternatíva môže byť palec– palec hore = super, stred = neviem, dole = zle).",
+      "Žiaci na prstoch ukážu, ako sa dnes cítia (napr. na jednej ruke od 1 do 5."
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "Žiaci a žiačky na prstoch ukážu, ako sa dnes cítia (napr. na jednej ruke od 1 do 5, alternatíva môže byť palec– palec hore = super, stred = neviem, dole = zle)."
+  },
+  {
+    "id": "044",
+    "title": "Emočné karty",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "Karty s obrázkami (napr. Dixit, Eduma karty, Emocionálna záhrada a pod.)",
+    "steps": [
+      "So žiakmi a žiačkami sedíme v kruhu.",
+      "Do vnútra kruhu rozložíme karty.",
+      "Následne sa žiakov a žiačok opýtame otázku.",
+      "Ich úlohou je vybrať si kartu, ktorá podľa nich najlepšie vystihuje ich odpoveď."
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "So žiakmi a žiačkami sedíme v kruhu. Do vnútra kruhu rozložíme karty. Následne sa žiakov a žiačok opýtame otázku. Ich úlohou je vybrať si kartu, ktorá podľa nich najlepšie vystihuje ich odpoveď. Kto chce, môže následne svoju odpoveď zdieľať s ostatnými. Žiakov a žiačky povzbudíme, aby sa navzájom počúvali s rešpektom a bez prerušovania. Ak je to potrebné, kladieme doplňujúce otázky, aby sme podnietili hlbšie zdieľanie. Príklady otázok: náladu? Prečo? si zažil/a včera. Čo sa stalo? vystihuje, ako sa cíti tvoj kamarát/tvoja kamarátka dnes? karta to vyjadruje? často cítiš v škole. Prečo? situáciu? by si chcel/a viac cítiť doma. Prečo? ktorú by si chcel/a dnes vyvolať u ostatných?"
+  },
+  {
+    "id": "045",
+    "title": "Kocka emócií",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "hracia kocka, zoznam emócií napísaných na tabuľu",
+    "steps": [
+      "Na úvod priradíme číslam na kocke jednotlivé emócie, napr.",
+      "1 – smútok, 2 – radosť, 3 – hnev, 4 – pokoj, 5 – strach, 6 – nadšenie.",
+      "Následne žiaci a žiačky hádžu kockou.",
+      "Podľa počtu bodiek, ktoré padli na kocke, majú povedať, kedy a v akej situácii sa cítili podobne."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Páčilo sa vám niečo z toho, čo pomáha vašim spolužiakom a spolužiačkam, keď im je nepríjemne?"
+    ],
+    "details": "Na úvod priradíme číslam na kocke jednotlivé emócie, napr. 1 – smútok, 2 – radosť, 3 – hnev, 4 – pokoj, 5 – strach, 6 – nadšenie. Následne žiaci a žiačky hádžu kockou. Podľa počtu bodiek, ktoré padli na kocke, majú povedať, kedy a v akej situácii sa cítili podobne, a ak to bola nepríjemná emócia, čo im vtedy pomohlo."
+  },
+  {
+    "id": "046",
+    "title": "Čo nám pomáha?",
+    "gradeLevel": 1,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "Bez pomôcok.",
+    "steps": [
+      "V kruhu dobrovoľne povedzte, čo vám pomáha, keď máte nepríjemný deň.",
+      "Pohodlne sa posaďte, položte chodidlá na zem a všimnite si tri veci okolo seba.",
+      "Nechajte prebehnúť tri pokojné nádychy a výdychy vlastným tempom.",
+      "Vyberte si jednu vec, ktorú môžete skúsiť nabudúce, alebo osobu, ktorú požiadate o pomoc."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Páčilo sa vám niečo z toho, čo pomáha vašim spolužiakom a spolužiačkam, keď im je nepríjemne?"
+    ],
+    "details": "Zozbierajte niekoľko jednoduchých nápadov, napríklad pokojné miesto, rozhovor s dôveryhodným človekom či krátku prestávku. Potom spoločne vyskúšajte chvíľu pokojného sedenia a všímania si okolia. Dýchanie zostáva prirodzené, bez súťaženia a zadržiavania dychu. Každý môže iba pozorovať. Na záver zdôraznite, že požiadať o pomoc je v poriadku a každému môže vyhovovať niečo iné."
+  },
+  {
+    "id": "047",
+    "title": "Diktovaná kresba",
+    "gradeLevel": 1,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "papier a ceruzka pre každého žiaka/ žiačku, rôzne jednoduché obrázky (napr. dom, strom, srdce, kvet a pod.)",
+    "steps": [
+      "Žiaci sedia v kruhu alebo v laviciach.",
+      "Jedno dieťa dostane obrázok, ostatní však nesmú obrázok vidieť.",
+      "Žiak/žiačka s obrázkom popisuje ostatným, ako majú viesť ceruzku.",
+      "Ich úlohou je nakresliť podľa opisu žiaka/žiačky daný obrázok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky sedia v kruhu alebo v laviciach. Jedno dieťa dostane obrázok, ostatní však nesmú obrázok vidieť. Žiak/žiačka s obrázkom popisuje ostatným, ako majú viesť ceruzku. Ich úlohou je nakresliť podľa opisu žiaka/žiačky daný obrázok. Žiak/žiačka s obrázkom hovorí napr. „Urobte uprostred papiera bodku a z nej urobte oblúčik tak, aby ste sa vrátili späť k bodke.“ Žiak/žiačka nesmie vysloviť, čo je na obrázku, môže to iba popisovať. Na konci hry si žiaci a žiačky kresliace obrázok svoje kresby porovnajú s originálom - ak obrázky nie sú podobné originálu, využijeme to ako príležitosť na zasmiatie sa (pozor, nie zosmiešňovanie), nie hodnotenie výkonu. Hru môžeme opakovať a vybrať iného žiaka/inú žiačku, ktorý/ktorá dostane predlohu obrázka."
+  },
+  {
+    "id": "048",
+    "title": "Piknik párty",
+    "gradeLevel": 1,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Na začiatku kruhu oznámime, že organizujeme piknik alebo párty a že sú všetci pozvaní.",
+      "Požiadame žiakov a žiačky, aby povedali jednu alebo dve veci, ktoré by si so sebou priniesli na túto udalosť.",
+      "Môžu sa reťazovo pýtať navzájom, ale krúžok môžeme viesť aj sami.",
+      "Po tom, čo sa každý podelil o svoj príspevok, začneme jeden po druhom vyslovovať mená prítomných."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Na začiatku kruhu oznámime, že organizujeme piknik alebo párty a že sú všetci pozvaní. Požiadame žiakov a žiačky, aby povedali jednu alebo dve veci, ktoré by si so sebou priniesli na túto udalosť. Môžu sa reťazovo pýtať navzájom, ale krúžok môžeme viesť aj sami. Po tom, čo sa každý podelil o svoj príspevok, začneme jeden po druhom vyslovovať mená prítomných a ostatní si musia zapamätať, kto čo priniesol."
+  },
+  {
+    "id": "049",
+    "title": "Odraz v zrkadle",
+    "gradeLevel": 1,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci stoja v kruhu a každý si tajne (len očami) vyberie spolužiaka/spolužiačku.",
+      "Po odštartovaní hry sa každý snaží nenápadne sledovať svojho vybraného človeka a zrkadliť ho.",
+      "Na záver sa trieda krátko podelí o svoj zážitok."
+    ],
+    "reflection": [
+      "Koho ste počas hry zrkadlili?",
+      "Darilo sa vám napodobňovať spolužiaka/spolužiačku?",
+      "Ako sa vám páčila táto aktivita?"
+    ],
+    "details": "Žiaci a žiačky stoja v kruhu a každý si tajne (len očami) vyberie spolužiaka/spolužiačku, ktorému/ktorej bude robiť zrkadlo (po ktorom bude opakovať pohyby). Po odštartovaní hry sa každý snaží nenápadne sledovať svojho vybraného človeka a zrkadliť ho."
+  },
+  {
+    "id": "050",
+    "title": "Kto je tu šéf?",
+    "gradeLevel": 1,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jedno dieťa ide za dvere.",
+      "Ostatní sú v kruhu a zvolia si jedného šéfa.",
+      "Ten bude udávať pohyby, ktoré ostatní napodobňujú.",
+      "Dieťa spoza dverí sa postaví do kruhu a sleduje."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Aké pre vás bolo byť šéfom?"
+    ],
+    "details": "Jedno dieťa ide za dvere. Ostatní sú v kruhu a zvolia si jedného šéfa. Ten bude udávať pohyby, ktoré ostatní napodobňujú. Dieťa spoza dverí sa postaví do kruhu a sleduje. Zistí, kto je tu šéf alebo sa podarí šéfovi byť nenápadným?"
+  },
+  {
+    "id": "051",
+    "title": "Moderátor/moderátorka",
+    "gradeLevel": 1,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok.",
+    "steps": [
+      "Vyberte dobrovoľníka, ktorý bude dnes moderovať krátky rozhovor.",
+      "Moderátor zvolí otázku: „Čo vás tento týždeň potešilo?“ alebo „Čo by sme chceli zažiť spolu?“",
+      "Postupne dáva slovo spolužiakom. Každý môže odpovedať jednou vetou alebo vynechať.",
+      "Po piatich minútach rozhovor uzavrie a poďakuje za odpovede."
+    ],
+    "reflection": [
+      "Aké pre teba bolo byť moderátor/moderátorka dnešného kruhu?",
+      "Naučil/naučila si sa niečo nové?",
+      "Aké bolo pre vás, keď ranný kruh viedol/ viedla jeden/jedna z vás, nie pán učiteľ/ pani učiteľka?"
+    ],
+    "details": "Moderátor nepotrebuje kupón ani prípravu z domu. Dobrovoľník si vyberie jednu z dvoch otázok v návode; učiteľ mu pomáha striedať hovoriacich a sledovať čas. Dohodnite sa, že ostatní neprerušujú a odpoveď možno vynechať. Na rozhovor vyhraďte päť minút a na reflexiu dve. Pri ďalšom stretnutí ponúknite rolu inému dobrovoľníkovi."
+  },
+  {
+    "id": "052",
+    "title": "Kto som?",
+    "gradeLevel": 1,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "kartičky s obrázkami známych osôb, zvierat, rastlín (uistíme sa, aby sme zahrnuli obrázky, ktoré sú kultúrne aj socioekonomicky inkluzívne a ktoré všetci žiaci a žiačky v triede poznajú)",
+    "steps": [
+      "Jeden žiak/jedna žiačka má na čele prilepenú kartičku s menom známej osoby/zvieraťa/rastliny.",
+      "Ostatní žiaci a žiačky mu/jej dávajú pomôcky, aby uhádol/uhádla, kto alebo čo je.",
+      "Túto hru si môžu žiaci a žiačky pri veľkom počte detí zahrať aj vo dvojiciach/ menších skupinkách."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Aké pre vás bolo dávať pomôcky?"
+    ],
+    "details": "Jeden žiak/jedna žiačka má na čele prilepenú kartičku s menom známej osoby/zvieraťa/rastliny. Ostatní žiaci a žiačky mu/jej dávajú pomôcky, aby uhádol/uhádla, kto alebo čo je. Túto hru si môžu žiaci a žiačky pri veľkom počte detí zahrať aj vo dvojiciach/ menších skupinkách."
+  },
+  {
+    "id": "053",
+    "title": "„Nech sa postavia všetci, ktorí...“",
     "gradeLevel": 2,
-    "tempo": "pokojné",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Rozhovor",
+      "Spoznávanie sa"
+    ],
+    "materials": "stoličky",
+    "steps": [
+      "Túto aktivitu môžeme robiť v troch rôznych variáciách: Variácia 1: Žiaci a žiačky sedia v kruhu na stoličkách.",
+      "Do hry sa zapojíme taktiež a hľadáme si voľné miesto a keďže stoličiek je o jednu menej.",
+      "Úlohou toho, kto ostal stáť, je vymyslieť a povedať novú vetu, napríklad: „Nech sa postavia všetci.",
+      "Opäť vstávajú tí, pre ktorých to platí a snažia sa vymeniť si miesta."
+    ],
+    "reflection": [
+      "Čo sa vám na tejto aktivite najviac páčilo a prečo?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Menili sa vaše emócie v priebehu aktivity?"
+    ],
+    "details": "Túto aktivitu môžeme robiť v troch rôznych variáciách: Variácia 1: Žiaci a žiačky sedia v kruhu na stoličkách, ako učiteľ/učiteľka stojíme v strede kruhu a hovoríme: „Nech sa teraz postavia všetci, ktorí majú na sebe zelenú farbu.“ Tí, pre ktorých táto veta platí, sa postavia a snažia sa vymeniť si miesto. Do hry sa zapojíme taktiež a hľadáme si voľné miesto a keďže stoličiek je o jednu menej, jeden žiak/jedna žiačka ostane v strede bez miesta. Úlohou toho, kto ostal stáť, je vymyslieť a povedať novú vetu, napríklad: „Nech sa postavia všetci, ktorí majú radi rozprávku Snehulienka a sedem trpaslíkov”. Opäť vstávajú tí, pre ktorých to platí a snažia sa vymeniť si miesta. Veľmi efektné je z času na čas zaradiť takú vetu, ktorá platí pre všetkých, t. j."
+  },
+  {
+    "id": "054",
+    "title": "Kreatívne zoznámenie sa",
+    "gradeLevel": 2,
+    "filter": "uvod-skolskeho-roka",
+    "types": [
       "Spoznávanie sa"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Každý si premyslí jedno slovo, ktoré vystihuje, ako sa dnes cíti.",
-      "Postupne svoje slovo povedzte nahlas.",
-      "Kto chce, krátko vysvetlí svoj výber."
-    ]
-  },
-  {
-    "id": "rk-024",
-    "title": "Vyber si stranu",
-    "gradeLevel": 2,
-    "tempo": "živé",
-    "types": [
-      "Rozhovor",
-      "Pohyb"
+      "Každý žiak si k svojmu menu vymyslí prívlastok začínajúci rovnakým písmenom abecedy a nacvičí si k tomu krátke gesto.",
+      "Ďalší žiak to zopakuje a pridá svoje meno s pozitívnym prívlastkom a gestom.",
+      "Posledný žiak sa snaží zopakovať všetky mená s prívlastkami a gestami.",
+      "Napr.: – veselá Veronika (gesto – tlesknutie rukami) – ambiciózny Andrej (gesto – zdvihnutie nosa)"
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ ponúkne dve možnosti, napríklad „more alebo hory“.",
-      "Žiaci sa postavia na príslušnú stranu triedy.",
-      "Niekoľkí vysvetlia svoju voľbu."
-    ]
-  },
-  {
-    "id": "rk-025",
-    "title": "Tiché zrkadlo",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Pohyb",
-      "Dvojice"
+    "reflection": [
+      "Darilo sa vám zapamätať si všetky mená a gestá?",
+      "Čo sa vám na tejto aktivite najviac páčilo a prečo?"
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Vytvorte dvojice.",
-      "Jeden vedie pomalé pohyby, druhý ho presne kopíruje.",
-      "Po chvíli si úlohy vymeňte."
-    ]
+    "details": "Každý žiak si k svojmu menu vymyslí prívlastok začínajúci rovnakým písmenom abecedy a nacvičí si k tomu krátke gesto. Ďalší žiak to zopakuje a pridá svoje meno s pozitívnym prívlastkom a gestom. Posledný žiak sa snaží zopakovať všetky mená s prívlastkami a gestami. Napr.: – veselá Veronika (gesto – tlesknutie rukami) – ambiciózny Andrej (gesto – zdvihnutie nosa)"
   },
   {
-    "id": "rk-026",
-    "title": "Päťsekundová výzva",
+    "id": "055",
+    "title": "Nedokončené vety",
     "gradeLevel": 2,
-    "tempo": "živé",
+    "filter": "uvod-skolskeho-roka",
     "types": [
-      "Pohyb",
-      "Pre zábavu"
-    ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ zadá krátku pohybovú výzvu.",
-      "Napríklad: „Za päť sekúnd sa dotkni troch modrých vecí.“",
-      "Po splnení príde ďalšia výzva."
-    ]
-  },
-  {
-    "id": "rk-027",
-    "title": "Čo máme spoločné?",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Skupiny",
       "Spoznávanie sa"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Vytvorte skupiny po štyroch.",
-      "Nájdite tri spoločné veci, ktoré nie sú úplne očividné.",
-      "Najzaujímavejšiu povedzte triede."
-    ]
-  },
-  {
-    "id": "rk-028",
-    "title": "Papierová výzva",
-    "gradeLevel": 2,
-    "tempo": "živé",
-    "types": [
-      "Skupiny",
-      "Tvorenie"
+      "Začneme hovoriť vetu, ktorá je nedokončená.",
+      "Úlohou žiakov a žiačok je vetu dokončiť.",
+      "Môže to byť čokoľvek – môžeme ich zamerať na dobro okolo nich, spoznávať ich sny, túžby, motivácie a pod.",
+      "Príklady viet, ktoré môžeme použiť: „Som vďačný za...“ „Cestou do školy som si všimol/všimla...“ „Keby som mal/mala…"
     ],
-    "materials": "Papier",
-    "steps": [
-      "Každá skupina dostane rovnaký počet papierov.",
-      "Vytvorte čo najvyššiu samostatne stojacu stavbu.",
-      "Po skončení si výtvory porovnajte."
-    ]
-  },
-  {
-    "id": "rk-029",
-    "title": "Dve pravdy",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Dvojice",
-      "Spoznávanie sa"
+    "reflection": [
+      "Čo sa vám na tejto aktivite najviac páčilo a prečo?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Čo nové ste sa počas tejto aktivity dozvedeli o svojich spolužiakoch/spolužiačkach?"
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Každý povie partnerovi dve pravdivé veci o sebe.",
-      "Partner si vyberie jednu, ktorá ho viac zaujala.",
-      "Krátko sa o nej porozprávajte."
-    ]
+    "details": "Začneme hovoriť vetu, ktorá je nedokončená. Úlohou žiakov a žiačok je vetu dokončiť. Môže to byť čokoľvek – môžeme ich zamerať na dobro okolo nich, spoznávať ich sny, túžby, motivácie a pod. Príklady viet, ktoré môžeme použiť: „Som vďačný za...“ „Cestou do školy som si všimol/všimla...“ „Keby som mal/mala čarovný prútik, zmenil/ zmenila, by som...“ „Keby som chytil/chytila zlatú rybku, želal/želala by som si...“ „Keby som mal/mala krídla, letel/letela by som...“ „Keby som mal/mala celý deň iba pre seba, robil/robila by som...“ „V reštaurácii by som si objednal/objednala...“ „Včera ma potešilo...“"
   },
   {
-    "id": "rk-030",
-    "title": "Bez slov",
+    "id": "056",
+    "title": "Bodkové dýchanie",
     "gradeLevel": 2,
-    "tempo": "živé",
+    "filter": "upokojenie",
     "types": [
-      "Dvojice",
-      "Improvizácia"
+      "Upokojenie"
     ],
-    "materials": "Bez pomôcok",
+    "materials": "Papier a ceruzka pre každého.",
     "steps": [
-      "Dvojica si vyberie jednoduchú situáciu.",
-      "Bez slov ju predvedie ostatným.",
-      "Trieda háda, čo sa odohráva."
-    ]
-  },
-  {
-    "id": "rk-031",
-    "title": "Čo majú spoločné?",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Premýšľanie"
+      "Na papier nakreslite 10 bodiek a označte ich číslami od 10 do 1.",
+      "Položte prst na bodku 10. Pokojne sa nadýchnite a vydýchnite vlastným tempom.",
+      "Po výdychu posuňte prst na ďalšiu bodku. Pokračujte až po číslo 1."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ povie tri zdanlivo nesúvisiace slová.",
-      "Skúste nájsť niečo, čo ich spája.",
-      "Porovnajte rôzne nápady."
-    ]
-  },
-  {
-    "id": "rk-032",
-    "title": "Desať použití",
-    "gradeLevel": 2,
-    "tempo": "živé",
-    "types": [
-      "Premýšľanie",
-      "Pre zábavu"
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 – 5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
     ],
-    "materials": "Bežný predmet",
-    "steps": [
-      "Vyberte obyčajný predmet, napríklad ceruzku.",
-      "Skúste vymyslieť čo najviac netradičných použití.",
-      "Najzaujímavejšie nápady povedzte nahlas."
-    ]
+    "details": "Každý si za minútu nakreslí rad desiatich bodiek. Pri každej bodke nechá prebehnúť jeden pokojný nádych a výdych, potom posunie prst ďalej. Dych netreba prehlbovať ani zadržiavať. Mladšie deti môžu sledovať bodky bez čísel. Po jednom alebo dvoch kolách sa krátko opýtajte, čo si všimli."
   },
   {
-    "id": "rk-033",
-    "title": "Nemý film",
+    "id": "057",
+    "title": "Krabicové dýchanie",
     "gradeLevel": 2,
-    "tempo": "živé",
+    "filter": "upokojenie",
     "types": [
-      "Improvizácia",
-      "Skupiny"
+      "Upokojenie"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Nakreslite veľký štvorec a do každého rohu bodku.",
+      "Prstom pomaly prejdite po jednej strane pri nádychu a po ďalšej pri výdychu.",
+      "Pokračujte okolo štvorca vlastným pohodlným tempom. Obíďte ho dva- až trikrát."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 – 5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Každý si nakreslí štvorec so štyrmi bodkami v rohoch. Ukážte začiatok v ľavom hornom rohu. Jednu stranu sledujte prstom pri pokojnom nádychu, ďalšiu pri výdychu. Táto jednoduchá verzia nevyžaduje zadržiavanie dychu ani spoločné tempo. Stačia dva až tri okruhy a krátke zdieľanie."
+  },
+  {
+    "id": "058",
+    "title": "Upokojujúce karty",
+    "gradeLevel": 2,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Na papier nakreslite veľkú vlnovku, špirálu alebo slučku.",
+      "Pomaly obkresľujte čiaru prstom a všímajte si svoj prirodzený dych.",
+      "Po minúte skúste iný tvar. Na záver dobrovoľne povedzte, čo ste si všimli."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 – 5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Deti si samy vytvoria jednoduchú kartu: na kúsok papiera nakreslia jednu veľkú súvislú čiaru, napríklad vlnu alebo špirálu. Nie je dôležité, ako pekne vyzerá. Prstom ju pomaly sledujú jednu až dve minúty a pritom voľne dýchajú. Môžu si nakresliť druhý tvar a porovnať, ktorý sa im sledoval príjemnejšie."
+  },
+  {
+    "id": "059",
+    "title": "5, 4, 3, 2, 1",
+    "gradeLevel": 2,
+    "filter": "upokojenie",
+    "types": [
+      "Upokojenie"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Malá skupina si vyberie bežnú situáciu.",
-      "Bez slov ju predvedie ostatným.",
-      "Trieda háda, čo sa stalo."
-    ]
+      "So žiakmi a žiačkami sa posadíme vzpriamene na stoličku alebo na zem s prekríženými nohami a požiadame ich.",
+      "Následne začneme cvičením 5, 4, 3, 2, novať 5 vecí, ktoré vidia a sústredia sa na ich tvary, farby a ostatné detaily.",
+      "Následne môže zavrieť oči a presunúť pozornosť a pomenovať 4 veci, ktoré cítia v tele hmatom (napr.",
+      "dotyk nôh so zemou, dotyk rúk o oblečenie a pod.)."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 – 5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme vzpriamene na stoličku alebo na zem s prekríženými nohami a požiadame ich, aby sa sústredili na svoj dych, aby dýchali pokojne a hlboko, nadychovali sa nosom a vydychovali ústami. Následne začneme cvičením 5, 4, 3, 2, novať 5 vecí, ktoré vidia a sústredia sa na ich tvary, farby a ostatné detaily. Následne môže zavrieť oči a presunúť pozornosť a pomenovať 4 veci, ktoré cítia v tele hmatom (napr. dotyk nôh so zemou, dotyk rúk o oblečenie a pod.). Potom sa zamerajú a pomenujú 3 veci, ktoré môžu počuť, 2 veci, ktoré môžu cítiť nosom alebo ktorú vôňu si dokážu vybaviť a 1 vec, ktorú môžu cítiť v ústach. Následne sa ešte trikrát zhlboka nadýchnu a pomaly vydýchnu. Potom môžu pomaly otvoriť oči."
   },
   {
-    "id": "rk-034",
-    "title": "Jedna veta, tri nálady",
+    "id": "060",
+    "title": "Farby",
     "gradeLevel": 2,
-    "tempo": "pokojné",
+    "filter": "upokojenie",
     "types": [
-      "Improvizácia",
-      "Spoznávanie sa"
+      "Upokojenie"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Vyberte jednoduchú vetu, napríklad „Dnes idem do školy.“",
-      "Povedzte ju veselo, smutne a nahnevane.",
-      "Všímajte si, ako tón mení význam vety."
-    ]
-  },
-  {
-    "id": "rk-035",
-    "title": "Symbol dnešného dňa",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Tvorenie",
-      "Spoznávanie sa"
+      "Žiakom a žiačkam povieme, že si teraz urobíme spoločne cvičenie, ktoré im môže pomôcť vždy.",
+      "Úlohou je nájsť napr.",
+      "5 žltých vecí okolo nás (alebo zelených, červených…).",
+      "Môžeme obmeniť 2 – 3 farby a uistiť sa tak, že po ukončení cvičenia sme ukotvili našu pozornosť v prítomnosti."
     ],
-    "materials": "Papier a pero",
-    "steps": [
-      "Nakresli jednoduchý symbol, ktorý vystihuje tvoju dnešnú náladu.",
-      "Kto chce, ukáže ho ostatným.",
-      "Jednou vetou vysvetlí jeho význam."
-    ]
-  },
-  {
-    "id": "rk-036",
-    "title": "Dokonči obrázok",
-    "gradeLevel": 2,
-    "tempo": "živé",
-    "types": [
-      "Tvorenie",
-      "Pre zábavu"
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 – 5)?",
+      "Ako ste sa cítili pri tejto aktivite?"
     ],
-    "materials": "Papier a pero",
-    "steps": [
-      "Učiteľ nakreslí jednoduchý náhodný tvar.",
-      "Každý ho premení na vlastný obrázok.",
-      "Pozrite si, koľko rôznych nápadov vzniklo."
-    ]
+    "details": "Žiakom a žiačkam povieme, že si teraz urobíme spoločne cvičenie, ktoré im môže pomôcť vždy, keď cítia v tele napätie alebo sa nevedia sústrediť. Úlohou je nájsť napr. 5 žltých vecí okolo nás (alebo zelených, červených…). Môžeme obmeniť 2 – 3 farby a uistiť sa tak, že po ukončení cvičenia sme ukotvili našu pozornosť v prítomnosti."
   },
   {
-    "id": "rk-037",
-    "title": "Najhoršia rada",
+    "id": "061",
+    "title": "Napätie a uvoľnenie",
     "gradeLevel": 2,
-    "tempo": "pokojné",
+    "filter": "upokojenie",
     "types": [
-      "Pre zábavu",
-      "Rozhovor"
+      "Upokojenie"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Učiteľ zadá situáciu, napríklad „Zaspal som do školy.“",
-      "Vymyslite čo najhoršiu radu, akú by ste mohli dostať.",
-      "Najvtipnejšie rady povedzte nahlas."
-    ]
-  },
-  {
-    "id": "rk-038",
-    "title": "Zakázané slovo",
-    "gradeLevel": 2,
-    "tempo": "živé",
-    "types": [
-      "Pre zábavu",
-      "Rozhovor"
+      "So žiakmi a žiačkami sa posadíme vzpriamene na stoličku alebo na zem s prekríženými nohami.",
+      "Necháme ich zavrieť oči a zhlboka sa nadýchnuť nosom.",
+      "Pri nádychu nech zatnú päste, stisnú brušné svaly, zdvihnú ramená až k ušiam a napnú celé telo.",
+      "Následne žiaci a žiačky vydychujú ústami, popritom pomaly uvoľnia napätie v tele a ramená nechajú voľne klesať."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Vyberte bežné zakázané slovo, napríklad „áno“.",
-      "Jeden žiak kladie druhému otázky.",
-      "Odpovedajúci sa musí vyhnúť zakázanému slovu."
-    ]
-  },
-  {
-    "id": "rk-039",
-    "title": "Niečo, čo o mne neviete",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Spoznávanie sa",
-      "Rozhovor"
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako sa vaše telo cíti po tomto cvičení (môžu ukázať na prstoch od 1 – 5)?",
+      "Ako ste sa cítili pri napätí a ako pri uvoľnení?"
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Každý si premyslí jednu jednoduchú vec, ktorú o ňom spolužiaci možno nevedia.",
-      "Kto chce, povie ju nahlas.",
-      "Hľadáme prekvapivé spoločné záujmy."
-    ]
+    "details": "So žiakmi a žiačkami sa posadíme vzpriamene na stoličku alebo na zem s prekríženými nohami. Necháme ich zavrieť oči a zhlboka sa nadýchnuť nosom. Pri nádychu nech zatnú päste, stisnú brušné svaly, zdvihnú ramená až k ušiam a napnú celé telo, takto nech vydržia pár sekúnd. Následne žiaci a žiačky vydychujú ústami, popritom pomaly uvoľnia napätie v tele a ramená nechajú voľne klesať. Tento cvik opakujeme trikrát."
   },
   {
-    "id": "rk-040",
-    "title": "Postav sa, ak...",
+    "id": "062",
+    "title": "Dostihy",
     "gradeLevel": 2,
-    "tempo": "živé",
+    "filter": "zvysenie-energie",
     "types": [
-      "Spoznávanie sa",
       "Pohyb"
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Učiteľ povie napríklad: „Postav sa, ak máš rád cestovanie.“",
-      "Tí, ktorých sa veta týka, sa postavia.",
-      "Pokračujte ďalšími otázkami."
-    ]
-  },
-  {
-    "id": "rk-041",
-    "title": "Odhadni číslo",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Kvíz",
-      "Premýšľanie"
+      "Žiaci sedia v kruhu.",
+      "Hráme sa na dostihy.",
+      "Každý žiak/každá žiačka predstavuje koňa na dostihoch.",
+      "Jeden zo žiakov/žiačok alebo učiteľ/učiteľka je hlásateľ/hlásateľka."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Učiteľ položí otázku, na ktorú sa dá odpovedať číslom.",
-      "Každý si v hlave zvolí svoj odhad.",
-      "Porovnajte odpovede a prezraďte správne číslo."
-    ]
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky sedia v kruhu. Hráme sa na dostihy. Každý žiak/každá žiačka predstavuje koňa na dostihoch. Jeden zo žiakov/žiačok alebo učiteľ/učiteľka je hlásateľ/hlásateľka. Na signál „Pripraviť sa, pozor, štart“ koníky vyštartujú. Žiaci si rýchlo v pravidelných intervaloch plieskajú na stehná. Vopred sa dohodneme na jednotlivých pohyboch, ktoré budeme realizovať na dané slovo, ktoré vysloví hlásateľ. Napr. MOST – búchame rukami po zemi, LÍSTIE – šúchame dlaňami, BLATO – štípeme sa jemne do líčok a vydávame pri tom zvuky, DÁŽĎ – lúskame prstami, TRIBÚNA – kričíme „Do toho, do toho“ atď. Medzi jednotlivými pokynmi si plieskame na stehná – cválame. Pred cieľom hlásateľ vyhlási: „Blíži sa cieľ!“ Zrýchlime tempo a v cieli vykríkneme: „Hurááááá!“ Nakoniec si zvykneme zakričať: A hurá na matematiku, čítanie, písanie atď."
   },
   {
-    "id": "rk-042",
-    "title": "Rohy odpovedí",
+    "id": "063",
+    "title": "Magnetky",
     "gradeLevel": 2,
-    "tempo": "živé",
+    "filter": "zvysenie-energie",
     "types": [
-      "Kvíz",
       "Pohyb"
     ],
-    "materials": "Bez pomôcok",
+    "materials": "triangel, iný vhodný hudobný nástroj alebo zdroj zvuku",
     "steps": [
-      "Štyri rohy triedy predstavujú odpovede A, B, C a D.",
-      "Učiteľ položí otázku.",
-      "Každý sa presunie k odpovedi, ktorú považuje za správnu."
-    ]
-  },
-  {
-    "id": "rk-043",
-    "title": "Otázka dňa",
-    "gradeLevel": 2,
-    "tempo": "pokojné",
-    "types": [
-      "Žiaci vedú aktivitu",
-      "Rozhovor"
+      "Žiakom a žiačkam na úvod povieme, aby sa pohybovali po vyznačenom priestore tak.",
+      "Môžu často meniť smer a prekvapiť tak seba aj ostatných.",
+      "Nesmú však pri tom do nikoho vrážať a nikoho sa dotknúť.",
+      "Môžeme pridať aj pravidlo, že všetko prebieha bez slov."
     ],
-    "materials": "Bez pomôcok",
-    "steps": [
-      "Jeden žiak vymyslí otázku, na ktorú môže odpovedať celá trieda.",
-      "Vyberie niekoľkých spolužiakov, ktorí odpovedia.",
-      "Na záver odpovie aj on."
-    ]
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakom a žiačkam na úvod povieme, aby sa pohybovali po vyznačenom priestore tak, aby ho celý zaplnili (žiadne miesto by nemalo zostať prázdne). Môžu často meniť smer a prekvapiť tak seba aj ostatných. Nesmú však pri tom do nikoho vrážať a nikoho sa dotknúť. Môžeme pridať aj pravidlo, že všetko prebieha bez slov. Potom nasledujú tri fázy hry a v každej pribudne jedno ďalšie pravidlo. V každej fáze by mali prebehnúť najmenej dve opakovania. Celkovú dĺžku hry prispôsobujeme potrebám a nálade v skupine. Fáza 1: V prvej fáze striedame rýchlosť chodenia (čo najrýchlejšie, čo najpomalšie). Fáza 2: Žiakom a žiačkam povieme: „Keď cinknem a vykríknem číslo, vašou úlohou bude urobiť skupinky s daným počtom ľudí.“ Fáza 3: Žiakom a žiačkam povieme: „Keď cinknem, vykríknem nielen počet ľudí, ale aj časti tela, ktorými sa musíte v skupine dotýkať."
   },
   {
-    "id": "rk-044",
-    "title": "Minútová výzva",
+    "id": "064",
+    "title": "Sochy",
     "gradeLevel": 2,
-    "tempo": "živé",
+    "filter": "zvysenie-energie",
     "types": [
-      "Žiaci vedú aktivitu",
       "Pohyb"
     ],
+    "materials": "Notebook/telefón, rôzne pesničky a gong alebo iný zdroj zvuku na oznamovanie signálu „zamrzni“",
+    "steps": [
+      "Za hrania hudby či spievania pesničky žiaci a žiačky tancujú alebo sa pohybujú v triede.",
+      "Pri zaznení signálu sa musia všetci premeniť na sochy a „zamrznúť“ v polohe, v ktorej sa práve nachádzajú.",
+      "Takto musia bez pohnutia vydržať kým sa znova nerozoznie pesnička.",
+      "Podľa atmosféry v skupine môžeme použiť dynamickú bláznivú hudbu alebo jemnú klasiku."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Za hrania hudby či spievania pesničky žiaci a žiačky tancujú alebo sa pohybujú v triede. Pri zaznení signálu sa musia všetci premeniť na sochy a „zamrznúť“ v polohe, v ktorej sa práve nachádzajú. Takto musia bez pohnutia vydržať kým sa znova nerozoznie pesnička. Podľa atmosféry v skupine môžeme použiť dynamickú bláznivú hudbu alebo jemnú klasiku, prípadne hudobné štýly meniť v rámci jednej hry."
+  },
+  {
+    "id": "065",
+    "title": "Vírusy a vitamín",
+    "gradeLevel": 2,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "Malé papieriky a pero: jeden lístok „vitamín“, ostatné „vírus“.",
+    "steps": [
+      "Rozdajte tajné roly: jeden vitamín, ostatní vírusy. Rolu nikomu neukazujte.",
+      "Pomaly sa prechádzajte. Vitamín nenápadne žmurká na ostatných.",
+      "Vírus, na ktorý žmurkne, odíde na okraj a sleduje hru bez prezradenia vitamínu.",
+      "Po dvoch minútach skúste uhádnuť vitamín. Vymeňte roly a zahrajte druhé kolo."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Na malé kúsky papiera napíšte raz „vitamín“ a na ostatné „vírus“. Pre nečítajúcich použite raz slniečko a na ostatných bodku; význam vopred vysvetlite. Lístky premiešajte a rozdajte. Deti sa pomaly pohybujú vo voľnom priestore. Vitamín žmurknutím posiela vírusy na okraj hry. Po dvoch minútach dajte zostávajúcim hráčom jeden spoločný pokus uhádnuť vitamín, potom rolu odhaľte. Dve krátke kolá a reflexia sa zmestia do desiatich minút."
+  },
+  {
+    "id": "066",
+    "title": "Pohybujúci sa papier",
+    "gradeLevel": 2,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "papier A4",
+    "steps": [
+      "Hra sa začína tým, že v ruke držíme papier.",
+      "Žiakov a žiačky na začiatku upozorníme na to, aby boli počas hry ohľaduplní.",
+      "Následne začneme s papierom ľubovoľne pohybovať a úlohou žiakov je napodobňovať pohyb papiera.",
+      "Môžeme ho skladať, poskakovať ním, pohybovať zboka na bok, pokrčiť ho aj vyhadzovať do vzduchu."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Hra sa začína tým, že v ruke držíme papier. Žiakov a žiačky na začiatku upozorníme na to, aby boli počas hry ohľaduplní a aby pri prudších pohyboch nezranili spolužiaka/spolužiačku v blízkosti. Následne začneme s papierom ľubovoľne pohybovať a úlohou žiakov je napodobňovať pohyb papiera. Môžeme ho skladať, poskakovať ním, pohybovať zboka na bok, pokrčiť ho aj vyhadzovať do vzduchu. Po chvíli môžeme vybrať dobrovoľníka/dobrovoľníčku, ktorý/ ktorá bude určovať pohyby papiera pre zvyšok triedy."
+  },
+  {
+    "id": "067",
+    "title": "Zelení, modrí, červení",
+    "gradeLevel": 2,
+    "filter": "zvysenie-energie",
+    "types": [
+      "Pohyb"
+    ],
+    "materials": "malé predmety v troch farbách (farebné ústrižky, lentilky, korálky a pod.)",
+    "steps": [
+      "Náhodne pridelíme každému žiakovi a žiačke jednu z troch farieb (napr.",
+      "rozdáme farebné ústrižky, cukríky/lentilky, korálky a pod., najlepšie tak, aby mali pred sebou niečo.",
+      "Následne dávame žiakom a žiačkam inštrukcie, napr.",
+      "modrí – pravá ruka hore, zelení – postaviť sa, modrí – postaviť sa, zelení – sadnúť, červení – obe ruky hore a pod."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Náhodne pridelíme každému žiakovi a žiačke jednu z troch farieb (napr. rozdáme farebné ústrižky, cukríky/lentilky, korálky a pod., najlepšie tak, aby mali pred sebou niečo, čo im ich farbu pripomenie). Následne dávame žiakom a žiačkam inštrukcie, napr. modrí – pravá ruka hore, zelení – postaviť sa, modrí – postaviť sa, zelení – sadnúť, červení – obe ruky hore a pod. Žiaci a žiačky sa tak musia sústrediť na inštrukcie a zároveň sa dostávajú do pohybu. Dobre padne, aj keď žiakov a žiačky rozosmejeme – napr. dáme inštrukciu postaviť sa tým, čo už stoja alebo necháme jednu skupinu, aby dlhšie striedavo dvíhala raz jednu a raz druhú ruku a pod. Keď žiaci a žiačky aktivitu už dobre poznajú, môže inštrukcie dávať vybraný žiak/žiačka."
+  },
+  {
+    "id": "068",
+    "title": "Okamihy radosti a vďačnosti",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Jeden žiak vymyslí jednoduchú krátku výzvu pre celú triedu.",
-      "Vysvetlí pravidlá.",
-      "Trieda výzvu spoločne splní."
-    ]
+      "So žiakmi a žiačkami sa posadíme do kruhu.",
+      "Úlohou každého dieťaťa (je vhodné, aby sme sa zapojili aj my) je zamyslieť sa nad otázkami: Čo vás v poslednom týždni…",
+      "Za čo ste vďační?",
+      "Ako ste k tomu prispeli?"
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu. Úlohou každého dieťaťa (je vhodné, aby sme sa zapojili aj my) je zamyslieť sa nad otázkami: Čo vás v poslednom týždni potešilo? Za čo ste vďační? Ako ste k tomu prispeli? Na čo sa môžete tešiť nasledujúce dni? Tí, ktorí chcú, zdieľajú svoje odpovede. Dbáme na to, aby možnosť vyjadriť sa dostal každý, kto má záujem. Ak je to vhodné, môžeme so zdieľaním začať my sami, prípadne svojím zdieľaním kruh ukončiť. V prípade, že je to komfortnejšie, si môžu žiaci a žiačky zdieľať odpovede vo dvojiciach/malých skupinkách. Záver: Žiakom a žiačkam poďakujeme, že sa zapojili do zdieľania. Povieme im, že na to, aby sme sa v živote cítili dobre a spokojne, je dôležité všímať si aj to, kedy sa cítime spokojní, máme radosť alebo sme vďační. To nám pomáha zvládnuť aj chvíle a situácie, ktoré sú pre nás ťažšie."
+  },
+  {
+    "id": "069",
+    "title": "Zdieľanie úspechov a cieľov",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "So žiakmi a žiačkami sa posadíme do kruhu.",
+      "Každý žiak/žiačka zdieľa jeden úspech z predchádzajúceho dňa alebo týždňa a stanoví si cieľ na dnešný deň.",
+      "So žiakmi a žiačkami sa posadíme do kruhu. Každý žiak/žiačka zdieľa jeden úspech z predchádzajúceho dňa alebo týždňa."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Bola nejaká časť aktivity pre vás náročná?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu. Každý žiak/žiačka zdieľa jeden úspech z predchádzajúceho dňa alebo týždňa a stanoví si cieľ na dnešný deň."
+  },
+  {
+    "id": "070",
+    "title": "Čo chcú deti?",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "podľa predstáv a návrhov žiakov a žiačok",
+    "steps": [
+      "Žiakov a žiačok sa spýtame, čo by malo podľa nich byť náplňou ranných kruhov – čomu by sa na nich radi venovali.",
+      "Táto činnosť môže byť úplne ľubovoľná (napr.",
+      "spoločné raňajky, spoločný́ čaj, počúvanie hudby, tanec, cvičenie, čítanie spoločnej knihy…).",
+      "Je možné zozbierať viacero návrhov a ranné kruhy obmieňať tak, aby sa aktivity vystriedali."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Bolo pre vás ľahké alebo ťažké prichádzať s nápadmi?"
+    ],
+    "details": "Žiakov a žiačok sa spýtame, čo by malo podľa nich byť náplňou ranných kruhov – čomu by sa na nich radi venovali, a takéto ranné kruhy budeme pravidelne implementovať. Táto činnosť môže byť úplne ľubovoľná (napr. spoločné raňajky, spoločný́ čaj, počúvanie hudby, tanec, cvičenie, čítanie spoločnej knihy…). Je možné zozbierať viacero návrhov a ranné kruhy obmieňať tak, aby sa aktivity vystriedali, prípadne môže aj každý́ žiak/žiačka navrhnúť svoj vlastný́ ranný́ kruh – možností je neúrekom."
+  },
+  {
+    "id": "071",
+    "title": "Plánovanie dňa",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "So žiakmi a žiačkami sa posadíme do kruhu.",
+      "Spoločne si naplánujeme hlavné aktivity a úlohy na deň, pričom všetci, ktorí chcú, prispievajú svojimi návrhmi.",
+      "Ak je nápadov viac, ako je možné v daný deň zrealizovať, môžeme si niektoré z nich odložiť na nasledujúce dni v týždni."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Bolo pre vás ľahké alebo ťažké prichádzať s nápadmi?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu. Spoločne si naplánujeme hlavné aktivity a úlohy na deň, pričom všetci, ktorí chcú, prispievajú svojimi návrhmi. Ak je nápadov viac, ako je možné v daný deň zrealizovať, môžeme si niektoré z nich odložiť na nasledujúce dni v týždni, alebo o nápadoch hlasovať v rámci triedy."
+  },
+  {
+    "id": "072",
+    "title": "Moja záchranná sieť",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Papier a ceruzka pre každého.",
+    "steps": [
+      "Nakreslite seba doprostred papiera a okolo seba tri prázdne krúžky.",
+      "Do krúžkov napíšte alebo nakreslite ľudí, ktorým dôverujete a môžete ich požiadať o pomoc.",
+      "Vyberte jednu osobu a premyslite si vetu, ktorou by ste ju požiadali o pomoc.",
+      "Kto chce, môže svoju vetu povedať. Mená ani osobné zážitky zdieľať nemusíte."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Prečo ste nakreslili práve tohto človeka/ týchto ľudí?"
+    ],
+    "details": "Vysvetlite, že záchrannú sieť tvoria ľudia, ktorí nás podporia v náročnej chvíli. Na obyčajný papier si každý nakreslí seba a okolo krúžky pre dôveryhodných ľudí. Netreba vyplniť všetky krúžky; možno pridať ďalšie. Ak niekto nevie koho uviesť, ponúknite mu súkromne pomoc s hľadaním dostupného dospelého v škole. Vetu na požiadanie o pomoc možno nacvičiť aj na vymyslenej situácii. Kresba zostáva dieťaťu."
+  },
+  {
+    "id": "073",
+    "title": "Príbeh o pokrčenej bankovke",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Kúsok papiera s napísanou hodnotou „10 €“.",
+    "steps": [
+      "Ukážte papierovú bankovku s hodnotou 10 € a spýtajte sa, akú má v našej hre hodnotu.",
+      "Papier pokrčte a opäť ho rozložte. Zmenilo pokrčenie napísanú hodnotu?",
+      "Vysvetlite: „Ani človek nestráca svoju hodnotu tým, že sa mu niečo nepodarí.“",
+      "V dvojiciach vymyslite povzbudivú vetu pre kamaráta po neúspechu a dobrovoľne ju zdieľajte."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Pripomína tento príbeh niekomu z vás situáciu z vášho života?"
+    ],
+    "details": "Použite obyčajný papier s označením 10 € ako model bankovky. Po pokrčení ukážte, že napísaná hodnota zostala rovnaká. Prirovnanie slúži na krátky rozhovor o tom, že chyba ani nepríjemná skúsenosť neurčujú hodnotu človeka. Nie je potrebné čítať ďalší príbeh. Dvojiciam dajte dve minúty na povzbudenie vymysleného kamaráta, ktorému sa nepodarila úloha. Osobné bolestivé zážitky nevyžadujte."
+  },
+  {
+    "id": "074",
+    "title": "Ja sa bojím, ale...",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "pero, papier, tabuľa/flipchartový papier a krieda/fixka na flipchart",
+    "steps": [
+      "Začneme krátkym rozhovorom o tom, že strach je prirodzená a užitočná emócia.",
+      "Všetci sa niečoho bojíme a niektoré svoje strachy sme už zvládli.",
+      "Budeme sa teraz rozprávať o tom, z čoho majú ľudia v detstve strach.",
+      "Môžeme vymenovať viac možností – športové aktivity, spoločenské stretnutia, prírodné javy, veci, atď."
+    ],
+    "reflection": [
+      "Koľko svojich strachov ste už prekonali?",
+      "Použili ste pri nich viaceré spomenuté stratégie?",
+      "Dali by sa niektoré z týchto stratégií použiť aj na strachy, ktoré máte dnes?"
+    ],
+    "details": "Začneme krátkym rozhovorom o tom, že strach je prirodzená a užitočná emócia. Všetci sa niečoho bojíme a niektoré svoje strachy sme už zvládli. Budeme sa teraz rozprávať o tom, z čoho majú ľudia v detstve strach. Môžeme vymenovať viac možností – športové aktivity, spoločenské stretnutia, prírodné javy, veci, atď. Napríklad môžu mať strach z bicyklovania, zo stretnutia s novými ľuďmi, z tmy a pod. Všetci dostanú následne 3 – 5 minút na to, aby si zapísali na papier to, čoho sa v detstve báli a teraz už z toho strach nemajú. Zároveň si majú zapísať aj to, čo im pomohlo strach prekonať. Po uplynutí času na zapisovanie sa žiaci podelia o svoje detské strachy, ale i o postupy a stratégie, ktoré im pomohli strachy prekonať. Zapisujeme tieto stratégie na tabuľu/flipchart."
+  },
+  {
+    "id": "075",
+    "title": "Štvorlístok",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "Jeden papier a pero pre každú skupinu štyroch.",
+    "steps": [
+      "Vytvorte štvorice. Na papier nakreslite štyri ovály spojené ako štvorlístok.",
+      "Každý do jedného lístka napíše svoje meno a jednu schopnosť, ktorou môže prispieť skupine.",
+      "Po jednom uveďte krátky príklad, kedy ste túto schopnosť využili.",
+      "Vymyslite spoločnú úlohu, pri ktorej by sa vaše schopnosti dopĺňali."
+    ],
+    "reflection": [
+      "Bolo ťažké nájsť ľudí s rôznymi zručnosťami, alebo sa vám tí, ktorí vás dopĺňajú, hľadali ľahko?",
+      "Prekvapilo vás niečo, alebo dozvedeli ste sa o niekom niečo, čo ste predtým nevedeli?",
+      "Dokázali ste nájsť príklad, ktorý by ukázal, že máte danú zručnosť?"
+    ],
+    "details": "Na nákres stačia štyri ovály; nemusí sa vystrihovať. Každý pomenuje jednu svoju schopnosť, napríklad počúvanie, kreslenie, organizovanie alebo vysvetľovanie. Skupina má tri minúty na zdieľanie príkladov a dve na vymyslenie spoločnej úlohy. Jedna či dve skupiny predstavia nápad ostatným. Pri inom počte detí vytvorte trojicu alebo päticu a nakreslite zodpovedajúci počet lístkov."
+  },
+  {
+    "id": "076",
+    "title": "Citáty",
+    "gradeLevel": 2,
+    "filter": "zvladanie-vyziev",
+    "types": [
+      "Zvládanie výziev"
+    ],
+    "materials": "vhodné citáty",
+    "steps": [
+      "Prineste so sebou zaujímavý citát alebo sériu citátov.",
+      "Porozprávajte sa o nich.",
+      "Hovorte spolu o nich.",
+      "Príklady citátov: „Pozorujte svet okolo seba s rozžiarenými očami."
+    ],
+    "reflection": [
+      "Ako sa vám páči tento citát/y?",
+      "Je pre vás zrozumiteľný a jasný?",
+      "Súhlasím s ním alebo nie?"
+    ],
+    "details": "Prineste so sebou zaujímavý citát alebo sériu citátov. Porozprávajte sa o nich. Hovorte spolu o nich. Príklady citátov: „Pozorujte svet okolo seba s rozžiarenými očami, pretože tie najväčšie tajomstvá sa vždy skrývajú na tých najnepravdepodobnejších miestach. Tí, ktorí neveria na zázraky, ich nikdy neuvidia.” Roald Dahl v diele Charlie a továreň na čokoládu. „Byť iný ako ostatní nie je zlé. Znamená to, že si dostatočne odvážny byť sám sebou.“ J.K. Rowlingová cez postavu Luny Lovegoodovej v diele Harry Potter. „Nedovoľ, aby ťa to, čo nedokážeš, zastavilo v tom, čo urobiť dokážeš.“ – John Wooden „Urob čo môžeš, s tým, čo máš, tam, kde si.“ – Theodore Roosevelt „Nikto nie je dokonalý – práve preto sú na ceruzkách gumy.“"
+  },
+  {
+    "id": "077",
+    "title": "Kreslenie na chrbát",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "relaxačná hudba",
+    "steps": [
+      "Žiaci sedia v kruhu tak, že majú pred sebou chrbát spolužiaka/spolužiačky.",
+      "Počas znenia relaxačnej hudby každé dieťa kreslí na chrbát spolužiaka/spolužiačky sediaceho/sediacej pred ním.",
+      "Kreslíme jednoduché obrázky, písmená, číslice, smajlíky atď.",
+      "Môžeme postupne písať nejaké slovo a spolužiak/ spolužiačka sa ho snaží identifikovať."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo bolo príjemnejšie, nechať si na chrbát kresliť alebo kresliť druhému?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci sedia v kruhu tak, že majú pred sebou chrbát spolužiaka/spolužiačky. Počas znenia relaxačnej hudby každé dieťa kreslí na chrbát spolužiaka/spolužiačky sediaceho/sediacej pred ním. Kreslíme jednoduché obrázky, písmená, číslice, smajlíky atď. Môžeme postupne písať nejaké slovo a spolužiak/ spolužiačka sa ho snaží identifikovať. Môžeme kresliť oboma rukami naraz (napr. tvar srdca), čím zapájame a aktivizujeme obe mozgové hemisféry. Aktivita je zameraná na upokojenie, vzájomné precítenie, uvedomovanie si dotyku druhého. Alternatíva: ak vnímame, že by dotyky v takomto usporiadaní sedenia neboli pre všetkých príjemné, žiaci môžu vytvoriť dvojice a striedať sa pri kreslení."
+  },
+  {
+    "id": "078",
+    "title": "Papierová guľovačka",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "papiere, perá",
+    "steps": [
+      "Každý žiak/každá žiačka napíše svoje meno na papier.",
+      "Papier pokrčí.",
+      "Žiakov/ žiačky zaktivizujeme tak, že sa zahráme papierovú „guľovačku“.",
+      "Pustíme hudbu."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Každý žiak/každá žiačka napíše svoje meno na papier. Papier pokrčí. Žiakov/ žiačky zaktivizujeme tak, že sa zahráme papierovú „guľovačku“. Pustíme hudbu. Na hudbu sa guľujeme, keď hudba prestane hrať, každý sa premení na sochu. Každý žiak/každá žiačka si následne na pokyn nájde jednu papierovú guľu a posadíme sa do kruhu. Žiaci si prečítajú meno spolužiaka na papieriku. Majú za úlohu dotyčnému spolužiakovi povedať niečo pekné, príjemné, pozitívne."
+  },
+  {
+    "id": "079",
+    "title": "Zebra",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "počítač, notebook, pripojenie na internet, videoprojektor, video: https://www. youtube.com/watch?v=n5yn7V5QOAE",
+    "steps": [
+      "Žiakom a žiačkam pustíme video prostredníctvom priloženého odkazu.",
+      "Žiaci aktivitu vykonajú podľa dohodnutých pravidiel.",
+      "Na záver sa trieda krátko podelí o svoj zážitok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Menili sa vaše emócie v priebehu aktivity?"
+    ],
+    "details": "Žiakom a žiačkam pustíme video prostredníctvom priloženého odkazu."
+  },
+  {
+    "id": "080",
+    "title": "Hra dôvery",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "stoličky, lavica, šatka",
+    "steps": [
+      "Žiaci spolu urobia v triede prekážkovú dráhu.",
+      "Môžu používať všetko, čo majú v triede, ako napríklad stoličky, lavice, tašky a pod.",
+      "Jeden žiak/jedna žiačka bude mať zaviazané oči šatkou, aby nič nevidel/nevidela a bude navigovaný/navigovaná ostatnými.",
+      "Ostatní žiaci stoja v kruhu okolo žiaka/žiačky so šatkou."
+    ],
+    "reflection": [
+      "Čo vás na dnešnej aktivite najviac zaujalo a prečo?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Menili sa vaše emócie v priebehu aktivity?"
+    ],
+    "details": "Žiaci a žiačky spolu urobia v triede prekážkovú dráhu. Môžu používať všetko, čo majú v triede, ako napríklad stoličky, lavice, tašky a pod. Jeden žiak/jedna žiačka bude mať zaviazané oči šatkou, aby nič nevidel/nevidela a bude navigovaný/navigovaná ostatnými. Ostatní žiaci stoja v kruhu okolo žiaka/žiačky so šatkou. Trochu ho/ju roztočia v kruhu, aby nevedel/nevedela, kde kto stojí. Potom si vyberie niekoho, kto bude pre neho/ ňu navigátor. Navigátor riadi nevidiaceho spolužiaka/spolužiačku cez rôzne prekážky v triede. To, aké prekážky budú mať na dráhe, je na navigátorovi, ako aj to, čo objaví so spolužiakom/spolužiačkou. Keď dráhu prejdú, žiaci a žiačky sa vymenia. Hra končí, keď sa všetci vystriedali v role navigátora aj navigovaného."
+  },
+  {
+    "id": "081",
+    "title": "Dve pravdy a lož",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "papier, pero",
+    "steps": [
+      "Každý napíše na kúsok papiera o sebe dva pravdivé a jeden nepravdivý výrok.",
+      "Papieriky sa dajú do jednej nádoby/vrecka a postupne sa losujú.",
+      "Žiaci hádajú 2 informácie: kto je autorom a ktorý výrok je lož.",
+      "Druhou možnosťou je, že žiaci vedia, kto papierik písal, čiže hádajú iba nepravdivú informáciu."
+    ],
+    "reflection": [
+      "Čo vás na dnešnej aktivite najviac zaujalo a prečo?",
+      "Ako ste sa cítili pri tejto aktivite?",
+      "Bolo náročné zistiť, čo bola lož a čo pravda?"
+    ],
+    "details": "Každý napíše na kúsok papiera o sebe dva pravdivé a jeden nepravdivý výrok. Papieriky sa dajú do jednej nádoby/vrecka a postupne sa losujú. Žiaci hádajú 2 informácie: kto je autorom a ktorý výrok je lož. Druhou možnosťou je, že žiaci vedia, kto papierik písal, čiže hádajú iba nepravdivú informáciu."
+  },
+  {
+    "id": "082",
+    "title": "Dobrosrdečná víla",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "farebné fixky, farebné kartičky (štvorce/obdĺžniky vystrihnuté z farebných papierov), krabica",
+    "steps": [
+      "Žiakom a žiačkam povieme, že ich úlohou je napísať svoje meno na papier alebo na farebnú kartičku.",
+      "Následne si kartičky z krabice ťahajú, nemôžu však nikomu prezradiť, aké meno si vytiahli.",
+      "Následne žiakom a žiačkam vysvetlíme, že ich úlohou bude v ten deň, alebo cez celý týždeň.",
+      "Môže to napríklad znamenať, že budú dávať pozor na toho druhého a pomáhať mu/jej v tom, čo bude potrebovať."
+    ],
+    "reflection": [
+      "Koho ste si vytiahli – oho dobrosrdečnou vílou ste boli?",
+      "Prišli ste počas dňa na to, kto je vašou dobrosrdečnou vílou?",
+      "Ako sa vám páčila táto aktivita?"
+    ],
+    "details": "Žiakom a žiačkam povieme, že ich úlohou je napísať svoje meno na papier alebo na farebnú kartičku, papier poskladať a vložiť do krabice. Následne si kartičky z krabice ťahajú, nemôžu však nikomu prezradiť, aké meno si vytiahli. Následne žiakom a žiačkam vysvetlíme, že ich úlohou bude v ten deň, alebo cez celý týždeň, byť dobrosrdečnou vílou toho, koho meno si vytiahli. Môže to napríklad znamenať, že budú dávať pozor na toho druhého a pomáhať mu/jej v tom, čo bude potrebovať, brániť ho/ju, láskavo sa k nemu/nej správať. Ako učitelia/učiteľky si vytvoríme zoznam, kto je koho dobrosrdečná víla. Cez deň, alebo týždeň, sledujeme žiakov a žiačky, či naozaj dodržiavajú pokyny. Na rannom kruhu na konci dňa, alebo nasledujúci deň, nasleduje vyhodnotenie a reflexia."
+  },
+  {
+    "id": "083",
+    "title": "Zážitky",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiakom a žiačkam vysvetlíme, že si dnes porozprávame o zážitkoch z prázdnin/víkendu/predchádzajúceho dňa.",
+      "Túto aktivitu môžeme robiť v štyroch rôznych variáciách: Variácia 1 – Nadpis: Každé dieťa vymyslí nadpis svojmu zážitku.",
+      "Cieľom je ho vystihnúť a zároveň vymyslieť zaujímavý nadpis, aby sa ostatní chceli dozvedieť viac.",
+      "Potom môže nasledovať kolo otázok od spolužiakov/spolužiačok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakom a žiačkam vysvetlíme, že si dnes porozprávame o zážitkoch z prázdnin/víkendu/predchádzajúceho dňa, možno však trochu inak, ako sú zvyknutí. Túto aktivitu môžeme robiť v štyroch rôznych variáciách: Variácia 1 – Nadpis: Každé dieťa vymyslí nadpis svojmu zážitku. Cieľom je ho vystihnúť a zároveň vymyslieť zaujímavý nadpis, aby sa ostatní chceli dozvedieť viac. Potom môže nasledovať kolo otázok od spolužiakov/spolužiačok. V tomto bode má každý určený počet otázok, pomocou ktorých má zistiť čo najviac informácií o zážitkoch toho druhého. Variácia 2 – Jedno slovo: Každé dieťa vymyslí jedno slovo, ktoré vystihuje jeho zážitok. Táto variácia pomáha žiakom a žiačkam taktiež uvedomovať si, ktoré slová sú v našej komunikácii kľúčové."
+  },
+  {
+    "id": "084",
+    "title": "Podobnosť a odlišnosť",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "papiere, ceruzky",
+    "steps": [
+      "Žiakov a žiačky rozdelíme náhodne do dvojíc.",
+      "Dvojice majú za úlohu nájsť 5 vecí, ktoré majú spoločné a 5 vecí, v ktorých sa líšia.",
+      "Môžu si pomôcť okruhmi tém: rodina, zábava, krúžky, predmety v škole, navštívené krajiny, hudba a pod."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiakov a žiačky rozdelíme náhodne do dvojíc. Dvojice majú za úlohu nájsť 5 vecí, ktoré majú spoločné a 5 vecí, v ktorých sa líšia. Môžu si pomôcť okruhmi tém: rodina, zábava, krúžky, predmety v škole, navštívené krajiny, hudba a pod."
+  },
+  {
+    "id": "085",
+    "title": "Hoď kockou",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Hracia kocka; prípadne šesť papierikov s číslami 1–6.",
+    "steps": [
+      "V dvojiciach si striedavo hoďte kockou alebo vytiahnite číslo od 1 do 6.",
+      "1: Čo ťa baví? 2: Čo sa ti podarilo? 3: Za čo chceš niekomu poďakovať?",
+      "4: Čo by si sa chcel naučiť? 5: Ako rád oddychuješ? 6: Čo môžeme spraviť spolu?",
+      "Odpovedzte na otázku svojho čísla. Po dvoch kolách zdieľajte dobrovoľne jeden postreh."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Šesť otázok je uvedených priamo v krátkom návode. Učiteľ ich môže prečítať alebo zobraziť na tabuli. Ak nemáte kocku, na šesť papierikov napíšte čísla 1 až 6 a losujte. Pri jednej kocke losuje učiteľ číslo spoločné pre všetky dvojice. V každej dvojici postupne odpovedia obaja, každý najviac pol minúty; odpoveď možno vynechať. Urobte dve až tri kolá a krátke spoločné zdieľanie."
+  },
+  {
+    "id": "086",
+    "title": "Po mojej pravej ruke sedí…",
+    "gradeLevel": 2,
+    "filter": "posilnenie-vztahov",
+    "types": [
+      "Vzťahy"
+    ],
+    "materials": "Bez pomôcok.",
+    "steps": [
+      "V dvojiciach sa otočte k sebe a chvíľu premýšľajte, čo si na druhom vážite.",
+      "Povedzte partnerovi jednu konkrétnu vec, ktorú na ňom oceňujete.",
+      "Partner poďakuje a úlohy si vymeňte. Na záver dobrovoľne povedzte, aké bolo počuť ocenenie."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Pre rýchlu verziu vytvorte dvojice zo susedov v kruhu. Každý má chvíľu na premyslenie a potom povie konkrétne ocenenie, napríklad: „Vážim si, že si mi včera vysvetlil úlohu.“ Partner poďakuje, potom si úlohy vymenia. Pri nepárnom počte vytvorte jednu trojicu, v ktorej každý ocení osobu po pravici. Kreslenie ani rozdávanie kartičiek nie je potrebné."
+  },
+  {
+    "id": "087",
+    "title": "Náš strom pocitov",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "papierový strom (vopred pripravený vystrihnutý strom z kartónového papiera), bubliny (kruhy) z farebných papierov, lepidlo, fixky",
+    "steps": [
+      "So žiakmi a žiačkami sa posadíme do kruhu a strom z kartónu položíme do stredu kruhu.",
+      "K stromu položíme farebné bubliny.",
+      "Úlohou každého dieťaťa je zobrať si 1 bublinu.",
+      "Následne môžu ísť žiaci a žiačky do ktorejkoľvek časti triedy a fixkou alebo perom napísať, ako sa majú."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Čo ste si do svojej bublinky napísali?"
+    ],
+    "details": "So žiakmi a žiačkami sa posadíme do kruhu a strom z kartónu položíme do stredu kruhu. K stromu položíme farebné bubliny. Úlohou každého dieťaťa je zobrať si 1 bublinu. Následne môžu ísť žiaci a žiačky do ktorejkoľvek časti triedy a fixkou alebo perom napísať, ako sa majú, čo cítia/čo prežívajú. Kto bude hotový, nalepí svoju bublinu na strom. Žiaci a žiačky si jednotlivé bubliny prezrú samostatne, prípadne môžeme jednotlivé bubliny prečítať nahlas."
+  },
+  {
+    "id": "088",
+    "title": "Škálovanie",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "papiere, ceruzky",
+    "steps": [
+      "Žiaci na prstoch ukážu, ako sa dnes cítia (napr.",
+      "na jednej ruke od 1 do 5, alternatíva môže byť palec – palec hore = super, stred = neviem, dole = zle).",
+      "Žiaci na prstoch ukážu, ako sa dnes cítia (napr. na jednej ruke od 1 do 5."
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "Žiaci a žiačky na prstoch ukážu, ako sa dnes cítia (napr. na jednej ruke od 1 do 5, alternatíva môže byť palec – palec hore = super, stred = neviem, dole = zle)."
+  },
+  {
+    "id": "089",
+    "title": "Emočné karty",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "Karty s obrázkami (napr. Dixit, Eduma karty, Emocionálna záhrada a pod.)",
+    "steps": [
+      "So žiakmi a žiačkami sedíme v kruhu.",
+      "Do vnútra kruhu rozložíme karty.",
+      "Následne sa ich opýtame otázku.",
+      "Ich úlohou je vybrať si kartu, ktorá podľa nich najlepšie vystihuje ich odpoveď."
+    ],
+    "reflection": [
+      "Ako ste sa pri aktivite cítili?",
+      "Čo vás na aktivite najviac zaujalo?"
+    ],
+    "details": "So žiakmi a žiačkami sedíme v kruhu. Do vnútra kruhu rozložíme karty. Následne sa ich opýtame otázku. Ich úlohou je vybrať si kartu, ktorá podľa nich najlepšie vystihuje ich odpoveď. Kto chce, môže následne svoju odpoveď zdieľať s ostatnými. Žiakov a žiačky povzbudíme, aby sa navzájom počúvali s rešpektom a bez prerušovania. Ak je to potrebné, kladieme doplňujúce otázky, aby sme podnietili hlbšie zdieľanie. Príklady otázok: náladu? Prečo? si zažil/a včera. Čo sa stalo? vystihuje, ako sa cíti tvoj kamarát/tvoja kamarátka dnes? karta to vyjadruje? často cítiš v škole. Prečo? situáciu? by si chcel/a viac cítiť doma. Prečo? 8 . K t o r á k a r t a n a j l e p š i e v y s ti h u j e e m ó c i u , ktorú by si chcel/a dnes vyvolať u ostatných?"
+  },
+  {
+    "id": "090",
+    "title": "Kocka emócií",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "hracia kocka, zoznam emócií napísaných na tabuľu",
+    "steps": [
+      "Na úvod priradíme číslam na kocke jednotlivé emócie, napr.",
+      "1 – smútok, 2 – radosť, 3 – hnev, 4 – pokoj, 5 – strach, 6 – nadšenie.",
+      "Môžeme tiež postupne dopĺňať a meniť emócie – nuda, úzkosť, spokojnosť, nervozita, nádej, únava a pod.",
+      "Následne žiaci hádžu kockou."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Hľadali sa vám situácie ľahko?"
+    ],
+    "details": "Na úvod priradíme číslam na kocke jednotlivé emócie, napr. 1 – smútok, 2 – radosť, 3 – hnev, 4 – pokoj, 5 – strach, 6 – nadšenie. Môžeme tiež postupne dopĺňať a meniť emócie – nuda, úzkosť, spokojnosť, nervozita, nádej, únava a pod. Následne žiaci hádžu kockou. Podľa počtu bodiek, ktoré padli na kocke, majú povedať, kedy a v akej situácii sa cítili podobne, a ak to bola nepríjemná emócia, čo im vtedy pomohlo."
+  },
+  {
+    "id": "091",
+    "title": "Ruky I",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "papier, pero",
+    "steps": [
+      "Žiaci si obkreslia ruku na papier.",
+      "Do každého prsta vpisujú odpovede na otázky: 1.Čo ťa dokáže často nahnevať?",
+      "Aké aktivity ti prinášajú radosť?"
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Hľadali sa vám odpovede na otázky ľahko?"
+    ],
+    "details": "Žiaci si obkreslia ruku na papier. Do každého prsta vpisujú odpovede na otázky: 1.Čo ťa dokáže často nahnevať? 2. Aké aktivity ti prinášajú radosť? 3. Z čoho máš strach a chceš to zdieľať s druhými? 4.Kedy si bol/a naposledy smutný/á a z čoho? 5. Kedy, v akých situáciách cítiš pokoj? Následne žiaci tieto informácie zdieľajú v kruhu."
+  },
+  {
+    "id": "092",
+    "title": "Ruky II",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "papier, pero",
+    "steps": [
+      "Žiaci si môžu pripomenúť, ako vyplnili otázky v predchádzajúcom rannom kruhu.",
+      "Opäť si obkreslia ruku na papier.",
+      "Do každého prsta vpisujú odpovede, tentoraz na otázky: na zvládnutie smútku?",
+      "v živote viac pokoja?"
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Inšpiroval vás niektorý spôsob zvládania nepríjemných emócií, ktorý priniesli vaši spolužiaci/spolužiačky?"
+    ],
+    "details": "Žiaci si môžu pripomenúť, ako vyplnili otázky v predchádzajúcom rannom kruhu. Opäť si obkreslia ruku na papier. Do každého prsta vpisujú odpovede, tentoraz na otázky: na zvládnutie smútku? v živote viac pokoja? Následne žiaci tieto informácie zdieľajú v kruhu."
+  },
+  {
+    "id": "093",
+    "title": "Štvorčeky nálady",
+    "gradeLevel": 2,
+    "filter": "praca-s-emociami",
+    "types": [
+      "Emócie"
+    ],
+    "materials": "Papier, pero a malé papierové žetóny.",
+    "steps": [
+      "Na papier nakreslite štyri políčka: radosť, pokoj, smútok a hnev. Farby nie sú potrebné.",
+      "Každý si odtrhne malý žetón z papiera a položí ho k nálade, ktorú práve cíti.",
+      "Žetón môžete položiť aj medzi políčka alebo ho nepoložiť.",
+      "Kto chce, jednou vetou povie, čo by mu dnes pomohlo. Vysvetľovanie nálady je dobrovoľné."
+    ],
+    "reflection": [
+      "Akú náladu/emóciu ste si vybrali?",
+      "Viete prečo sa takto cítite?",
+      "Ako sa vám páčila táto aktivita?"
+    ],
+    "details": "Na jeden čistý papier nakreslite štyri väčšie políčka a označte ich slovami radosť, pokoj, smútok a hnev; môžete pridať jednoduché tváre. Príprava zaberie približne minútu. Žetóny stačí odtrhnúť z ďalšieho papiera, nemusia mať mená. Deti ich položia do políčka alebo medzi políčka, ak cítia viac emócií. Nie je správna ani nesprávna voľba a zapojenie možno vynechať. Po položení žetónov dajte priestor niekoľkým dobrovoľným odpovediam, potom sa dohodnite na jednej veci, ktorá dnes triede pomôže."
+  },
+  {
+    "id": "094",
+    "title": "Diktovaná kresba",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "papier a ceruzka pre každého žiaka/ žiačku, rôzne jednoduché obrázky (napr. dom, strom, srdce, kvet a pod.)",
+    "steps": [
+      "Žiaci sedia v kruhu alebo v laviciach.",
+      "Jedno dieťa dostane obrázok, ostatní však nesmú obrázok vidieť.",
+      "Žiak/žiačka s obrázkom popisuje ostatným, ako majú viesť ceruzku.",
+      "Ich úlohou je nakresliť podľa opisu žiaka/žiačky daný obrázok."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Ako ste sa cítili pri tejto aktivite?"
+    ],
+    "details": "Žiaci a žiačky sedia v kruhu alebo v laviciach. Jedno dieťa dostane obrázok, ostatní však nesmú obrázok vidieť. Žiak/žiačka s obrázkom popisuje ostatným, ako majú viesť ceruzku. Ich úlohou je nakresliť podľa opisu žiaka/žiačky daný obrázok. Žiak/žiačka s obrázkom hovorí napr. „Urobte uprostred papiera bodku a z nej urobte oblúčik tak, aby ste sa vrátili späť k bodke.“ Žiak/žiačka nesmie vysloviť, čo je na obrázku, môže to iba popisovať. Na konci hry si žiaci a žiačky kresliace obrázok svoje kresby porovnajú s originálom – ak obrázky nie sú podobné originálu, využijeme to ako príležitosť na zasmiatie sa (pozor, nie zosmiešňovanie), nie hodnotenie výkonu. Hru môžeme opakovať a vybrať iného žiaka/ inú žiačku, ktorý/ktorá dostane predlohu obrázka."
+  },
+  {
+    "id": "095",
+    "title": "Kto je tu šéf?",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Jedno dieťa ide za dvere.",
+      "Ostatní sú v kruhu a zvolia si jedného šéfa.",
+      "Ten bude udávať pohyby, ktoré ostatní napodobňujú.",
+      "Dieťa spoza dverí sa postaví do kruhu a sleduje."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Čo sa vám páčilo najviac?",
+      "Aké pre vás bolo by šéfom?"
+    ],
+    "details": "Jedno dieťa ide za dvere. Ostatní sú v kruhu a zvolia si jedného šéfa. Ten bude udávať pohyby, ktoré ostatní napodobňujú. Dieťa spoza dverí sa postaví do kruhu a sleduje. Zistí, kto je tu šéf alebo sa podarí šéfovi byť nenápadným?"
+  },
+  {
+    "id": "096",
+    "title": "Zrkadlové cvičenie",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci sa rozdelia do dvojíc.",
+      "Jeden žiak vykonáva pomalé pohyby, ktoré druhý musí zrkadlovo napodobniť.",
+      "Po čase sa vymenia."
+    ],
+    "reflection": [
+      "Čo bolo jednoduchšie, viesť spolužiaka/ spolužiačku alebo sa nechať viesť jeho/jej pohybmi?",
+      "Čo vám pri tom bežalo hlavou?",
+      "Aké to bolo, keď ste museli napodobňovať druhého?"
+    ],
+    "details": "Žiaci sa rozdelia do dvojíc. Jeden žiak vykonáva pomalé pohyby, ktoré druhý musí zrkadlovo napodobniť. Po čase sa vymenia."
+  },
+  {
+    "id": "097",
+    "title": "Moderátor/moderátorka",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok.",
+    "steps": [
+      "Vyberte dobrovoľníka, ktorý bude dnes moderovať krátky rozhovor.",
+      "Moderátor zvolí otázku: „Čo vás tento týždeň potešilo?“ alebo „Čo by sme chceli zažiť spolu?“",
+      "Postupne dáva slovo spolužiakom. Každý môže odpovedať jednou vetou alebo vynechať.",
+      "Po piatich minútach rozhovor uzavrie a poďakuje za odpovede."
+    ],
+    "reflection": [
+      "Aké pre teba bolo byť moderátor/moderátorka dnešného kruhu?",
+      "Naučil/naučila si sa niečo nové?",
+      "Aké bolo pre vás, keď ranný kruh viedol/ viedla jeden/jedna z vás, nie pán učiteľ/ pani učiteľka?"
+    ],
+    "details": "Moderátor nepotrebuje kupón ani prípravu z domu. Dobrovoľník si vyberie jednu z dvoch otázok v návode; učiteľ mu pomáha striedať hovoriacich a sledovať čas. Dohodnite sa, že ostatní neprerušujú a odpoveď možno vynechať. Na rozhovor vyhraďte päť minút a na reflexiu dve. Pri ďalšom stretnutí ponúknite rolu inému dobrovoľníkovi."
+  },
+  {
+    "id": "098",
+    "title": "Poďme počítať",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci sedia v kruhu a spočítajú sa.",
+      "Nasleduje zadanie napočítať do daného počtu tak, aby každý povedal počas počítania len jedno číslo.",
+      "Ak niekto povie nesprávne číslo alebo niekoľko žiakov povie to isté číslo naraz, začína sa odznova.",
+      "Ak žiaci prídu rýchlo so stratégiou, ako zadanie splniť (napríklad hovoria čísla postupne jeden za druhým."
+    ],
+    "reflection": [
+      "Ako sa vám darilo vymyslieť stratégie na splnenie cieľa?",
+      "Aké to bolo, keď ste nemohli na dorozumenie používať slová?",
+      "Aké emócie k vám počas aktivity prichádzali?"
+    ],
+    "details": "Žiaci sedia v kruhu a spočítajú sa. Nasleduje zadanie napočítať do daného počtu tak, aby každý povedal počas počítania len jedno číslo a zároveň nie je medzi žiakmi možná žiadna iná verbálna komunikácia. Ak niekto povie nesprávne číslo alebo niekoľko žiakov povie to isté číslo naraz, začína sa odznova. Ak žiaci prídu rýchlo so stratégiou, ako zadanie splniť (napríklad hovoria čísla postupne jeden za druhým, signalizajú si poradie rukami a pod.), oceníme ich schopnosť spolupráce a môžeme zadanie o niečo sťažiť. Môžu rátať so zavretými očami alebo budú všetci otočení do kruhu chrbtom a podobne."
+  },
+  {
+    "id": "099",
+    "title": "Pantomíma",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Malé papieriky a pero; každú situáciu napíšte dvakrát.",
+    "steps": [
+      "Napíšte dvojice lístkov: čistenie zubov, jedenie polievky, otváranie dáždnika, kopanie do lopty, čítanie, zametanie.",
+      "Každý si vytiahne jeden lístok a bez slov predvádza svoju činnosť.",
+      "Nájdite človeka, ktorý predvádza to isté, a postavte sa vedľa neho.",
+      "Overte si lístky a krátko povedzte, podľa čoho ste sa našli."
+    ],
+    "reflection": [
+      "Aké to bolo, keď ste nemohli na vyjadrenie situácie používať slová?",
+      "Aké emócie ste počas aktivity cítili?",
+      "Menili sa v priebehu aktivity?"
+    ],
+    "details": "Vyberte toľko činností, koľko potrebujete párov, a každú napíšte na dva papieriky. Okrem príkladov v krátkom návode môžete použiť plávanie, bicyklovanie, česanie, zaväzovanie šnúrok, umývanie okna, hranie na klavíri, fotografovanie, miešanie cesta alebo polievanie kvetov. Pri nepárnom počte dajte jednu činnosť trom deťom a oznámte, že vznikne aj trojica. Na prípravu stačia dve minúty, na hľadanie dvojíc tri a na reflexiu dve. Predvádzajte na mieste alebo sa presúvajte pomaly, bez rekvizít."
+  },
+  {
+    "id": "100",
+    "title": "Cvičenie intenzity",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "Bez pomôcok",
+    "steps": [
+      "Žiaci sa rozdelia do dvojíc a majú si vymyslieť úplne neutrálnu vetu.",
+      "Potom jeden z dvojice bude túto vetu viackrát hovoriť druhému a bude postupne zvyšovať hlas.",
+      "Druhý ho môže kedykoľvek, keď mu to začne prekážať, zastaviť.",
+      "Následne sa roly vymenia."
+    ],
+    "reflection": [
+      "Aké emócie ste počas aktivity cítili?",
+      "Menili sa v priebehu aktivity?",
+      "Dokázali ste si všímať pocity v tele?"
+    ],
+    "details": "Žiaci sa rozdelia do dvojíc a majú si vymyslieť úplne neutrálnu vetu, napríklad „Dnes je slnečno.“ Veta by mala byť pomerne krátka, aby sa dobre kričala. Potom jeden z dvojice bude túto vetu viackrát hovoriť druhému a bude postupne zvyšovať hlas. Druhý ho môže kedykoľvek, keď mu to začne prekážať, zastaviť. Následne sa roly vymenia. Po cvičení reflektujeme, aká intenzita hlasu nám už vadila, kde sme to v tele cítili (časté bývajú pocity napríklad na hrudi, v bruchu) a aký to bol pocit. Môžeme vysvetliť, že podobný pocit u seba môžeme pocítiť nielen pri kričaní, ale aj keď nás niekto napríklad urazí, vyhráža sa nám, či inak naruší naše hranice."
+  },
+  {
+    "id": "101",
+    "title": "Loptičky",
+    "gradeLevel": 2,
+    "filter": "komunikacia",
+    "types": [
+      "Komunikácia"
+    ],
+    "materials": "viaceré penové alebo ľahké plastové loptičky",
+    "steps": [
+      "Prvá fáza aktivity: Žiaci si hádžu najprv iba jednu loptičku tak, aby loptička nebola viackrát u jedného hráča.",
+      "Každý zo žiakov má za úlohu zapamätať si, od koho dostal loptičku a komu ju následne hádzal.",
+      "Postupne sa do kruhu pridávajú ďalšie a ďalšie loptičky, vždy putujú rovnakou cestou.",
+      "Druhá fáza aktivity: Po chvíli, keď si žiaci zvyknú na poradie, v akom si loptičky hádžu."
+    ],
+    "reflection": [
+      "Ako sa vám páčila táto aktivita?",
+      "Ktorá časť aktivity vám vyhovovala viac – tá s pravidlami alebo tá bez nich?",
+      "Čo sa vám páčilo na časti s pravidlami a čo na tej bez pravidiel?"
+    ],
+    "details": "Prvá fáza aktivity: Žiaci si hádžu najprv iba jednu loptičku tak, aby loptička nebola viackrát u jedného hráča, a aby zároveň bola u každého v skupine. Každý zo žiakov má za úlohu zapamätať si, od koho dostal loptičku a komu ju následne hádzal. Postupne sa do kruhu pridávajú ďalšie a ďalšie loptičky, vždy putujú rovnakou cestou. Druhá fáza aktivity: Po chvíli, keď si žiaci zvyknú na poradie, v akom si loptičky hádžu, pravidlá sa zmenia – loptičky môžu putovať akoukoľvek cestou a akoukoľvek intenzitou."
   }
 ]

@@ -6,7 +6,7 @@ import * as core from '../js/core.js';
 import { createActivityHistory, HISTORY_KEY } from '../js/history.js';
 
 const source = (await readFile(new URL('../js/app.js', import.meta.url), 'utf8')).replace(/^import .*;\r?\n/gm, '');
-const data = JSON.parse(await readFile(new URL('../activities.json', import.meta.url), 'utf8'));
+import { data } from './fixtures.mjs';
 
 function app(saved = new Map()) {
   const callbacks = new Map();
@@ -52,7 +52,7 @@ test('Cancelled animation records nothing; reveal records once and favorite redr
 
 test('App reopening and changing filters keeps history while favorites remain random', () => {
   const a = app();
-  vm.runInContext("grade=1; filter={kind:'tempo', value:'pokojné'}; choose();", a.context);
+  vm.runInContext("grade=1; filter={kind:'category', value:'upokojenie'}; choose();", a.context);
   const firstId = vm.runInContext('current.id', a.context);
   const reopened = app(a.saved);
   vm.runInContext("grade=1; filter={kind:'all'}; choose();", reopened.context);
@@ -62,4 +62,30 @@ test('App reopening and changing filters keeps history while favorites remain ra
   vm.runInContext("favorites=[favoriteId]; filter={kind:'favorites'}; choose();", reopened.context);
   assert.equal(vm.runInContext('current.id', reopened.context), firstId);
   assert.equal(JSON.parse(a.saved.get(HISTORY_KEY)).lastSeen[firstId], 3);
+});
+
+test('Empty catalogue supports navigation and detail renders two closed disclosures', () => {
+  const a = app();
+  vm.runInContext("activities=[]; choose();", a.context);
+  assert.equal(vm.runInContext('screen', a.context), 'empty');
+  vm.runInContext('home();', a.context);
+  assert.equal(vm.runInContext('screen', a.context), 'home');
+  vm.runInContext("activities=fixture; grade=2; filter={kind:'category', value:'komunikacia'}; choose(); choose();", a.context);
+  assert.equal(vm.runInContext('current.gradeLevel', a.context), 2);
+  assert.equal(vm.runInContext('current.filter', a.context), 'komunikacia');
+  const html = a.elements.get('#app').innerHTML;
+  assert.equal((html.match(/<details>/g) || []).length, 2);
+  assert.doesNotMatch(html, /<details open|<small>Tempo/);
+  assert.match(html, /Typ aktivity/);
+  assert.match(html, /Pomôcky/);
+});
+
+test('Blocked storage reports failure instead of claiming persistence', () => {
+  const a = app();
+  vm.runInContext("localStorage.setItem = () => { throw Error('Blocked'); };", a.context);
+  assert.equal(vm.runInContext("save('rk-favorites-v2', ['001'])", a.context), false);
+  assert.match(a.elements.get('#status').textContent, /nepovolil uloženie/);
+  const b = app();
+  assert.equal(vm.runInContext("save('rk-favorites-v2', ['001'])", b.context), true);
+  assert.equal(b.saved.get('rk-favorites-v2'), '["001"]');
 });

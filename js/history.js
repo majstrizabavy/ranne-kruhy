@@ -1,4 +1,4 @@
-export const HISTORY_KEY = 'rk-activity-history';
+export const HISTORY_KEY = 'rk-activity-history-v2';
 
 function decode(raw) {
   try {
