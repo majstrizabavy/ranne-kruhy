@@ -101,7 +101,7 @@ test('Upgrade activates immediately and reloads existing tabs without blocking a
   const context = vm.createContext({ URL,
     caches: {
       open: async () => ({ addAll: async () => calls.push('cached') }),
-      keys: async () => ['ranne-kruhy-v12', 'ranne-kruhy-v17', 'other-app'],
+      keys: async () => ['ranne-kruhy-v12', 'ranne-kruhy-v18', 'ranne-kruhy-v19', 'other-app'],
       delete: async key => calls.push(key)
     },
     self: {
@@ -122,5 +122,5 @@ test('Upgrade activates immediately and reloads existing tabs without blocking a
   await pending;
   listeners.activate({ waitUntil: promise => pending = promise });
   await pending;
-  assert.deepEqual(calls, ['cached', 'skipWaiting', 'ranne-kruhy-v12', 'claim', 'navigate']);
+  assert.deepEqual(calls, ['cached', 'skipWaiting', 'ranne-kruhy-v12', 'ranne-kruhy-v18', 'claim', 'navigate']);
 });
