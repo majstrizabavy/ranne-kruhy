@@ -1,6 +1,6 @@
 # Ranné kruhy
 
-Responzívna aplikácia pre učiteľov. Pôvodné aktivity boli nahradené dodanou databázou. `activities.json` obsahuje 101 aktivít: 52 pre 1. stupeň a 49 pre 2. stupeň. Všetkých sedem filtrov je naplnených pre oba stupne. Aplikácia podporuje aj prázdnu databázu `[]`. V 24 aktivitách boli závislosti od príloh a pracovných listov nahradené samostatnými krátkymi postupmi s bežnými pomôckami. Tieto verzie sú upravené pre použitie priamo na hodine; nejde o doslovnú kópiu pôvodného dokumentu.
+Responzívna aplikácia pre učiteľov. Pôvodné aktivity boli nahradené dodanou databázou. `activities.json` obsahuje 101 aktivít: 52 pre 1. stupeň a 49 pre 2. stupeň. Všetkých sedem filtrov je naplnených pre oba stupne. Aplikácia podporuje aj prázdnu databázu `[]`. Všetkých 101 aktivít prešlo obsahovou revíziou: krátke kroky vysvetľujú základný priebeh, podrobný návod dopĺňa organizáciu a príklady. Pomôcky a reflexia zodpovedajú konkrétnej činnosti. Ide o redakčne upravené verzie pre použitie na hodine, nie o doslovnú kópiu pôvodného dokumentu. Rozsah a významnejšie adaptácie uvádza [CONTENT_REVIEW.md](CONTENT_REVIEW.md).
 
 ## Spustenie a kontrola
 
@@ -72,4 +72,4 @@ Obľúbené sa ukladajú do `rk-favorites-v2`, história do `rk-activity-history
 
 Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/` a `icons/` na statický HTTPS hosting. Podadresár je podporovaný. Testovacie súbory sa do aplikácie nenačítavajú.
 
-Cache má verziu `ranne-kruhy-v17`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.
+Cache má verziu `ranne-kruhy-v24`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.
