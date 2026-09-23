@@ -213,16 +213,16 @@
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Posaďte žiakov do kruhu. Vysvetlite škálu: 1 znamená veľmi nepríjemne, 5 veľmi príjemne.",
-      "Žiaci si všimnú, ako sa cíti ich telo, a dobrovoľne ukážu počet prstov. Oči môžu zostať otvorené.",
-      "Ponúknite malú zmenu pohodlia: oprieť sa, uvoľniť ramená alebo položiť chodidlá na zem.",
-      "Po chvíli sa opýtajte, či si všimli rozdiel. Svoje číslo nemusia zmeniť ani vysvetľovať."
+      "Opýtajte sa: „Sedí sa ti teraz pohodlne?“ Ukážte škálu: 1 prst = veľmi nepohodlne, 5 = veľmi pohodlne.",
+      "Na slovo „teraz“ žiaci ukážu počet prstov podľa svojho pohodlia. Tri prsty znamenajú tak napoly.",
+      "Povedzte: „Skús sa oprieť, položiť nohy na zem alebo povoliť ramená, aby sa ti sedelo príjemnejšie.“",
+      "Po chvíli nech znova ukážu počet prstov. Opýtajte sa, či niekomu zmena sedenia pomohla."
     ],
     "reflection": [
-      "Ktorá drobná zmena ti spríjemnila sedenie?",
-      "Ako môžeš dať najavo, že potrebuješ prestávku alebo pomoc?"
+      "Ktorá zmena ti pomohla sedieť pohodlnejšie?",
+      "Ako spoznáš, že potrebuješ zmeniť polohu?"
     ],
-    "details": "Táto verzia pre mladších žiakov pracuje so škálou telesného pohodlia. Stred, číslo 3, znamená ani príjemne, ani nepríjemne. Najprv overte porozumenie na neosobnom príklade, napríklad príliš tesnej topánke. Ak je päť možností veľa, použite palec hore, vodorovne a dole. Nevyvolávajte deti podľa nízkeho čísla; prípadnú potrebu pomoci riešte súkromne."
+    "details": "Žiaci v tejto aktivite porovnávajú, ako pohodlne sa im sedí pred malou úpravou polohy a po nej. Na začiatku ukážte príklad: „Sedím skrútene, nie je mi pohodlne, ukázal by som dva prsty.“ Potom si sadnite pohodlnejšie a vysvetlite, čo ste zmenili.\n\nPo prvom ukázaní prstov nechajte žiakom približne dvadsať sekúnd na úpravu sedenia. Nikto nemusí kopírovať presne vašu polohu. Pri druhom ukázaní môže číslo zostať rovnaké. Na záver stačia dve odpovede na otázku, čo komu pomohlo. Kto nechce číslo ukazovať, môže zmenu iba vyskúšať."
   },
   {
     "id": "012",
@@ -234,16 +234,16 @@
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Určte tri miesta v triede: príjemne, tak napoly a nepríjemne. Ukážte ich žiakom.",
-      "Žiaci sa zamyslia, ako sa dnes cítia, a dobrovoľne prejdú na zodpovedajúce miesto.",
-      "Kto chce, povie, čo by mu dnes pomohlo. Dôvod svojej nálady vysvetľovať nemusí.",
-      "Vráťte sa do kruhu a dohodnite jednu drobnosť, ktorou si dnes môžete uľahčiť deň."
+      "Ukážte tri miesta: pri okne „cítim sa dobre“, pri tabuli „tak napoly“, pri dverách „necítim sa dobre“.",
+      "Povedzte: „Postav sa na miesto, ktoré najlepšie vystihuje, ako sa dnes cítiš.“ Kto nechce, zostane sedieť.",
+      "Opýtajte sa dobrovoľníkov: „Čo by ti dnes urobilo radosť?“ Napríklad hra cez prestávku alebo rozhovor.",
+      "Všetci sa vrátia na miesto. Vyberte jeden splniteľný návrh a povedzte, kedy ho spoločne urobíte."
     ],
     "reflection": [
       "Čo môžeme dnes urobiť, aby nám spolu bolo príjemnejšie?",
       "Môžu sa ľudia v tej istej triede cítiť rozdielne?"
     ],
-    "details": "Miesta môžete pomenovať farbami: zelená pre príjemne, žltá pre tak napoly, modrá pre nepríjemne. Slovný význam vždy pripomeňte; farby samy osebe nemajú pre každého rovnaký význam. Dovoľte stáť aj medzi miestami alebo zostať sedieť. Výber nehodnoťte a nežiadajte presun k „lepšej“ nálade. Spoločným krokom môže byť pokojnejší začiatok práce alebo dohoda, ako požiadať o pomoc."
+    "details": "Každé miesto predstavuje inú náladu. Umiestnenie prispôsobte triede tak, aby sa tam žiaci pohodlne zmestili, a významy nahlas zopakujte. Môžete ich označiť aj farbami: zelená = dobre, žltá = tak napoly, modrá = nie dobre. Na aktivitu netreba farebné pomôcky.\n\nPredveďte výber: „Dnes sa cítim dobre, preto idem k oknu.“ Nechajte ostatných presunúť sa. Nehľadajú správnu skupinu, ale vyjadrujú vlastný pocit. Vypočujte dva či tri návrhy na spríjemnenie dňa. Záver môže znieť: „Cez prvú prestávku si spolu zahráme krátku hru.“ Žiak môže stáť aj medzi miestami a nemusí vysvetľovať osobný dôvod svojho výberu."
   },
   {
     "id": "013",
@@ -481,7 +481,7 @@
     "steps": [
       "V kruhu vyzvite žiakov, aby si spomenuli na jednu vec, ktorá sa im včera alebo tento týždeň podarila.",
       "Každý môže úspech povedať jednou vetou alebo vynechať. Pridajte aj vlastný príklad.",
-      "Nech si každý zvolí malý cieľ na dnes a pomenuje prvý krok, ktorým ho začne plniť."
+      "Povedzte: „Čo chceš dnes zvládnuť a čím začneš?“ Napríklad: „Dokončím kresbu, najprv si pripravím farbičky.“"
     ],
     "reflection": [
       "Čo ti pomohlo dosiahnuť tvoj malý úspech?",
@@ -519,15 +519,15 @@
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "V kruhu stručne predstavte dnešné pevné úlohy a povedzte, o čom môže trieda spolurozhodovať.",
-      "Vypočujte návrhy žiakov, napríklad na spoločnú prestávku alebo spôsob spolupráce.",
-      "Dohodnite jeden uskutočniteľný návrh, jeho čas a úlohy. Na záver plán zopakujte."
+      "Povedzte triede dnešný program a ponúknite dve možnosti na spoločnú prestávku: krátku hru alebo čítanie príbehu.",
+      "Každý zdvihnutím ruky hlasuje za jednu možnosť. Spočítajte hlasy a oznámte vybranú činnosť.",
+      "Dohodnite konkrétny čas a prípravu, napríklad: „Po druhej hodine si zahráme Sochy, hudbu pripravím ja.“"
     ],
     "reflection": [
       "Čo je na dnešnom pláne našou spoločnou dohodou?",
       "Ako môže každý prispieť k jej splneniu?"
     ],
-    "details": "Jasne odlíšte povinnosti od voľného priestoru, aby hlasovanie nesľubovalo niečo, čo nemožno zmeniť. Môžete ponúknuť dve možnosti, napríklad čítanie príbehu alebo krátku pohybovú prestávku. Ak sa trieda nezhodne, použite hlasovanie s jedným hlasom na osobu. Pri väčšom nápade si určte, kto čo pripraví; návrhy na iné dni si zaznamenajte po kruhu."
+    "details": "Cieľom je spoločne naplánovať jednu časť dnešného dňa, ktorú naozaj môžete ovplyvniť. Nechajte žiakov vybrať medzi dvoma uskutočniteľnými možnosťami. O každej hlasujte zvlášť; každý má jeden hlas. Pri rovnosti dohodnite jednu možnosť na dnes a druhú na ďalší deň.\n\nPlán musí na konci obsahovať činnosť, čas a prípadnú zodpovednosť za pomôcky. Napríklad: „Na konci poslednej hodiny si päť minút prečítame. Knihu vyberieme z triednej knižnice.“ Skúsenejšia trieda môže namiesto dvoch ponúk navrhnúť vlastné nápady, ale napokon vyberte iba jeden."
   },
   {
     "id": "027",
@@ -541,8 +541,8 @@
     "steps": [
       "Rozdajte papiere. Žiaci nakreslia seba a okolo tri krúžky pre ľudí, ktorým dôverujú.",
       "Do krúžkov napíšu alebo nakreslia, koho môžu požiadať o pomoc. Nemusia vyplniť všetky.",
-      "Nech si každý premyslí vetu, ktorou by jednu z týchto osôb oslovil. Mená môže nechať súkromné.",
-      "Dobrovoľníci si vetu nacvičia na vymyslenej situácii. Papiere zostávajú žiakom."
+      "Zadajte: „Vyber si jedného človeka a vymysli, ako ho požiadaš o pomoc, keď nerozumieš domácej úlohe.“",
+      "Dobrovoľník vám povie svoju prosbu, akoby ste boli oslovený človek. Odpovedzte mu. Kresbu si každý ponechá."
     ],
     "reflection": [
       "Ako môže znieť jasná prosba o pomoc?",
@@ -561,8 +561,8 @@
     "materials": "Papier a ceruzka pre každého.",
     "steps": [
       "Žiaci na papier nakreslia ovál ako zrkadlo.",
-      "Do zrkadla napíšu alebo nakreslia dve svoje schopnosti či vlastnosti, ktoré si vážia.",
-      "Ku jednej si spomenú na konkrétnu situáciu. Dobrovoľníci svoj príklad predstavia v kruhu."
+      "Povedzte: „Do zrkadla napíš alebo nakresli dve veci, ktoré ti idú alebo sa ti na sebe páčia.“",
+      "Dobrovoľníci uvedú príklad: „Viem pomáhať. Včera som spolužiakovi vysvetlil hru.“"
     ],
     "reflection": [
       "Ktorý príklad ti pripomenul, čo dokážeš?",
@@ -666,7 +666,7 @@
       "Povedzte žiakom, nech si vo filme Zebra všímajú, ako sa hlavná postava cíti a ako na ňu reagujú ostatní.",
       "Pustite krátky film Zebra z odkazu v pomôckach. Po skončení si spoločne povedzte, čo sa stalo.",
       "Vo dvojiciach nech žiaci preberú: „Čo zebre pomohlo?“ a „Ako sa môžeme zachovať, keď je niekto iný?“",
-      "Vypočujte niekoľko návrhov a dohodnite jeden konkrétny prejav prijatia, ktorý dnes trieda skúsi."
+      "Zozbierajte návrhy, ako niekoho zapojiť do skupiny. Vyberte jeden na dnes, napríklad pozvať spolužiaka do hry."
     ],
     "reflection": [
       "Ktoré správanie pomáha niekomu cítiť sa prijatý?",
@@ -727,7 +727,7 @@
     "steps": [
       "Vytvorte dvojice. Za tri minúty nech nájdu tri spoločné veci a dve, v ktorých sa líšia.",
       "Ponúknite témy: obľúbené hry, jedlo, hudba alebo činnosti v škole. Zistenia zapíšu alebo nakreslia.",
-      "Každá dvojica vyberie jednu podobnosť a jednu odlišnosť, ktoré obaja súhlasia zdieľať."
+      "Dvojica triede povie jednu spoločnú a jednu rozdielnu vec, napríklad „obaja radi kreslíme, ale máme radi iné hry“."
     ],
     "reflection": [
       "Ktorá podobnosť vás prekvapila?",
@@ -766,8 +766,8 @@
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Vytvorte skupiny po šiestich. S otvorenými očami každý chytí za ruky dvoch rôznych nesusedných spolužiakov.",
-      "Skupina sa pomaly pokúsi rozpliesť uzol do kruhu. Najprv sa dohodne na jednom malom pohybe.",
+      "Šestice sa postavia do kruhu. S otvorenými očami každý chytí za ruky dvoch rôznych spolužiakov, ktorí nestoja vedľa neho.",
+      "Bez pustenia rúk sa skúste rozpliesť do kruhu: pomaly sa otáčajte alebo prejdite pod spojenými rukami.",
       "Pri nepohodlí ruky hneď pustite. Po dvoch minútach skončite a povedzte si, čo pomáhalo dohode."
     ],
     "reflection": [
@@ -807,14 +807,15 @@
     "materials": "Dva papiere a fixka.",
     "steps": [
       "Nakreslite veselú a smutnú tvár na dva papiere a položte ich na opačné strany voľného priestoru.",
-      "Vyzvite žiakov, aby si vybrali miesto podľa dnešnej nálady; môžu stáť aj medzi tvárami alebo zostať sedieť.",
-      "Dobrovoľníci povedia, čo by im dnes pomohlo. Na záver dohodnite jednu spoločnú drobnú pomoc."
+      "Povedzte: „Ako sa dnes cítiš? Postav sa k tvári, ktorá sa hodí k tvojej nálade, alebo niekam medzi ne.“",
+      "Dobrovoľníkov sa opýtajte: „Prečo si si vybral toto miesto?“ Kto nechce, svoj výber nevysvetľuje.",
+      "Po niekoľkých odpovediach sa vráťte do kruhu a pomenujte, že dnes môžeme mať rôzne nálady."
     ],
     "reflection": [
-      "Čo nám dnes môže pomôcť cítiť sa v triede príjemnejšie?",
-      "Ako môžeme rešpektovať, že niekto nechce o svojej nálade hovoriť?"
+      "Bolo ľahké nájsť miesto pre svoju náladu?",
+      "Čo ti pomohlo pochopiť, ako sa dnes cíti niekto iný?"
     ],
-    "details": "Priestor medzi obrázkami znamená zmiešanú alebo neutrálnu náladu. Nie je potrebné obhajovať zvolené miesto ani zverejniť osobnú príhodu. Môžete sa opýtať „Potrebuješ dnes viac pokoja, spoločnosť alebo niečo iné?“. Nikomu nepriraďujte pocit podľa výrazu tváre. Po aktivite nechajte možnosť osloviť vás súkromne."
+    "details": "Obrázky slúžia ako jednoduchá mapa nálady. Ukážte príklad: „Teším sa na dnešný deň, preto sa postavím bližšie k veselej tvári.“ Miesto uprostred môže znamenať zmiešanú náladu alebo neistotu. Žiaci sa nemajú rozdeliť na rovnako veľké skupiny; každý volí sám za seba.\n\nPo presune nechajte dva či tri deti dobrovoľne vysvetliť svoj výber. Ďalším stačí ukázanie miesta a môžu aj zostať sedieť. Cieľom je všimnúť si náladu a vypočuť sa, nie presvedčiť smutné deti, aby prešli k veselej tvári."
   },
   {
     "id": "041",
@@ -849,7 +850,7 @@
       "Na veľký papier nakreslite strom. Každému dajte malý papierik ako list stromu.",
       "Žiaci na list napíšu slovo alebo nakreslia tvár, ktorá vystihuje ich dnešný pocit. Meno netreba.",
       "Kto chce, nalepí svoj list na strom. List si možno aj ponechať pre seba.",
-      "Pozrite sa na pestrosť pocitov a dohodnite jednu vec, ktorá dnes triede pomôže."
+      "Pozrite si strom. Dobrovoľníci prečítajú svoj pocit a povedia, čo im dnes urobilo radosť alebo starosť."
     ],
     "reflection": [
       "Aké rôzne pocity môžu byť v triede naraz?",
@@ -867,15 +868,16 @@
     ],
     "materials": "Bez pomôcok.",
     "steps": [
-      "Vysvetlite škálu nálady: 1 znamená veľmi zle, 3 tak napoly a 5 veľmi dobre.",
-      "Dajte chvíľu na premyslenie. Na dohodnutý signál žiaci dobrovoľne ukážu počet prstov pri hrudi.",
-      "Kto chce, povie jednu vec, ktorú dnes potrebuje. Ostatní počúvajú bez hodnotenia či rád."
+      "Opýtajte sa: „Ako sa dnes cítiš? O chvíľu nám to ukážeš počtom prstov na jednej ruke.“",
+      "Ukážte význam: 1 prst = veľmi zle, 2 = skôr zle, 3 = ani dobre, ani zle, 4 = dobre, 5 = veľmi dobre.",
+      "Povedzte „teraz“. Žiaci naraz ukážu vybraný počet prstov. Kto sa nechce zapojiť, nechá ruku položenú.",
+      "Pozvite dobrovoľníkov: „Povedz jednou vetou, prečo si si vybral toto číslo.“ Potom im poďakujte."
     ],
     "reflection": [
-      "Čo nám pomáha hovoriť o nálade bez obavy z hodnotenia?",
-      "Čo môžeme dnes urobiť pre príjemnejší začiatok dňa?"
+      "Bolo ľahké vybrať číslo pre svoju náladu?",
+      "Mali sme dnes všetci rovnakú náladu, alebo sa líšila?"
     ],
-    "details": "Najprv si overte, že všetci rozumejú smeru škály. Žiak môže neukázať nič alebo hovoriť až neskôr súkromne. Čísla neporovnávajte a nevyvolávajte automaticky tých, ktorí ukázali jednotku. Pri mladších deťoch stačia tri možnosti: palec hore, vodorovne a dole. Ak žiak požiada o pomoc, dohodnite s ním konkrétny ďalší krok po kruhu."
+    "details": "Ide o krátke zistenie nálady v triede, nie o hádanie čísla alebo známkovanie. Sadnite si do kruhu, aby ste sa videli. Najprv na vlastnej ruke predveďte všetkých päť možností. Potom ukážte vzor odpovede: „Ukazujem štyri prsty, lebo sa dnes cítim dobre a teším sa na spoločnú prácu.“\n\nDajte žiakom asi desať sekúnd na výber. Na slovo „teraz“ všetci naraz zdvihnú jednu ruku s vybraným počtom prstov, podržia ju chvíľu pred sebou a spustia. Vypočujte dvoch či troch dobrovoľníkov, ktorí chcú svoj výber vysvetliť. Tým je aktivita ukončená; nemusíte spoločne riešiť každú náladu.\n\nOdpoveď možno vynechať. Nízke číslo nie je chyba a žiaka kvôli nemu automaticky nevyvolávajte. Ak chce niekto hovoriť o probléme, ponúknite rozhovor po kruhu."
   },
   {
     "id": "044",
@@ -931,7 +933,7 @@
       "V kruhu zozbierajte tri dobrovoľné nápady na otázku: „Čo ti pomáha, keď máš nepríjemný deň?“",
       "Ponúknite spoločnú skúšku: pohodlne sa posaďte a v tichosti si všimnite tri veci okolo seba.",
       "Nechajte chvíľu prirodzene plynúť dych. Kto nechce cvičiť, môže len pozorovať okolie.",
-      "Každý si pre seba vyberie jeden nápad na nabudúce alebo človeka, ktorého môže požiadať o pomoc."
+      "Opýtajte sa: „Čo skúsiš, keď budeš mať najbližšie nepríjemný deň?“ Každý si vyberie jeden zo spomenutých nápadov."
     ],
     "reflection": [
       "Ktorý spôsob by si chcel niekedy vyskúšať?",
@@ -990,15 +992,15 @@
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "Žiaci stoja v kruhu. Každý si potichu vyberie človeka, ktorého pohyby bude sledovať a napodobňovať.",
-      "Začnite pomalým pohybom rúk. Žiaci zrkadlia svojho vybraného človeka a sledujú, ako sa pohyb šíri.",
-      "Po minúte hru zastavte. Každý môže prezradiť, koho sledoval; potom skúste nový výber."
+      "Žiaci stoja v kruhu. Každý si tajne vyberie spolužiaka, po ktorom bude opakovať pohyby.",
+      "Povedzte všetkým: „Raz pomaly zdvihnite ruku a spustite ju.“ Potom už každý opakuje pohyby vybraného spolužiaka.",
+      "Keď pohyb ustane, dajte všetkým nový, napríklad naklonenie hlavy. Po minúte zastavte a odhaľte, kto koho sledoval."
     ],
     "reflection": [
       "Ako sa pohyb menil pri prechode skupinou?",
       "Čo bolo náročné na sledovaní a napodobňovaní naraz?"
     ],
-    "details": "Aj vy ste súčasťou kruhu a občas uvediete nový drobný pohyb. Ak pohyb zanikne alebo všetci stuhnú, vyzvite jedného dobrovoľníka, aby urobil nový pohyb, a potom pokračujte v sledovaní. Nejde o hádanie ani odhalenie najpomalšieho hráča. Pohyby majú zostať malé a pohodlné. Jednoduchšia verzia používa zrkadlenie v pevne určených dvojiciach."
+    "details": "Po tajnom výbere potrebuje skupina prvý pohyb, preto ho zadajte celej triede. Každý ho urobí a ďalej už reaguje iba na svojho vybraného človeka. Napríklad Eva sleduje Petra: keď Peter pohne rukou, Eva urobí to isté. Peter pritom môže sledovať niekoho iného.\n\nPohyb sa môže spomaliť alebo úplne zastaviť; vtedy všetkým ponúknite ďalší malý pohyb a nechajte napodobňovanie pokračovať. Na konci žiaci prezradia svoje dvojice sledovania. Jednoduchšia obmena je práca v určených dvojiciach, kde jeden vedie a druhý napodobňuje. Nerobte prudké pohyby a nesúťažte v rýchlosti."
   },
   {
     "id": "050",
@@ -1197,7 +1199,7 @@
       "Žiaci sa pohodlne posadia. Vyzvite ich, aby si v tichosti všimli päť vecí, ktoré vidia.",
       "Pokračujte štyrmi dotykmi, ktoré cítia, napríklad chodidiel s podlahou, a tromi zvukmi, ktoré počujú.",
       "Nech si všimnú dve vône a jednu chuť; ak ich nevnímajú, môžu si vybaviť známe alebo tento krok vynechať.",
-      "Na záver nech pokojne rozhliadnu po triede. Dobrovoľníci povedia, čo si všimli nové."
+      "Na záver sa žiaci pokojne rozhliadnu po triede. Dobrovoľníci povedia, čo nové si všimli."
     ],
     "reflection": [
       "Čo si si všimol, čo ti predtým unikalo?",
@@ -1402,7 +1404,7 @@
     "steps": [
       "V kruhu vyzvite žiakov, aby si spomenuli na jednu vec, ktorá sa im včera alebo tento týždeň podarila.",
       "Každý môže úspech povedať jednou vetou alebo vynechať. Pridajte aj vlastný príklad.",
-      "Nech si každý zvolí malý cieľ na dnes a pomenuje prvý krok, ktorým ho začne plniť."
+      "Povedzte: „Čo chceš dnes zvládnuť a čím začneš?“ Napríklad: „Dokončím kresbu, najprv si pripravím farbičky.“"
     ],
     "reflection": [
       "Čo ti pomohlo dosiahnuť tvoj malý úspech?",
@@ -1440,15 +1442,15 @@
     ],
     "materials": "Bez pomôcok",
     "steps": [
-      "V kruhu stručne predstavte dnešné pevné úlohy a povedzte, o čom môže trieda spolurozhodovať.",
-      "Vypočujte návrhy žiakov, napríklad na spoločnú prestávku alebo spôsob spolupráce.",
-      "Dohodnite jeden uskutočniteľný návrh, jeho čas a úlohy. Na záver plán zopakujte."
+      "Povedzte triede dnešný program a ponúknite dve možnosti na spoločnú prestávku: krátku hru alebo čítanie príbehu.",
+      "Každý zdvihnutím ruky hlasuje za jednu možnosť. Spočítajte hlasy a oznámte vybranú činnosť.",
+      "Dohodnite konkrétny čas a prípravu, napríklad: „Po druhej hodine si zahráme Sochy, hudbu pripravím ja.“"
     ],
     "reflection": [
       "Čo je na dnešnom pláne našou spoločnou dohodou?",
       "Ako môže každý prispieť k jej splneniu?"
     ],
-    "details": "Jasne odlíšte povinnosti od voľného priestoru, aby hlasovanie nesľubovalo niečo, čo nemožno zmeniť. Môžete ponúknuť dve možnosti, napríklad čítanie príbehu alebo krátku pohybovú prestávku. Ak sa trieda nezhodne, použite hlasovanie s jedným hlasom na osobu. Pri väčšom nápade si určte, kto čo pripraví; návrhy na iné dni si zaznamenajte po kruhu."
+    "details": "Cieľom je spoločne naplánovať jednu časť dnešného dňa, ktorú naozaj môžete ovplyvniť. Nechajte žiakov vybrať medzi dvoma uskutočniteľnými možnosťami. O každej hlasujte zvlášť; každý má jeden hlas. Pri rovnosti dohodnite jednu možnosť na dnes a druhú na ďalší deň.\n\nPlán musí na konci obsahovať činnosť, čas a prípadnú zodpovednosť za pomôcky. Napríklad: „Na konci poslednej hodiny si päť minút prečítame. Knihu vyberieme z triednej knižnice.“ Skúsenejšia trieda môže namiesto dvoch ponúk navrhnúť vlastné nápady, ale napokon vyberte iba jeden."
   },
   {
     "id": "072",
@@ -1462,8 +1464,8 @@
     "steps": [
       "Rozdajte papiere. Žiaci nakreslia seba a okolo tri krúžky pre ľudí, ktorým dôverujú.",
       "Do krúžkov napíšu alebo nakreslia, koho môžu požiadať o pomoc. Nemusia vyplniť všetky.",
-      "Nech si každý premyslí vetu, ktorou by jednu z týchto osôb oslovil. Mená môže nechať súkromné.",
-      "Dobrovoľníci si vetu nacvičia na vymyslenej situácii. Papiere zostávajú žiakom."
+      "Zadajte: „Vyber si jedného človeka a vymysli, ako ho požiadaš o pomoc, keď nerozumieš domácej úlohe.“",
+      "Dobrovoľník vám povie svoju prosbu, akoby ste boli oslovený človek. Odpovedzte mu. Kresbu si každý ponechá."
     ],
     "reflection": [
       "Ako môže znieť jasná prosba o pomoc?",
@@ -1505,7 +1507,7 @@
       "Povedzte, že strach môže na niečo upozorniť a niekedy nám pomôže podpora alebo malý postupný krok.",
       "Dajte tri minúty na zápis: „Čoho som sa kedysi bál a čo mi pomohlo?“ Možno použiť aj vymyslenú postavu.",
       "Dobrovoľníci pomenujú iba užitočné spôsoby zvládania. Zapisujte ich na tabuľu bez osobných príbehov.",
-      "Každý si vyberie jednu bezpečnú pomoc a doplní pre seba vetu: „Bojím sa, ale môžem požiadať o…“"
+      "Zadajte: „Vyber si jeden nápad z tabule a povedz, kedy by ti mohol pomôcť.“ Napríklad nácvik s kamarátom."
     ],
     "reflection": [
       "Ktorý spôsob podpory môže pomôcť pri novej situácii?",
@@ -1525,14 +1527,14 @@
     "steps": [
       "Vytvorte štvorice. Každá na papier nakreslí štyri ovály spojené ako štvorlístok.",
       "Každý do jedného lístka napíše svoje meno a jednu schopnosť, ktorou môže prispieť skupine.",
-      "Postupne uvedú príklad, kedy schopnosť využili. Potom vymyslia spoločnú úlohu, kde sa schopnosti doplnia.",
-      "Jedna či dve skupiny predstavia úlohu a povedia, ako sa do nej zapojí každý člen."
+      "Skupina naplánuje spoločný plagát. Dohodne, kto bude podľa svojich schopností kresliť, písať alebo plánovať.",
+      "Každá skupina povie tému plagátu a úlohu každého člena. Plagát zatiaľ nekreslia, iba plánujú spoluprácu."
     ],
     "reflection": [
       "Ako sa vaše schopnosti dopĺňali?",
       "Našiel si u niekoho schopnosť, o ktorej si predtým nevedel?"
     ],
-    "details": "Schopnosťou môže byť počúvanie, kreslenie, vysvetľovanie alebo organizovanie. Nemusí byť výnimočná a viacerí môžu mať rovnakú. Na zdieľanie dajte tri minúty, na spoločný nápad dve. Príkladom úlohy je vytvorenie plagátu, pri ktorom jeden plánuje, druhý kreslí, ďalší píše a posledný overuje zrozumiteľnosť. Pri trojici či pätici prispôsobte počet lístkov; nie je potrebné hľadať presne štyroch ľudí."
+    "details": "Schopnosťou môže byť počúvanie, kreslenie, vysvetľovanie alebo organizovanie. Nemusí byť výnimočná a viacerí môžu mať rovnakú. Na predstavenie schopností dajte tri minúty a na plán plagátu dve. Ponúknite tému Naša trieda. Jeden môže navrhnúť rozloženie, druhý obrázky, ďalší text a posledný kontrolu zrozumiteľnosti. Skupina iba vysvetlí rozdelenie práce; samotný plagát môže vytvoriť inokedy. Pri trojici či pätici prispôsobte počet lístkov; nie je potrebné hľadať presne štyroch ľudí."
   },
   {
     "id": "076",
@@ -1546,7 +1548,7 @@
     "steps": [
       "Napíšte na tabuľu myšlienku: „Aj malý krok je začiatok.“ Nechajte chvíľu na tiché prečítanie.",
       "Vo dvojiciach ju žiaci vysvetlia vlastnými slovami a vymyslia konkrétnu situáciu, v ktorej môže pomôcť.",
-      "Vypočujte dva až tri príklady aj prípadný nesúhlas. Na záver si každý vyberie malý krok na dnešok."
+      "Vypočujte príklady. Potom sa opýtajte: „Ktorú úlohu dnes potrebuješ začať? Čo pri nej urobíš ako prvé?“"
     ],
     "reflection": [
       "Ktorý príklad ti pomohol myšlienke porozumieť?",
@@ -1609,7 +1611,7 @@
       "Povedzte žiakom, nech si vo filme Zebra všímajú, ako sa hlavná postava cíti a ako na ňu reagujú ostatní.",
       "Pustite krátky film Zebra z odkazu v pomôckach. Po skončení si spoločne povedzte, čo sa stalo.",
       "Vo dvojiciach nech žiaci preberú: „Čo zebre pomohlo?“ a „Ako sa môžeme zachovať, keď je niekto iný?“",
-      "Vypočujte niekoľko návrhov a dohodnite jeden konkrétny prejav prijatia, ktorý dnes trieda skúsi."
+      "Zozbierajte návrhy, ako niekoho zapojiť do skupiny. Vyberte jeden na dnes, napríklad pozvať spolužiaka do hry."
     ],
     "reflection": [
       "Ktoré správanie pomáha niekomu cítiť sa prijatý?",
@@ -1711,7 +1713,7 @@
     "steps": [
       "Vytvorte dvojice. Za tri minúty nech nájdu tri spoločné veci a dve, v ktorých sa líšia.",
       "Ponúknite témy: obľúbené hry, jedlo, hudba alebo činnosti v škole. Zistenia zapíšu alebo nakreslia.",
-      "Každá dvojica vyberie jednu podobnosť a jednu odlišnosť, ktoré obaja súhlasia zdieľať."
+      "Dvojica triede povie jednu spoločnú a jednu rozdielnu vec, napríklad „obaja radi kreslíme, ale máme radi iné hry“."
     ],
     "reflection": [
       "Ktorá podobnosť vás prekvapila?",
@@ -1773,7 +1775,7 @@
       "Na veľký papier nakreslite strom. Každému dajte malý papierik ako list stromu.",
       "Žiaci na list napíšu slovo alebo nakreslia tvár, ktorá vystihuje ich dnešný pocit. Meno netreba.",
       "Kto chce, nalepí svoj list na strom. List si možno aj ponechať pre seba.",
-      "Pozrite sa na pestrosť pocitov a dohodnite jednu vec, ktorá dnes triede pomôže."
+      "Pozrite si strom. Dobrovoľníci prečítajú svoj pocit a povedia, čo im dnes urobilo radosť alebo starosť."
     ],
     "reflection": [
       "Aké rôzne pocity môžu byť v triede naraz?",
@@ -1791,15 +1793,16 @@
     ],
     "materials": "Bez pomôcok.",
     "steps": [
-      "Vysvetlite škálu nálady: 1 znamená veľmi zle, 3 tak napoly a 5 veľmi dobre.",
-      "Dajte chvíľu na premyslenie. Na dohodnutý signál žiaci dobrovoľne ukážu počet prstov pri hrudi.",
-      "Kto chce, povie jednu vec, ktorú dnes potrebuje. Ostatní počúvajú bez hodnotenia či rád."
+      "Opýtajte sa: „Ako sa dnes cítiš? O chvíľu nám to ukážeš počtom prstov na jednej ruke.“",
+      "Ukážte význam: 1 prst = veľmi zle, 2 = skôr zle, 3 = ani dobre, ani zle, 4 = dobre, 5 = veľmi dobre.",
+      "Povedzte „teraz“. Žiaci naraz ukážu vybraný počet prstov. Kto sa nechce zapojiť, nechá ruku položenú.",
+      "Pozvite dobrovoľníkov: „Povedz jednou vetou, prečo si si vybral toto číslo.“ Potom im poďakujte."
     ],
     "reflection": [
-      "Čo nám pomáha hovoriť o nálade bez obavy z hodnotenia?",
-      "Čo môžeme dnes urobiť pre príjemnejší začiatok dňa?"
+      "Bolo ľahké vybrať číslo pre svoju náladu?",
+      "Mali sme dnes všetci rovnakú náladu, alebo sa líšila?"
     ],
-    "details": "Najprv si overte, že všetci rozumejú smeru škály. Žiak môže neukázať nič alebo hovoriť až neskôr súkromne. Čísla neporovnávajte a nevyvolávajte automaticky tých, ktorí ukázali jednotku. Pri mladších deťoch stačia tri možnosti: palec hore, vodorovne a dole. Ak žiak požiada o pomoc, dohodnite s ním konkrétny ďalší krok po kruhu."
+    "details": "Ide o krátke zistenie nálady v triede, nie o hádanie čísla alebo známkovanie. Sadnite si do kruhu, aby ste sa videli. Najprv na vlastnej ruke predveďte všetkých päť možností. Potom ukážte vzor odpovede: „Ukazujem štyri prsty, lebo sa dnes cítim dobre a teším sa na spoločnú prácu.“\n\nDajte žiakom asi desať sekúnd na výber. Na slovo „teraz“ všetci naraz zdvihnú jednu ruku s vybraným počtom prstov, podržia ju chvíľu pred sebou a spustia. Vypočujte dvoch či troch dobrovoľníkov, ktorí chcú svoj výber vysvetliť. Tým je aktivita ukončená; nemusíte spoločne riešiť každú náladu.\n\nOdpoveď možno vynechať. Nízke číslo nie je chyba a žiaka kvôli nemu automaticky nevyvolávajte. Ak chce niekto hovoriť o probléme, ponúknite rozhovor po kruhu."
   },
   {
     "id": "089",
@@ -1853,7 +1856,7 @@
     "materials": "Papier a pero alebo ceruzka pre každého.",
     "steps": [
       "Žiaci si obkreslia ruku. Päť prstov označia slovami hnev, radosť, strach, smútok a pokoj.",
-      "Ku každému pocitu napíšu alebo nakreslia situáciu, v ktorej ho človek môže zažiť. Možno použiť vymyslené príklady.",
+      "Zadajte: „Kedy môže človek cítiť tieto pocity? Ku každému prstu napíš príklad, napríklad radosť pri stretnutí kamaráta.“",
       "Po troch minútach si vyberú jednu odpoveď, ktorú chcú zdieľať vo dvojici. Ostatné môžu zostať súkromné."
     ],
     "reflection": [
@@ -1873,8 +1876,8 @@
     "materials": "Papier a pero alebo ceruzka pre každého.",
     "steps": [
       "Žiaci si obkreslia ruku a prsty označia slovami hnev, radosť, strach, smútok a pokoj.",
-      "K hnevu, strachu a smútku napíšu, čo im môže pomôcť alebo koho môžu osloviť.",
-      "K radosti a pokoju doplnia, čo im tieto pocity prináša. Nemusia vyplniť všetky prsty.",
+      "Povedzte: „K hnevu, strachu a smútku napíš, čo ti pomáha, keď ich cítiš. Napríklad pri strachu rozhovor s rodičom.“",
+      "Pokračujte: „K radosti napíš, čo ťa teší. K pokoju napíš, pri čom si oddýchneš.“ Nevyplnený prst neprekáža.",
       "Vo dvojiciach dobrovoľne zdieľajú jeden nápad. Na záver si vyberú pomoc, ktorú by chceli vyskúšať."
     ],
     "reflection": [
@@ -1893,15 +1896,16 @@
     ],
     "materials": "Papier, pero a malé papierové žetóny.",
     "steps": [
-      "Na spoločný papier nakreslite štyri políčka: radosť, pokoj, smútok a hnev. Rozdajte malé papierové žetóny.",
-      "Žiaci dobrovoľne položia žetón k dnešnej nálade. Môžu ho dať medzi políčka alebo mimo nich pre iný pocit.",
-      "Kto chce, povie, čo by mu dnes pomohlo. Na záver sa dohodnite na jednej podpore pre triedu."
+      "Na papier nakreslite políčka radosť, pokoj, smútok a hnev. Každému dajte jeden malý papierový žetón.",
+      "Povedzte: „Ako sa teraz cítiš? Polož žetón na políčko s týmto pocitom.“ Dva pocity možno označiť na rozhraní.",
+      "Kto cíti niečo iné, položí žetón mimo políčok. Kto sa nechce zapojiť, nechá si ho.",
+      "Pozrite sa na rozloženie žetónov. Dobrovoľníci môžu pomenovať svoj pocit a povedať, prečo si ho vybrali."
     ],
     "reflection": [
-      "Ukázala sa v triede jedna nálada alebo viac rôznych?",
-      "Ako môžeme rešpektovať pocity, ktoré sú iné než naše?"
+      "Ktoré pocity sa dnes v našej triede objavili?",
+      "Dalo sa tvoje rozpoloženie vyjadriť jedným políčkom?"
     ],
-    "details": "Žetóny nemajú mená a stačí ich odtrhnúť z papiera. Políčka nie sú úplný zoznam emócií; miesto mimo nich dáva priestor pre ďalší pocit alebo neistotu. Vopred povedzte, že ostatní môžu vidieť umiestnenie žetónu, preto možno aj nehlasovať. Nepýtajte sa, kto dal žetón ku smútku či hnevu. Spoločná podpora môže byť pokojný začiatok práce alebo jasná dohoda, ako požiadať o prestávku."
+    "details": "Na spoločnom papieri vznikne jednoduchý obraz nálad v triede. Predveďte výber vlastným žetónom, napríklad: „Dnes som pokojný, položím ho sem.“ Ak má niekto radosť aj obavy, môže žetón položiť mimo políčok a svoj pocit pomenovať, ak chce.\n\nŽiaci pristupujú po niekoľkých, aby sa pri papieri netlačili. Keď žetóny položia, všimnite si spolu, či sa sústredili na jednom mieste alebo sú rozložené. Nehádajte, ktorý žetón komu patrí. Na záver vypočujte niekoľko dobrovoľných vysvetlení. Nie je potrebné zistiť príčinu každého pocitu."
   },
   {
     "id": "094",
@@ -1956,7 +1960,7 @@
     "materials": "Bez pomôcok",
     "steps": [
       "Vytvorte dvojice stojace oproti sebe s dostatkom miesta. Jeden bude viesť, druhý bude zrkadlo.",
-      "Vedúci minútu pomaly pohybuje rukami a druhý ho zrkadlovo napodobňuje, akoby stál pred zrkadlom.",
+      "Prvý pomaly hýbe rukami, druhý ho napodobňuje ako zrkadlo: oproti zdvihnutej pravej ruke zdvihne ľavú. Skúšajú minútu.",
       "Vymeňte úlohy. Na záver si dvojice povedia, ktoré tempo a pohyby sa dali dobre sledovať."
     ],
     "reflection": [

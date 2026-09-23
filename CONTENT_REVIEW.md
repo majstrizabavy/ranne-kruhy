@@ -44,6 +44,12 @@ Tieto verzie sú redakčné adaptácie, nie doslovný prepis pôvodného materi�
 
 ## Overenie
 
+### Druhý prechod podľa spätnej väzby učiteľa
+
+Po opätovnom prečítaní krátkych návodov celej databázy bolo spresnených 29 záznamov: 011, 012, 024, 026, 027, 028, 033, 036, 038, 040, 042, 043, 046, 049, 059, 069, 071, 072, 074, 075, 076, 079, 084, 087, 088, 091, 092, 093 a 096.
+
+Kľúčové kritérium: z textu musí byť zrejmé, čo učiteľ povie a čo následne urobí žiak. Škálovanie teraz obsahuje priamu otázku na náladu, význam všetkých piatich čísel, konkrétny signál aj príklad odpovede. Pri náladových aktivitách a plánovaní pribudol vysvetlený priebeh namiesto samotných organizačných upozornení. Štvorlístok používa konkrétne plánovanie plagátu; Plánovanie dňa má priamo vykonateľné hlasovanie o jednej prestávke. Pri ostatných upravených záznamoch boli doplnené príklady, konkrétne otázky alebo chýbajúce pravidlá. Počet krokov ani splnenie automatických kontrol samy osebe nezaručujú zrozumiteľnosť pre učiteľa.
+
 Kontrola dátovej schémy zahŕňa počet a dĺžku krokov, povinné polia a jedinečné ID. Obsahové regresné testy kontrolujú useknuté konce, neuzavreté úvodzovky a zátvorky, doslovné duplikáty a chybne rozdelené odkazy. Tieto testy dopĺňajú redakčné prečítanie; samy nepreukazujú pedagogickú kvalitu. Aktivity ešte neboli v tejto podobe odskúšané s triedou.
 
 Odkaz na film Zebra je identifikovaný aj v [materiáli školy CEIP Caión](https://www.edu.xunta.gal/centros/ceipcaion/system/files/CURTAMETRAXES%20PARA%20EDUCAR%20EN%20VALORES.pdf). Priame prehratie YouTube nebolo pri revízii dostupné; preto návod nesľubuje jeho dostupnosť a žiada kontrolu pred hodinou.
