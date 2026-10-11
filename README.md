@@ -31,8 +31,7 @@ inštalácii samotnej aplikácie.
 
 „Citát na dnes“ na úvode otvára malé okno s jemným odhalením celej vety.
 Citáty sú vlastné slovenské preklady overených pasáží; pôvodné znenia,
-autori, diela a odkazy sú v `js/quotes-data.js`. Tlačidlo Zdroj citátu
-otvára pôvodné dielo. Výber je rovnaký počas celého kalendárneho dňa
+autori, diela a odkazy sú v `js/quotes-data.js`. Výber je rovnaký počas celého kalendárneho dňa
 v časovom pásme Europe/Bratislava a cyklí zbierku bez opakovania pred jej
 vyčerpaním. Pri zníženom pohybe sa text zobrazí hneď, bez animácie.
 
@@ -95,4 +94,4 @@ Moje obľúbené sú dostupné na úvode a vyberajú zo všetkých uložených a
 
 Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/`, `icons/` a `media/` na statický HTTPS hosting. Podadresár je podporovaný. Testovacie súbory sa do aplikácie nenačítavajú.
 
-Cache má verziu `ranne-kruhy-v37`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.
+Cache má verziu `ranne-kruhy-v38`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.

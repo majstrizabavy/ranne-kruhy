@@ -44,7 +44,7 @@ test('Quote dialog opens only on request, renders safe text, and restores focus 
   assert.equal(dialog.open, true);
   assert.equal(nodes.get('#daily-quote').textContent, quote.text);
   assert.equal(nodes.get('#daily-quote').innerHTML, '');
-  assert.equal(nodes.get('#quote-source').href, quote.source);
+  assert.doesNotMatch(dialog.innerHTML, /quote-source|quote-footer|Slovenský preklad/);
   assert.equal(document.body.style.overflow, 'hidden');
   nodes.get('#quote-close').events.get('click')();
   assert.equal(dialog.open, false);
