@@ -105,6 +105,9 @@ test('Home exposes one shared favorites entry and details use the actual activit
   assert.match(homeHtml, /aria-label="Moje obľúbené, počet aktivít: 28"/);
   assert.match(homeHtml, /class="tile-count" aria-hidden="true">28<\/span>/);
   assert.match(homeHtml, /<footer class="site-footer">/);
+  assert.match(homeHtml, /href="https:\/\/christianalex\.sk\/" target="_blank" rel="noopener noreferrer"/);
+  assert.match(homeHtml, /src="media\/christian-alex-logo\.png"/);
+  assert.match(homeHtml, /Vytvoril:<br><strong>Mgr\. Christián Vaľko<\/strong>/);
   vm.runInContext("filter={kind:'favorites'}; choose();", a.context);
   assert.equal(vm.runInContext('current.gradeLevel', a.context), 2);
   assert.match(a.elements.get('#app').innerHTML, /Výber z obľúbených · 2\. stupeň/);
