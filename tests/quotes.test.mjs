@@ -2,7 +2,27 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
-import { QUOTES, quoteForDay } from '../js/quotes-data.js';
+import { QUOTES, quoteForDay, createQuoteRotation } from '../js/quotes-data.js';
+
+test('Random rotation exhausts unseen quotes and never immediately repeats', () => {
+  for (const random of [() => 0, () => .999, Math.random]) {
+    const initial = QUOTES[0];
+    const next = createQuoteRotation(initial, random);
+    const firstCycle = [initial, ...Array.from({ length: QUOTES.length - 1 }, next)];
+    assert.equal(new Set(firstCycle.map(q => q.id)).size, QUOTES.length);
+    let previous = firstCycle.at(-1);
+    for (let cycle = 0; cycle < 3; cycle++) {
+      const seen = new Set();
+      for (let i = 0; i < QUOTES.length; i++) {
+        const quote = next();
+        assert.notEqual(quote.id, previous.id);
+        assert.ok(!seen.has(quote.id));
+        seen.add(quote.id);
+        previous = quote;
+      }
+    }
+  }
+});
 
 test('Every curated quote has its original passage and a primary source', () => {
   assert.equal(QUOTES.length, 10);
@@ -37,7 +57,7 @@ test('Quote dialog opens only on request, renders safe text, and restores focus 
   const quote = { text: '<img onerror=bad> Láskavosť.', author: 'Autor', source: 'https://www.gutenberg.org/', work: 'Dielo' };
   const opener = { isConnected: true, focus() { this.focused = true; } };
   const source = (await readFile(new URL('../js/quotes.js', import.meta.url), 'utf8')).replace(/^import .*;\r?\n/gm, '').replace('export function openQuote', 'function openQuote');
-  const context = vm.createContext({ document, quoteForDay: () => quote, openerButton: opener });
+  const context = vm.createContext({ document, quoteForDay: () => quote, createQuoteRotation, openerButton: opener });
   vm.runInContext(source, context);
   assert.ok(!dialog.open);
   vm.runInContext('openQuote(openerButton)', context);
@@ -46,11 +66,18 @@ test('Quote dialog opens only on request, renders safe text, and restores focus 
   assert.equal(nodes.get('#daily-quote').innerHTML, '');
   assert.doesNotMatch(dialog.innerHTML, /quote-source|quote-footer|Slovenský preklad/);
   assert.equal(document.body.style.overflow, 'hidden');
+  const animation = { currentTime: 1000, play() { this.played = true; } };
+  nodes.get('#daily-quote').getAnimations = () => [animation];
+  nodes.get('#quote-next').events.get('click')();
+  assert.notEqual(nodes.get('#daily-quote').textContent, quote.text);
+  assert.equal(animation.currentTime, 0);
+  assert.equal(animation.played, true);
   nodes.get('#quote-close').events.get('click')();
   assert.equal(dialog.open, false);
   assert.equal(opener.focused, true);
   assert.equal(document.body.style.overflow, 'auto');
   vm.runInContext('openQuote(openerButton)', context);
+  assert.equal(nodes.get('#daily-quote').textContent, quote.text);
   dialog.events.get('click')({ target: dialog });
   assert.equal(dialog.open, false);
 });

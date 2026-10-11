@@ -178,6 +178,8 @@
 .home-bottom:has(.install-link[hidden]){display:none}
 
 .quote-link{display:flex;align-items:center;gap:10px;min-height:44px;width:fit-content;max-width:100%;padding:10px 4px;margin-top:2px;border:0;background:transparent;color:#e5ebe7;font-size:14px;line-height:1.4;text-align:left}
+#quote-next{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:28px;padding:10px 16px;border:1px solid #325b3b;border-radius:14px;background:#102419;color:#c5d7ca;font-size:13px;line-height:1.4}
+#quote-next:hover{background:#193c27;border-color:#6ab65b;color:white;transform:none}
 .quote-link svg{width:21px;height:21px;color:var(--green)}
 .quote-link:hover{color:var(--green);transform:none}
 .quote-dialog{width:min(860px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);margin:auto;padding:0;border:1px solid #325b3b;border-radius:28px;background:#080d0b;color:#f9faf9;box-shadow:0 24px 90px #0008;overflow:auto}

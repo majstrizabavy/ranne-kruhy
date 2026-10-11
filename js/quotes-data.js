@@ -21,3 +21,17 @@ export function quoteForDay(date = new Date()) {
   const day = Math.floor(Date.UTC(value('year'), value('month') - 1, value('day')) / 86400000);
   return QUOTES[((day % QUOTES.length) + QUOTES.length) % QUOTES.length];
 }
+export function createQuoteRotation(initial, random = Math.random) {
+  let current = initial;
+  const seen = new Set([initial.id]);
+  return () => {
+    let pool = QUOTES.filter(quote => quote.id !== current.id && !seen.has(quote.id));
+    if (!pool.length) {
+      seen.clear();
+      pool = QUOTES.filter(quote => quote.id !== current.id);
+    }
+    current = pool[Math.floor(random() * pool.length)];
+    seen.add(current.id);
+    return current;
+  };
+}
