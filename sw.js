@@ -1,4 +1,4 @@
-const CACHE = 'ranne-kruhy-v40';
+const CACHE = 'ranne-kruhy-v41';
 const ASSETS = ['./','./index.html','./styles.css','./js/app.js','./js/core.js','./js/history.js','./js/song.js','./js/song-data.js','./js/quotes.js','./js/quotes-data.js','./activities.json','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
 const ACTIVITIES_URL = new URL('./activities.json', self.location.href).href;
 

@@ -125,20 +125,20 @@
 @media(max-width:620px){.header-note{font-size:12px;letter-spacing:.2px;max-width:160px;white-space:normal;text-wrap:balance;line-height:1.45}.site-header:has(.grade-switch:not([hidden])) .header-note{display:none}.card .site-footer{margin-top:23px;padding-top:15px;font-size:10px;letter-spacing:.15px}.card .site-footer p span{display:block}}
 
 /* Let the welcome card follow its content instead of stretching empty rows. */
-.song-dialog{width:min(1080px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);height:min(760px,calc(100dvh - 40px));margin:auto;padding:0;border:1px solid #325b3b;border-radius:28px;background:#080d0b;color:#f9faf9;box-shadow:0 24px 90px #0008;overflow:hidden}
-.song-dialog::backdrop{background:#020904c9;backdrop-filter:blur(6px)}
+.song-dialog{width:min(1080px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);height:min(760px,calc(100dvh - 40px));margin:auto;padding:0;border:1px solid #ffffff1a;border-radius:28px;background:#101713;color:#f9faf9;box-shadow:0 12px 40px #0005;overflow:hidden}
+.song-dialog::backdrop{background:#0009}
 .song-window{display:flex;flex-direction:column;height:100%;min-height:0}
 .song-header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 24px;border-bottom:1px solid #ffffff14;flex-shrink:0}
 .song-header h2{font-size:16px;margin:0;letter-spacing:0;font-weight:600}
 .song-tools{display:flex;gap:8px;align-items:center}
-.song-tools button,.song-navigation button{min-height:44px;border:1px solid #ffffff24;border-radius:12px;background:#102419;padding:10px 14px;font-size:13px}
-.song-tools button:hover,.song-navigation button:hover{background:#193c27;transform:none}
+.song-tools button,.song-navigation button{min-height:44px;border:1px solid #ffffff1a;border-radius:12px;background:#1b2720;padding:10px 14px;font-size:13px}
+.song-tools button:hover,.song-navigation button:hover{background:#26372c;transform:none}
 #song-close{min-width:44px;font-size:18px}
-.song-stage{display:flex;flex:1;min-height:0;flex-direction:column;align-items:center;justify-content:center;padding:24px 30px;overflow:auto;background:radial-gradient(ellipse at 50% 40%,#133d2255,transparent 75%);text-align:center}
-.song-section{margin:0 0 22px;color:var(--green);font-size:14px;font-weight:700;letter-spacing:1.5px}
+.song-stage{display:flex;flex:1;min-height:0;flex-direction:column;align-items:center;justify-content:center;padding:24px 30px;overflow:auto;background:#101713;text-align:center}
+.song-section{margin:0 0 22px;color:#abc79d;font-size:14px;font-weight:700;letter-spacing:1.5px}
 .song-lines{width:100%;max-width:1000px}
 .song-lines p{margin:10px 0;font-size:clamp(23px,3.8vw,46px);font-weight:700;line-height:1.35;letter-spacing:-.5px;overflow-wrap:anywhere;text-wrap:balance}
-.song-controls{flex-shrink:0;padding:15px 24px 22px;border-top:1px solid #ffffff14;background:#0b1b12}
+.song-controls{flex-shrink:0;padding:15px 24px 22px;border-top:1px solid #ffffff14;background:#141d17}
 .song-navigation{display:flex;align-items:center;justify-content:center;gap:20px;margin-bottom:10px}
 .song-navigation span{font-size:12px;color:#b1bbb6;font-variant-numeric:tabular-nums;min-width:45px;text-align:center}
 .song-navigation button:disabled{opacity:.35;cursor:default}
@@ -190,28 +190,26 @@
 @media(max-width:360px){.home-extras{gap:6px}.tile-label{font-size:11px}}
 
 .quote-link{display:flex;align-items:center;gap:10px;min-height:44px;width:fit-content;max-width:100%;padding:10px 4px;margin-top:2px;border:0;background:transparent;color:#e5ebe7;font-size:14px;line-height:1.4;text-align:left}
-#quote-next{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:28px;padding:10px 16px;border:1px solid #325b3b;border-radius:14px;background:#102419;color:#c5d7ca;font-size:13px;line-height:1.4}
-#quote-next:hover{background:#193c27;border-color:#6ab65b;color:white;transform:none}
+#quote-next{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:28px;padding:10px 16px;border:1px solid #ffffff1a;border-radius:14px;background:#1b2720;color:#c5d7ca;font-size:13px;line-height:1.4}
+#quote-next:hover{background:#26372c;border-color:#ffffff30;color:white;transform:none}
 .quote-link svg{width:21px;height:21px;color:var(--green)}
 .quote-link:hover{color:var(--green);transform:none}
-.quote-dialog{width:min(860px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);margin:auto;padding:0;border:1px solid #325b3b;border-radius:28px;background:#080d0b;color:#f9faf9;box-shadow:0 24px 90px #0008;overflow:auto}
-.quote-dialog::backdrop{background:#020904c9;backdrop-filter:blur(6px)}
+.quote-dialog{width:min(860px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);margin:auto;padding:0;border:1px solid #ffffff1a;border-radius:28px;background:#101713;color:#f9faf9;box-shadow:0 12px 40px #0005;overflow:auto}
+.quote-dialog::backdrop{background:#0009}
 .quote-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;border-bottom:1px solid #ffffff12}
 .quote-header h2{margin:0;font-size:14px;font-weight:500;letter-spacing:.5px;color:#c5ccc8}
-#quote-close{display:grid;place-items:center;min-width:44px;min-height:44px;padding:8px;border:1px solid #ffffff24;border-radius:12px;background:#102419;font-size:18px}
-#quote-close:hover{background:#193c27;transform:none}
-.quote-body{padding:22px 44px 42px;text-align:center;background:radial-gradient(ellipse at 50% 35%,#16462766,transparent 75%)}
-.quote-mark{display:block;height:90px;font-family:Georgia,'Times New Roman',serif;font-size:140px;line-height:1;color:var(--green);text-shadow:0 0 25px #60ed4330;user-select:none}
+#quote-close{display:grid;place-items:center;min-width:44px;min-height:44px;padding:8px;border:1px solid #ffffff1a;border-radius:12px;background:#1b2720;font-size:18px}
+#quote-close:hover{background:#26372c;transform:none}
+.quote-body{padding:22px 44px 42px;text-align:center;background:#101713}
+.quote-mark{display:block;height:90px;font-family:Georgia,'Times New Roman',serif;font-size:140px;line-height:1;color:#a0bc90;text-shadow:none;user-select:none}
 .quote-figure{margin:12px 0 0}
 .quote-figure blockquote{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(26px,3.5vw,44px);line-height:1.45;letter-spacing:-.4px;text-wrap:balance;overflow-wrap:anywhere}
-.quote-figure figcaption{margin-top:28px;font-size:15px;line-height:1.5;color:#8ae476}
+.quote-figure figcaption{margin-top:28px;font-size:15px;line-height:1.5;color:#b4c4b9}
 @media(prefers-reduced-motion:no-preference){
   .quote-dialog[open]{animation:quote-window .25s ease-out both}
-  .quote-dialog[open] .quote-mark{animation:quote-glow 1.3s ease-out both}
   .quote-dialog[open] blockquote{animation:quote-reveal 1s .4s ease-out both}
   .quote-dialog[open] figcaption{animation:quote-reveal .6s 1.1s ease-out both}
 }
 @keyframes quote-window{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 @keyframes quote-reveal{from{opacity:0;transform:translateY(12px);filter:blur(5px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
-@keyframes quote-glow{0%{opacity:.3;transform:scale(.92);text-shadow:0 0 0 #60ed4300}45%{opacity:1;text-shadow:0 0 36px #60ed4380}100%{opacity:1;transform:scale(1);text-shadow:0 0 25px #60ed4330}}
 @media(max-width:620px){.quote-link{font-size:13px}.quote-dialog{width:calc(100% - 24px);max-height:calc(100dvh - 32px);border-radius:22px}.quote-header{padding:12px 16px}.quote-body{padding:18px 22px 30px}.quote-mark{height:72px;font-size:115px}.quote-figure blockquote{font-size:clamp(24px,6vw,32px);letter-spacing:0}.quote-figure figcaption{font-size:13px;margin-top:22px}}
