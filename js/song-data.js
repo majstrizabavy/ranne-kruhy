@@ -138,6 +138,9 @@ export const SONG_SLIDES = [
 ];
 // The final untimed outro starts after 2:31 and remains to the end.
 export const SONG_CUES = [0,12,28,35,42,57,70,77,85,100,117,123,131,136,146,152];
+// Older cached players still import this name during a deployment. Keep the
+// export compatible, but return the supplied fixed times instead of estimates.
+export function estimatedCues() { return [...SONG_CUES]; }
 export function slideAt(time, cues = SONG_CUES) {
   let index = 0;
   for (let i = 1; i < cues.length; i++) {

@@ -2,7 +2,12 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
-import { SONG_SLIDES, SONG_CUES, slideAt } from '../js/song-data.js';
+import { SONG_SLIDES, SONG_CUES, slideAt, estimatedCues } from '../js/song-data.js';
+
+test('Old cached players can import their timing helper during upgrades', () => {
+  assert.deepEqual(estimatedCues(180), SONG_CUES);
+  assert.equal(slideAt(57, estimatedCues(180)), 5);
+});
 
 test('Lyrics preserve both repeated choruses and the distinct closing chorus', () => {
   assert.equal(SONG_SLIDES.length, 16);
