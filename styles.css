@@ -197,16 +197,16 @@
 @media(max-width:360px){.home-extras{gap:6px}.tile-label{font-size:11px}}
 
 .quote-link{display:flex;align-items:center;gap:10px;min-height:44px;width:fit-content;max-width:100%;padding:10px 4px;margin-top:2px;border:0;background:transparent;color:#e5ebe7;font-size:14px;line-height:1.4;text-align:left}
-#quote-next{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:28px;padding:10px 16px;border:1px solid #ffffff1a;border-radius:14px;background:#1b2720;color:#c5d7ca;font-size:13px;line-height:1.4}
-#quote-next:hover{background:#26372c;border-color:#ffffff30;color:white;transform:none}
+#quote-next{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:28px;padding:10px 14px;font-size:13px;line-height:1.4}
 .quote-link svg{width:21px;height:21px;color:var(--green)}
 .quote-link:hover{color:var(--green);transform:none}
 .quote-dialog{width:min(860px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);margin:auto;padding:0;border:1px solid #ffffff1a;border-radius:28px;background:#101713;color:#f9faf9;box-shadow:0 12px 40px #0005;overflow:auto}
 .quote-dialog::backdrop{background:#0009}
 .quote-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;border-bottom:1px solid #ffffff12}
 .quote-header h2{margin:0;font-size:14px;font-weight:500;letter-spacing:.5px;color:#c5ccc8}
-#quote-close{display:grid;place-items:center;min-width:44px;min-height:44px;padding:8px;border:1px solid #ffffff1a;border-radius:12px;background:#1b2720;font-size:18px}
-#quote-close:hover{background:#26372c;transform:none}
+#quote-close{display:grid;place-items:center;min-width:44px;min-height:44px;padding:8px;font-size:18px}
+.song-tools button,#quote-next,#quote-close{border:1px solid var(--green);border-radius:12px;background:var(--green);color:#061005;font-weight:700}
+.song-tools button:hover,#quote-next:hover,#quote-close:hover{background:#68ff37;border-color:#68ff37;color:#061005;transform:none}
 .quote-body{padding:22px 44px 42px;text-align:center;background:#101713}
 .quote-mark{display:block;height:90px;font-family:Georgia,'Times New Roman',serif;font-size:140px;line-height:1;color:#a0bc90;text-shadow:none;user-select:none}
 .quote-figure{margin:12px 0 0}
