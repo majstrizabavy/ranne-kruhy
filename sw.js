@@ -1,5 +1,5 @@
-const CACHE = 'ranne-kruhy-v26';
-const ASSETS = ['./','./index.html','./styles.css','./js/app.js','./js/core.js','./js/history.js','./activities.json','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
+const CACHE = 'ranne-kruhy-v36';
+const ASSETS = ['./','./index.html','./styles.css','./js/app.js','./js/core.js','./js/history.js','./js/song.js','./js/song-data.js','./activities.json','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
 const ACTIVITIES_URL = new URL('./activities.json', self.location.href).href;
 
 const FILTERS = [
@@ -51,7 +51,7 @@ async function loadActivities(request) {
   }
 }
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS).then(async () => { try { await cache.add('./media/trojka-hymna.mp3'); } catch { /* Song download must not block the activity app. */ } })).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {

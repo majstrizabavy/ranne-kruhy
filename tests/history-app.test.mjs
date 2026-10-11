@@ -9,6 +9,7 @@ const source = (await readFile(new URL('../js/app.js', import.meta.url), 'utf8')
 import { data } from './fixtures.mjs';
 
 function app(saved = new Map()) {
+  const windowEvents = new Map();
   const callbacks = new Map();
   let sequence = 0;
   const elements = new Map();
@@ -21,7 +22,7 @@ function app(saved = new Map()) {
     ...core, createActivityHistory,
     localStorage: { getItem: key => saved.get(key) ?? null, setItem: (key, value) => saved.set(key, value) },
     document: { querySelector: selector => { if (!elements.has(selector)) elements.set(selector, element()); return elements.get(selector); }, createElement: element },
-    window: { matchMedia: () => ({ matches: false, addEventListener() {} }), scrollTo() {}, addEventListener() {} },
+    window: { matchMedia: () => ({ matches: false, addEventListener() {} }), scrollTo() {}, addEventListener: (name, callback) => windowEvents.set(name, callback) },
     navigator: {}, fetch: async () => ({ ok: true, json: async () => data }),
     setTimeout: (fn, ms) => { callbacks.set(++sequence, { fn, ms }); return sequence; },
     clearTimeout: id => callbacks.delete(id)
@@ -30,8 +31,84 @@ function app(saved = new Map()) {
   // Set the loaded fixture synchronously for precise animation control.
   context.fixture = data;
   vm.runInContext('activities = fixture;', context);
-  return { context, saved, callbacks, elements };
+  return { context, saved, callbacks, elements, windowEvents };
 }
+
+test('Install button stays on home and provides device-specific manual help', () => {
+  const a = app();
+  vm.runInContext("home();", a.context);
+  const html = a.elements.get('#app').innerHTML;
+  assert.ok(html.indexOf('data-action="favorites"') < html.indexOf('data-action="install"'));
+  assert.match(html, /id="install-help" class="install-help" hidden/);
+  assert.match(vm.runInContext("navigator.userAgent='iPhone'; installInstructions();", a.context), /Safari.*Pridať na plochu/);
+  assert.match(vm.runInContext("navigator.userAgent='Android'; installInstructions();", a.context), /Chrome/);
+  vm.runInContext("installed=true; home();", a.context);
+  assert.match(a.elements.get('#app').innerHTML, /aria-controls="install-help" hidden/);
+  vm.runInContext("screen='choose'; render();", a.context);
+  assert.doesNotMatch(a.elements.get('#app').innerHTML, /data-action="install"/);
+});
+
+test('Song opens from a compact home button without an inline player', () => {
+  const a = app();
+  vm.runInContext('home();', a.context);
+  const html = a.elements.get('#app').innerHTML;
+  assert.match(html, /data-action="song" aria-haspopup="dialog"/);
+  assert.match(html, /Zaspievajme si/);
+  assert.doesNotMatch(html, /<audio|song-panel/);
+  vm.runInContext("screen='choose'; render();", a.context);
+  assert.doesNotMatch(a.elements.get('#app').innerHTML, /data-action="song"/);
+});
+
+test('Native install prompt is triggered by click and dismissal permits another later prompt', async () => {
+  const a = app();
+  let prompted = 0, prevented = 0;
+  const event = { preventDefault() { prevented++; }, async prompt() { prompted++; }, userChoice: Promise.resolve({ outcome: 'dismissed' }) };
+  a.windowEvents.get('beforeinstallprompt')(event);
+  assert.equal(prevented, 1);
+  assert.equal(prompted, 0);
+  a.context.installButton = { disabled: false };
+  await vm.runInContext('installApp(installButton)', a.context);
+  assert.equal(prompted, 1);
+  assert.equal(a.context.installButton.disabled, false);
+  assert.equal(vm.runInContext('installed', a.context), false);
+  a.windowEvents.get('beforeinstallprompt')({ ...event, userChoice: Promise.resolve({ outcome: 'accepted' }) });
+  await vm.runInContext('installApp(installButton)', a.context);
+  assert.equal(prompted, 2);
+  assert.equal(vm.runInContext('installed', a.context), true);
+});
+
+test('Manual instructions toggle inline and external installation hides the action', async () => {
+  const a = app();
+  const help = { hidden: true };
+  const button = { hidden: false, setAttribute(name, value) { this[name] = value; } };
+  a.elements.get('#app').querySelector = selector => selector === '#install-help' ? help : button;
+  a.context.installButton = button;
+  await vm.runInContext('installApp(installButton)', a.context);
+  assert.equal(help.hidden, false);
+  assert.equal(button['aria-expanded'], 'true');
+  await vm.runInContext('installApp(installButton)', a.context);
+  assert.equal(help.hidden, true);
+  a.windowEvents.get('appinstalled')();
+  assert.equal(button.hidden, true);
+  assert.equal(help.hidden, true);
+});
+
+test('Home exposes one shared favorites entry and details use the actual activity grade', () => {
+  const a = app();
+  vm.runInContext("grade=1; favorites=fixture.filter(a=>a.gradeLevel===2).map(a=>a.id); home();", a.context);
+  const homeHtml = a.elements.get('#app').innerHTML;
+  assert.equal((homeHtml.match(/data-action="favorites"/g) || []).length, 1);
+  assert.ok(homeHtml.indexOf('data-value="2"') < homeHtml.indexOf('data-action="favorites"'));
+  assert.match(homeHtml, /Moje obľúbené <span>28<\/span>/);
+  assert.match(homeHtml, /<footer class="site-footer">/);
+  vm.runInContext("filter={kind:'favorites'}; choose();", a.context);
+  assert.equal(vm.runInContext('current.gradeLevel', a.context), 2);
+  assert.match(a.elements.get('#app').innerHTML, /Výber z obľúbených · 2\. stupeň/);
+  assert.match(a.elements.get('#app').innerHTML, /Späť na úvod/);
+  assert.equal(a.elements.get('#change-grade').hidden, true);
+  vm.runInContext("screen='choose'; filter={kind:'all'}; render();", a.context);
+  assert.doesNotMatch(a.elements.get('#app').innerHTML, /data-action="favorites"/);
+});
 
 test('Cancelled animation records nothing; reveal records once and favorite redraw does not', () => {
   const a = app();

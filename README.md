@@ -13,6 +13,20 @@ npm test
 
 Otvorte http://localhost:5173. Súbor neotvárajte cez `file://`.
 
+## Školská pesnička
+
+„Zaspievajme si“ na úvode otvára samostatné okno s veľkým textom hymny,
+prehrávačom a možnosťou celej obrazovky. Hudba sa spúšťa iba cez prehrávač;
+zatvorenie okna ju pozastaví. Na zariadeniach bez podpory celej obrazovky sa
+okno zväčší na dostupnú plochu prehliadača.
+
+Text je v `js/song-data.js`, nahrávka v `media/trojka-hymna.mp3`.
+Automatické posúvanie je **orientačné**: odhaduje časy podľa dĺžky nahrávky
+a počtu riadkov, nejde o overené karaoke časovanie. Tlačidlá Späť / Ďalej
+vypnú automatiku a umožnia učiteľovi prepínať verše podľa spevu.
+Pesnička sa skúsi uložiť aj pre offline použitie; jej zlyhanie nebráni
+inštalácii samotnej aplikácie.
+
 ## Import nových aktivít
 
 Nahraďte obsah `activities.json` poľom objektov podľa nasledujúceho formátu. Príklad je len dokumentácia, aplikácia ho nenačítava:
@@ -66,10 +80,10 @@ node --input-type=module -e "import fs from 'node:fs'; import {validateActivitie
 
 PREKVAP MA vyberá zo všetkých aktivít zvoleného stupňa. Filter vyberá len svoju kategóriu. Iná aktivita zachová stupeň a filter a neopakuje aktuálnu aktivitu, ak existuje iná možnosť. Zachované je uprednostnenie ešte nevidených aktivít, potom najdávnejšie zobrazených; pri rovnakej priorite je výber náhodný.
 
-Obľúbené sa ukladajú do `rk-favorites-v2`, história do `rk-activity-history-v2`. Staré kľúče sa pri otvorení odstránia; pôvodné ID sa neprenesú do novej databázy. Úložisko je lokálne pre zariadenie a prehliadač. Pri jeho zablokovaní funguje aplikácia počas otvorenej relácie. Reflexia a podrobný návod sú pri otvorení aktivity zatvorené.
+Moje obľúbené sú dostupné na úvode a vyberajú zo všetkých uložených aktivít oboch stupňov. Obľúbené sa ukladajú do `rk-favorites-v2`, história do `rk-activity-history-v2`. Staré kľúče sa pri otvorení odstránia; pôvodné ID sa neprenesú do novej databázy. Úložisko je lokálne pre zariadenie a prehliadač. Pri jeho zablokovaní funguje aplikácia počas otvorenej relácie. Reflexia a podrobný návod sú pri otvorení aktivity zatvorené.
 
 ## Hosting a offline režim
 
-Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/` a `icons/` na statický HTTPS hosting. Podadresár je podporovaný. Testovacie súbory sa do aplikácie nenačítavajú.
+Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/`, `icons/` a `media/` na statický HTTPS hosting. Podadresár je podporovaný. Testovacie súbory sa do aplikácie nenačítavajú.
 
-Cache má verziu `ranne-kruhy-v26`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.
+Cache má verziu `ranne-kruhy-v36`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.

@@ -24,7 +24,7 @@ export function validateActivities(data) {
   return data;
 }
 export function filterActivities(data, grade, filter, favorites = []) {
-  return data.filter(a => a.gradeLevel === grade &&
+  return data.filter(a => (filter.kind === 'favorites' || a.gradeLevel === grade) &&
     (filter.kind !== 'category' || a.filter === filter.value) &&
     (filter.kind !== 'favorites' || favorites.includes(a.id)));
 }

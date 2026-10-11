@@ -17,9 +17,9 @@ test('Every new filter respects grade and category', () => {
     assert.ok(pool.every(a => a.gradeLevel === grade && a.filter === value));
   }
 });
-test('Surprise ignores category and favorites respect grade', () => {
+test('Surprise ignores category and favorites include both grades', () => {
   assert.equal(filterActivities(data, 2, { kind: 'all', value: FILTERS[0].value }).length, 28);
-  assert.deepEqual(filterActivities(data, 1, { kind: 'favorites' }, [data[0].id, data[28].id]), [data[0]]);
+  assert.deepEqual(filterActivities(data, 1, { kind: 'favorites' }, [data[0].id, data[28].id]), [data[0], data[28]]);
   assert.equal(pickActivity([]), null);
 });
 test('Next skips current when possible and supports single activity', () => {
