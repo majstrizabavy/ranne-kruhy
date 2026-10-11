@@ -21,9 +21,10 @@ zatvorenie okna ju pozastaví. Na zariadeniach bez podpory celej obrazovky sa
 okno zväčší na dostupnú plochu prehliadača.
 
 Text je v `js/song-data.js`, nahrávka v `media/trojka-hymna.mp3`.
-Automatické posúvanie je **orientačné**: odhaduje časy podľa dĺžky nahrávky
-a počtu riadkov, nejde o overené karaoke časovanie. Tlačidlá Späť / Ďalej
-vypnú automatiku a umožnia učiteľovi prepínať verše podľa spevu.
+Text sa prepína podľa časových značiek dodaných autorom po vypočutí nahrávky.
+Sleduje čas prehrávača aj pri pozastavení a preskočení. Ručné prepínanie
+veršov nie je dostupné. Posledný doplnený blok bez vlastného času začína
+v 2:32 a zostáva zobrazený do konca nahrávky.
 Pesnička sa skúsi uložiť aj pre offline použitie; jej zlyhanie nebráni
 inštalácii samotnej aplikácie.
 
@@ -97,4 +98,4 @@ Moje obľúbené sú dostupné na úvode a vyberajú zo všetkých uložených a
 
 Nahrajte `index.html`, `styles.css`, `activities.json`, `manifest.webmanifest`, `sw.js` a priečinky `js/`, `icons/` a `media/` na statický HTTPS hosting. Podadresár je podporovaný. Testovacie súbory sa do aplikácie nenačítavajú.
 
-Cache má verziu `ranne-kruhy-v42`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.
+Cache má verziu `ranne-kruhy-v43`. Po stiahnutí novej verzie sa aktualizácia aktivuje aj pri otvorených kartách, odstráni staré cache a obnoví karty aplikácie. Pri prvom nainštalovaní offline podpory sa stránka automaticky neobnovuje. Dáta sa načítavajú najprv zo siete, s limitom 3 sekundy; pri chybe sa použije uložená verzia novej databázy. Prázdne pole je platná databáza a nahrádza aj predtým uložené aktivity. Zmeny samotných dát nevyžadujú zmenu verzie cache; zmeny kódu áno.

@@ -2,25 +2,23 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
-import { SONG_SLIDES, estimatedCues, slideAt } from '../js/song-data.js';
+import { SONG_SLIDES, SONG_CUES, slideAt } from '../js/song-data.js';
 
 test('Lyrics preserve both repeated choruses and the distinct closing chorus', () => {
-  assert.equal(SONG_SLIDES.length, 15);
-  assert.equal(SONG_SLIDES.flatMap(s => s.lines).length, 51);
-  assert.deepEqual(SONG_SLIDES.slice(2, 5).map(s => s.lines), SONG_SLIDES.slice(6, 9).map(s => s.lines));
+  assert.equal(SONG_SLIDES.length, 16);
+  assert.equal(SONG_SLIDES.flatMap(s => s.lines).length, 55);
+  assert.equal(SONG_SLIDES[4].lines[1], 'hej, hej, hej, tu sa každý smeje!');
   assert.ok(SONG_SLIDES.flatMap(s => s.lines).includes('Keď prichádza Trojka,'));
-  assert.equal(SONG_SLIDES.at(-1).lines.at(-1), 'hej, hej, hej!');
+  assert.equal(SONG_SLIDES.at(-1).lines.at(-1), 'Hey hey heeey…');
 });
-test('Estimated slide selection follows the audio time, including backward seeks', () => {
-  assert.deepEqual(estimatedCues(NaN), []);
-  assert.deepEqual(estimatedCues(0), []);
-  const cues = estimatedCues(180);
-  assert.equal(cues.length, SONG_SLIDES.length);
-  assert.equal(cues[0], 0);
-  assert.ok(cues.every((time, i) => !i || time > cues[i - 1]));
-  assert.equal(slideAt(cues[4], cues), 4);
-  assert.equal(slideAt(cues[2], cues), 2);
-  assert.equal(slideAt(180, cues), SONG_SLIDES.length - 1);
+test('Fixed cues switch at every supplied boundary and stay on the final outro', () => {
+  assert.deepEqual(SONG_CUES, [0,12,28,35,42,57,70,77,85,100,117,123,131,136,146,152]);
+  assert.equal(SONG_CUES.length, SONG_SLIDES.length);
+  for (let i=1;i<SONG_CUES.length;i++) {
+    assert.equal(slideAt(SONG_CUES[i] - .01), i - 1);
+    assert.equal(slideAt(SONG_CUES[i]), i);
+  }
+  assert.equal(slideAt(500), 15);
 });
 
 const source = (await readFile(new URL('../js/song.js', import.meta.url), 'utf8'))
@@ -43,29 +41,24 @@ function player() {
   document.body = node();
   document.body.style.overflow = 'auto';
   document.createElement = node;
-  const context = vm.createContext({ document, SONG_SLIDES, estimatedCues, slideAt });
+  const context = vm.createContext({ document, SONG_SLIDES, SONG_CUES, slideAt });
   vm.runInContext(source, context);
   const dialog = document.body.children[0];
   const opener = { isConnected: true, focus() { this.focused = true; } };
   context.openerButton = opener;
   return { context, document, dialog, nodes, opener };
 }
-test('Modal starts paused, manual navigation disables estimates, and close restores focus', () => {
+test('Modal follows the recording without manual navigation and close restores focus', () => {
   const p = player();
   vm.runInContext('openSong(openerButton)', p.context);
   assert.equal(p.dialog.open, true);
   assert.equal(p.document.body.style.overflow, 'hidden');
   assert.match(p.dialog.innerHTML, /controls preload="none"/);
   assert.doesNotMatch(p.dialog.innerHTML, /autoplay/);
-  p.nodes.get('#song-next').events.get('click')();
-  assert.equal(p.nodes.get('#song-auto').checked, false);
-  assert.equal(p.nodes.get('#song-section').textContent, '1. sloha');
-  p.nodes.get('audio').currentTime = 100;
+  assert.doesNotMatch(p.dialog.innerHTML, /song-next|song-prev|song-auto|orientačné/);
+  p.nodes.get('audio').currentTime = 57;
   p.nodes.get('audio').events.get('timeupdate')();
-  assert.equal(p.nodes.get('#song-section').textContent, '1. sloha');
-  p.nodes.get('#song-auto').checked = true;
-  p.nodes.get('#song-auto').events.get('change')();
-  assert.notEqual(p.nodes.get('#song-section').textContent, '1. sloha');
+  assert.equal(p.nodes.get('#song-section').textContent, '2. sloha');
   p.nodes.get('#song-close').events.get('click')();
   assert.equal(p.nodes.get('audio').paused, true);
   assert.equal(p.dialog.open, false);
