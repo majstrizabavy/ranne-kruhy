@@ -1,3 +1,4 @@
+import { openQuote } from './quotes.js';
 import { openSong } from './song.js';
 import { FILTERS, validateActivities, filterActivities, pickActivity } from './core.js';
 import { createActivityHistory } from './history.js';
@@ -78,6 +79,7 @@ async function installApp(button) {
 function announce(message) { clearTimeout(statusTimer); status.textContent = message; statusTimer = setTimeout(() => status.textContent = '', 5000); }
 const escape = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const paths = {
+  sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>',
   music:'<path d="M9 18V5l12-2v13M9 9l12-2"/><ellipse cx="6" cy="18" rx="3" ry="3"/><ellipse cx="18" cy="16" rx="3" ry="3"/>',
   install:'<rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8m-4-4v4m0-15v7m-3-3 3 3 3-3"/>',
   arrow:'<path d="m9 5 7 7-7 7"/>', back:'<path d="M20 12H4m7-7-7 7 7 7"/>',
@@ -107,7 +109,7 @@ function render(focus = true) {
   gradeButton.hidden = screen === 'home' || filter.kind === 'favorites';
   gradeButton.innerHTML = `${icon('people')} ${grade}. stupeň <span>↔</span>`;
   gradeButton.setAttribute('aria-label', `Zmeniť stupeň, aktuálne ${grade}. stupeň`);
-  if (screen === 'home') app.innerHTML = `<div class="intro-copy"><span class="eyebrow">01 / DOBRÝ ZAČIATOK DŇA</span><h1 tabindex="-1">RANNÉ<br><span>KRUHY</span><span class="title-dot">.</span></h1><p class="tagline">Inšpiruj sa aktivitami pre ranné kruhy.</p></div><div class="grade-options">${option('grade','calm','1. stupeň ZŠ','',false,'1')}${option('grade','people','2. stupeň ZŠ','',false,'2')}<button class="favorites-link" data-action="favorites">${icon('heart')} Moje obľúbené <span>${activities.filter(a=>favorites.includes(a.id)).length}</span></button><button class="song-link" data-action="song" aria-haspopup="dialog">${icon('music')} Zaspievajme si</button></div><div class="home-bottom"><div class="install-area"><button class="install-link" data-action="install" aria-expanded="false" aria-controls="install-help" ${installed ? 'hidden' : ''}>${icon('install')} Pridať na plochu</button><p id="install-help" class="install-help" hidden>${escape(installInstructions())}</p></div></div>`;
+  if (screen === 'home') app.innerHTML = `<div class="intro-copy"><span class="eyebrow">01 / DOBRÝ ZAČIATOK DŇA</span><h1 tabindex="-1">RANNÉ<br><span>KRUHY</span><span class="title-dot">.</span></h1><p class="tagline">Inšpiruj sa aktivitami pre ranné kruhy.</p></div><div class="grade-options">${option('grade','calm','1. stupeň ZŠ','',false,'1')}${option('grade','people','2. stupeň ZŠ','',false,'2')}<button class="favorites-link" data-action="favorites">${icon('heart')} Moje obľúbené <span>${activities.filter(a=>favorites.includes(a.id)).length}</span></button><button class="song-link" data-action="song" aria-haspopup="dialog">${icon('music')} Zaspievajme si</button><button class="quote-link" data-action="quote" aria-haspopup="dialog">${icon('sun')} Citát na dnes</button></div><div class="home-bottom"><div class="install-area"><button class="install-link" data-action="install" aria-expanded="false" aria-controls="install-help" ${installed ? 'hidden' : ''}>${icon('install')} Pridať na plochu</button><p id="install-help" class="install-help" hidden>${escape(installInstructions())}</p></div></div>`;
   if (screen === 'choose') app.innerHTML = `<span class="eyebrow">02 / VÝBER AKTIVITY</span><h1 tabindex="-1">Vyber si<br><span>dnešnú aktivitu.</span></h1><div class="choices">${option('all','dice','PREKVAP MA','Náhodná aktivita',true)}<details class="filter-disclosure"><summary>${icon('search')}<span>Vybrať podľa typu aktivity</span><span class="disclosure-mark" aria-hidden="true"></span></summary><div class="category-grid">${FILTERS.map(f => `<button class="category-option" data-action="category" data-value="${f.value}"><span aria-hidden="true">${f.emoji}</span>${f.label}</button>`).join('')}</div></details></div>`;
   if (screen === 'activity' && current) {
     const a = current, liked = favorites.includes(a.id);
@@ -180,6 +182,7 @@ app.addEventListener('click', event => {
   else if (action==='favorite') { const adding=!favorites.includes(current.id); favorites=adding?[...favorites,current.id]:favorites.filter(id=>id!==current.id); const saved=save('rk-favorites-v2',favorites); render(false); app.querySelector('.heart').focus(); if (saved) announce(adding?'Aktivita je medzi obľúbenými.':'Aktivita bola odstránená z obľúbených.'); }
   else if (action==='install') { void installApp(button); }
   else if (action==='song') openSong(button);
+  else if (action==='quote') openQuote(button);
   else if (action==='another') choose(800, true);
   else if (['all','category','favorites'].includes(action)) { filter={kind:action,value}; choose(action==='all' ? 900 : 0); }
 });

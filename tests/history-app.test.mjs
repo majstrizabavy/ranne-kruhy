@@ -54,9 +54,12 @@ test('Song opens from a compact home button without an inline player', () => {
   const html = a.elements.get('#app').innerHTML;
   assert.match(html, /data-action="song" aria-haspopup="dialog"/);
   assert.match(html, /Zaspievajme si/);
+  assert.match(html, /data-action="quote" aria-haspopup="dialog"/);
+  assert.ok(html.indexOf('data-action="song"') < html.indexOf('data-action="quote"'));
   assert.doesNotMatch(html, /<audio|song-panel/);
   vm.runInContext("screen='choose'; render();", a.context);
   assert.doesNotMatch(a.elements.get('#app').innerHTML, /data-action="song"/);
+  assert.doesNotMatch(a.elements.get('#app').innerHTML, /data-action="quote"/);
 });
 
 test('Native install prompt is triggered by click and dismissal permits another later prompt', async () => {

@@ -176,3 +176,30 @@
 #song-error[hidden]{display:none}
 
 .home-bottom:has(.install-link[hidden]){display:none}
+
+.quote-link{display:flex;align-items:center;gap:10px;min-height:44px;width:fit-content;max-width:100%;padding:10px 4px;margin-top:2px;border:0;background:transparent;color:#e5ebe7;font-size:14px;line-height:1.4;text-align:left}
+.quote-link svg{width:21px;height:21px;color:var(--green)}
+.quote-link:hover{color:var(--green);transform:none}
+.quote-dialog{width:min(860px,calc(100% - 40px));max-width:none;max-height:calc(100dvh - 40px);margin:auto;padding:0;border:1px solid #325b3b;border-radius:28px;background:#080d0b;color:#f9faf9;box-shadow:0 24px 90px #0008;overflow:auto}
+.quote-dialog::backdrop{background:#020904c9;backdrop-filter:blur(6px)}
+.quote-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;border-bottom:1px solid #ffffff12}
+.quote-header h2{margin:0;font-size:14px;font-weight:500;letter-spacing:.5px;color:#c5ccc8}
+#quote-close{display:grid;place-items:center;min-width:44px;min-height:44px;padding:8px;border:1px solid #ffffff24;border-radius:12px;background:#102419;font-size:18px}
+#quote-close:hover{background:#193c27;transform:none}
+.quote-body{padding:22px 44px 42px;text-align:center;background:radial-gradient(ellipse at 50% 35%,#16462766,transparent 75%)}
+.quote-mark{display:block;height:90px;font-family:Georgia,'Times New Roman',serif;font-size:140px;line-height:1;color:var(--green);text-shadow:0 0 25px #60ed4330;user-select:none}
+.quote-figure{margin:12px 0 0}
+.quote-figure blockquote{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(26px,3.5vw,44px);line-height:1.45;letter-spacing:-.4px;text-wrap:balance;overflow-wrap:anywhere}
+.quote-figure figcaption{margin-top:28px;font-size:15px;line-height:1.5;color:#8ae476}
+.quote-footer{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 20px;padding:15px 24px;border-top:1px solid #ffffff12;color:#9caea2;font-size:11px;line-height:1.5}
+.quote-footer a{color:#b7c9bd;text-decoration:underline;text-underline-offset:3px}
+@media(prefers-reduced-motion:no-preference){
+  .quote-dialog[open]{animation:quote-window .25s ease-out both}
+  .quote-dialog[open] .quote-mark{animation:quote-glow 1.3s ease-out both}
+  .quote-dialog[open] blockquote{animation:quote-reveal 1s .4s ease-out both}
+  .quote-dialog[open] figcaption{animation:quote-reveal .6s 1.1s ease-out both}
+}
+@keyframes quote-window{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes quote-reveal{from{opacity:0;transform:translateY(12px);filter:blur(5px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes quote-glow{0%{opacity:.3;transform:scale(.92);text-shadow:0 0 0 #60ed4300}45%{opacity:1;text-shadow:0 0 36px #60ed4380}100%{opacity:1;transform:scale(1);text-shadow:0 0 25px #60ed4330}}
+@media(max-width:620px){.quote-link{font-size:13px}.quote-dialog{width:calc(100% - 24px);max-height:calc(100dvh - 32px);border-radius:22px}.quote-header{padding:12px 16px}.quote-body{padding:18px 22px 30px}.quote-mark{height:72px;font-size:115px}.quote-figure blockquote{font-size:clamp(24px,6vw,32px);letter-spacing:0}.quote-figure figcaption{font-size:13px;margin-top:22px}.quote-footer{padding:13px 16px}}
