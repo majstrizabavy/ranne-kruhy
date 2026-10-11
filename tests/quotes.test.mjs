@@ -24,13 +24,14 @@ test('Random rotation exhausts unseen quotes and never immediately repeats', () 
   }
 });
 
-test('Every curated quote has its original passage and a primary source', () => {
-  assert.equal(QUOTES.length, 10);
+test('Owner supplied collection contains all 103 texts and author labels', () => {
+  assert.equal(QUOTES.length, 103);
   assert.equal(new Set(QUOTES.map(q => q.id)).size, QUOTES.length);
   for (const q of QUOTES) {
-    for (const field of ['text', 'author', 'work', 'original']) assert.ok(q[field].trim());
-    assert.equal(new URL(q.source).hostname, 'www.gutenberg.org');
+    for (const field of ['text', 'author']) assert.ok(q[field].trim());
   }
+  assert.equal(QUOTES[0].author, 'Benjamin Button');
+  assert.equal(QUOTES.at(-1).text, 'Učenie nikdy nevyčerpá myseľ.');
 });
 test('Daily quote is stable within the Slovak day and changes at Slovak midnight', () => {
   assert.equal(quoteForDay(new Date('2026-10-11T00:00:00Z')), quoteForDay(new Date('2026-10-11T21:59:59Z')));
