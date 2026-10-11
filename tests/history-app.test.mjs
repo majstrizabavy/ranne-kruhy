@@ -53,7 +53,7 @@ test('Song opens from a compact home button without an inline player', () => {
   vm.runInContext('home();', a.context);
   const html = a.elements.get('#app').innerHTML;
   assert.match(html, /data-action="song" aria-haspopup="dialog"/);
-  assert.match(html, /Zaspievajme si/);
+  assert.match(html, /Zaspievajme<br>si/);
   assert.match(html, /data-action="quote" aria-haspopup="dialog"/);
   assert.ok(html.indexOf('data-action="song"') < html.indexOf('data-action="quote"'));
   assert.doesNotMatch(html, /<audio|song-panel/);
@@ -102,7 +102,8 @@ test('Home exposes one shared favorites entry and details use the actual activit
   const homeHtml = a.elements.get('#app').innerHTML;
   assert.equal((homeHtml.match(/data-action="favorites"/g) || []).length, 1);
   assert.ok(homeHtml.indexOf('data-value="2"') < homeHtml.indexOf('data-action="favorites"'));
-  assert.match(homeHtml, /Moje obľúbené <span>28<\/span>/);
+  assert.match(homeHtml, /aria-label="Moje obľúbené, počet aktivít: 28"/);
+  assert.match(homeHtml, /class="tile-count" aria-hidden="true">28<\/span>/);
   assert.match(homeHtml, /<footer class="site-footer">/);
   vm.runInContext("filter={kind:'favorites'}; choose();", a.context);
   assert.equal(vm.runInContext('current.gradeLevel', a.context), 2);
