@@ -131,8 +131,8 @@
 .song-header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 24px;border-bottom:1px solid #ffffff14;flex-shrink:0}
 .song-header h2{font-size:16px;margin:0;letter-spacing:0;font-weight:600}
 .song-tools{display:flex;gap:8px;align-items:center}
-.song-tools button,.song-navigation button{min-height:44px;border:1px solid #ffffff1a;border-radius:12px;background:#1b2720;padding:10px 14px;font-size:13px}
-.song-tools button:hover,.song-navigation button:hover{background:#26372c;transform:none}
+.song-tools button,.song-navigation button{min-height:44px;border:1px solid var(--green);border-radius:12px;background:var(--green);color:#061005;padding:10px 14px;font-size:13px;font-weight:700}
+.song-tools button:hover,.song-navigation button:hover{background:#68ff37;border-color:#68ff37;transform:none}
 #song-close{min-width:44px;font-size:18px}
 .song-stage{display:flex;flex:1;min-height:0;flex-direction:column;align-items:center;justify-content:center;padding:24px 30px;overflow:auto;background:#101713;text-align:center}
 .song-section{margin:0 0 22px;color:#abc79d;font-size:14px;font-weight:700;letter-spacing:1.5px}
@@ -144,7 +144,8 @@
 .song-navigation button:disabled{opacity:.35;cursor:default}
 .song-auto{display:flex;align-items:center;justify-content:center;gap:8px;margin:0 0 12px;font-size:12px;line-height:1.4;color:#c5ccc8;min-height:28px;cursor:pointer}
 .song-auto input{accent-color:var(--green);width:17px;height:17px;margin:0;flex-shrink:0}
-.song-controls audio{display:block;width:100%;height:44px}
+.song-controls audio{display:block;width:100%;height:44px;border-radius:28px;background:var(--green);color-scheme:light;accent-color:var(--green)}
+.song-controls audio::-webkit-media-controls-panel{background:var(--green)}
 #song-error{margin:10px 0 0;color:#e5ebe7;font-size:13px;line-height:1.5}
 .song-dialog:fullscreen,.song-dialog.song-expanded{width:100%;height:100dvh;max-height:100dvh;max-width:100%;border:0;border-radius:0}
 .song-dialog:fullscreen .song-lines p,.song-dialog.song-expanded .song-lines p{font-size:clamp(24px,4.3vw,70px)}
