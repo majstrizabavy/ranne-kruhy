@@ -217,6 +217,6 @@
   .quote-dialog[open] blockquote{animation:quote-reveal 1s .4s ease-out both}
   .quote-dialog[open] figcaption{animation:quote-reveal .6s 1.1s ease-out both}
 }
-@keyframes quote-window{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-@keyframes quote-reveal{from{opacity:0;transform:translateY(12px);filter:blur(5px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+@keyframes quote-window{from{opacity:0}to{opacity:1}}
+@keyframes quote-reveal{from{opacity:0}to{opacity:1}}
 @media(max-width:620px){.quote-link{font-size:13px}.quote-dialog{width:calc(100% - 24px);max-height:calc(100dvh - 32px);border-radius:22px}.quote-header{padding:12px 16px}.quote-body{padding:18px 22px 30px}.quote-mark{height:72px;font-size:115px}.quote-figure blockquote{font-size:clamp(24px,6vw,32px);letter-spacing:0}.quote-figure figcaption{font-size:13px;margin-top:22px}}
