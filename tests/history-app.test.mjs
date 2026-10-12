@@ -13,9 +13,10 @@ function app(saved = new Map()) {
   const callbacks = new Map();
   let sequence = 0;
   const elements = new Map();
+  const appEvents = new Map();
   function element() {
     return { innerHTML: '', textContent: '', childNodes: [], classList: { add() {} },
-      setAttribute() {}, addEventListener() {}, append() {}, focus() {}, animate() {},
+      setAttribute() {}, addEventListener(name, callback) { if (!appEvents.has(name)) appEvents.set(name, callback); }, append() {}, focus() {}, animate() {},
       querySelector: () => element(), querySelectorAll: () => [] };
   }
   const context = vm.createContext({
@@ -31,8 +32,47 @@ function app(saved = new Map()) {
   // Set the loaded fixture synchronously for precise animation control.
   context.fixture = data;
   vm.runInContext('activities = fixture;', context);
-  return { context, saved, callbacks, elements, windowEvents };
+  return { context, saved, callbacks, elements, windowEvents, appEvents };
 }
+
+test('Category selection lists the chosen grade and opens an explicit activity with a return to the list', () => {
+  const a = app();
+  const click = (action, value = '') => a.appEvents.get('click')({ target: { closest: () => ({ dataset: { action, value } }) } });
+  vm.runInContext('grade=2;', a.context);
+  click('category', 'komunikacia');
+  assert.equal(vm.runInContext('screen', a.context), 'catalogue');
+  const pool = data.filter(item => item.gradeLevel === 2 && item.filter === 'komunikacia');
+  const html = a.elements.get('#app').innerHTML;
+  assert.equal((html.match(/data-action="open-activity"/g) || []).length, pool.length);
+  for (const item of pool) assert.ok(html.includes(`data-value="${item.id}"`));
+  for (const item of data.filter(item => item.gradeLevel !== 2 || item.filter !== 'komunikacia')) {
+    assert.ok(!html.includes(`data-value="${item.id}"`));
+  }
+  click('open-activity', pool[1].id);
+  assert.equal(vm.runInContext('current.id', a.context), pool[1].id);
+  assert.equal(vm.runInContext('screen', a.context), 'activity');
+  assert.match(a.elements.get('#app').innerHTML, /Späť na zoznam/);
+  assert.match(a.elements.get('#app').innerHTML, /Vybrať zo zoznamu/);
+  click('another');
+  assert.equal(vm.runInContext('screen', a.context), 'catalogue');
+  click('open-activity', pool[0].id);
+  click('back');
+  assert.equal(vm.runInContext('screen', a.context), 'catalogue');
+  click('back');
+  assert.equal(vm.runInContext('screen', a.context), 'choose');
+  click('all');
+  assert.equal(vm.runInContext('selecting', a.context), true);
+});
+
+test('Empty category displays an empty list message and ignores ids outside the category', () => {
+  const a = app();
+  vm.runInContext("grade=1; filter={kind:'category',value:'komunikacia'}; catalogue();", a.context);
+  vm.runInContext('openActivity(fixture.find(a => a.gradeLevel === 2).id);', a.context);
+  assert.equal(vm.runInContext('screen', a.context), 'catalogue');
+  vm.runInContext('activities=[]; catalogue();', a.context);
+  assert.match(a.elements.get('#app').innerHTML, /zatiaľ nie sú pridané aktivity/);
+  assert.doesNotMatch(a.elements.get('#app').innerHTML, /data-action="open-activity"/);
+});
 
 test('Install button stays on home and provides device-specific manual help', () => {
   const a = app();
@@ -105,7 +145,8 @@ test('Home exposes one shared favorites entry and details use the actual activit
   assert.match(homeHtml, /aria-label="Moje obľúbené, počet aktivít: 28"/);
   assert.match(homeHtml, /class="tile-count" aria-hidden="true">28<\/span>/);
   assert.match(homeHtml, /<footer class="site-footer">/);
-  assert.match(homeHtml, /href="https:\/\/christianalex\.sk\/" target="_blank" rel="noopener noreferrer"/);
+  assert.match(homeHtml, /<span class="creator-logo"><img/);
+  assert.doesNotMatch(homeHtml, /href="https:\/\/christianalex\.sk\/"/);
   assert.match(homeHtml, /src="media\/christian-alex-logo\.png"/);
   assert.match(homeHtml, /Vytvoril <strong>Mgr\. Christián Vaľko<\/strong>/);
   vm.runInContext("filter={kind:'favorites'}; choose();", a.context);
